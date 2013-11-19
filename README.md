@@ -29,3 +29,4 @@ In order to download and build the project, issue the following commands
     cd sentify-company
     mvn clean install
 
+After compiling all submodules, the resulting deployable will be placed in `/sentify-company-page/target/sentify-company-page-0.0.1-SNAPSHOT.war`. This is the file that can be directly deployed in the web application server either by placing in the `/webapps` folder of the webapp server (Jetty, Tomcat) or using Application Manager (Tomcat).
