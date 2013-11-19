@@ -1,0 +1,134 @@
+#organization names that match any of the 10000 most frequent english words must be followed by the gaz_comp
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://project-first.eu/ontology#> .
+
+
+:gaz_comp
+  :settings "c=icl" ;    #c=icl : initial capital – loose (requires the first letter of the first word in upper case, the rest does not matter)
+  :term "inc" ;
+  :term "incorporated";
+  :term "corp" ;
+  :term "corporation" ;
+  :term "company" ;
+  :term "Laboratories";
+  :term "labs";
+  :term "Lifesciences"; 
+  :term "tech";
+  :term "Technology";
+  :term "Sciences";
+  :term "Science";
+  :term "Scientific";
+  :term "Power";
+  :term "energy";
+  :term "holdings";
+  :term "holding";
+  :term "group";
+  :term "financial";
+  :term "services";
+  :term "digital";
+  :term "technologies";
+  :term "controls";
+  :term "communications";
+  :term "instruments";
+  :term "national";
+  :term "ltd/c=acs" ;     # acronyms must be all caps
+  :term "plc/c=acs" ;
+  :term "se/c=acs";
+  :term "ag/c=acs";
+  :term "sa/c=acs";
+  a :Gazetteer .
+  
+:gaz_comp_REGIONS_FINANCIAL_CORPORATION
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_COMMONWEALTH_BK 
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_BANK_OF_AMERICA_CORP
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_CF_INDUSTRIES_HOLDINGS_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_FOREST_LABS
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_NOBLE_CORPORATION
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_NOBLE_ENERGY
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_SOUTHERN_CO
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_MAN_SE
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_MAN_SE
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_QUEST_DIAG
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_INTL_GAME_TECH
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_GAP
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_AIR_PRODS_CHEM
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_APPLE_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_ARM_HOLDINGS_PLC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_COMPUTER_SCIENCE
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_TOTAL_S_A
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_WILLIAMS_COMPANIES_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_CAMERON_INTERNATIONAL_CORP
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_COACH_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_FAMILY_DLR_STRS
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_SHARP_CORP
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_CANON
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_DIAMOND_OFFSHORE
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_WATERS
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_DUKE_ENERGY_CORPORATION
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_INTERNATIONAL_PAPER_CO
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_BOSTON_SCIENT
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_PRINCIPAL_FINANCIAL_GROUP_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_SAP_AG
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_CA_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_APOLLO_GROUP_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_MAN_GROUP_PLC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_MAN_GROUP_PLC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_TIME_WARNER_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_TARGET_CORP
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_AMERICAN_INTERNATIONAL_GROUP_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_COMPASS_GROUP_PLC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_ORACLE_CORP
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_SWISS_RE_AG
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_DOLLAR_TREE_INC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_NEXT_PLC
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_NEWS_CORP
+  :hasFollowedByCondition :gaz_comp .
+:gaz_comp_THE_SAGE_GROUP_PLC
+  :hasFollowedByCondition :gaz_comp .

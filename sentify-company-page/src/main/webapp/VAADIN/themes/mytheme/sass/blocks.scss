@@ -1,0 +1,84 @@
+@import "_variables.scss";
+@import "compass/css3";
+
+ul.links {background:silver;background:rgba(186,186,186,0.3);
+  li {display:inline-block;margin:2px 5px}
+  .read_more {
+    a:before {content:"\f054"}
+  }
+}
+
+.block {margin:10px 0;}
+.block + .block {
+  margin-top:25px;
+  &:before {}
+}
+ul.news , ul.links { padding:0;margin:0;list-style-type:none;}
+ul.news {
+ 
+  li {
+    h3 {
+
+    }
+    padding:15px;
+
+
+  
+      @include background-image(linear-gradient(top,$gris_main_content, $gris_main)); 
+    &.up {
+      @include background-image(linear-gradient(top,#eef8de, #c9e2cd)); 
+      &:hover {
+         @include background-image(linear-gradient(top,#f2fbd0, #8bec9a));
+      }
+    } 
+    &.down {
+      @include background-image(linear-gradient(top,#f4ead9, #e3cdca));
+      &:hover {
+        @include background-image(linear-gradient(top,#f7dfbf, #ecaba2));
+      }
+    }
+    // &:nth-child(even) {
+      // background:$gris_main;}
+    h3 {padding-top:0;}
+    
+    position:relative;
+    &.up, &.down {padding-right:35px}
+    &.up:after, &.down:after {
+      position:absolute;
+      top:15px;right:15px;
+      font-size:25px;
+      color:$beige;
+      
+    }
+    &.up:after {content:"\f087";}
+    &.down:after {content:"\f088";}
+       // &.up:after {content:"\f062";}
+    // &.down:after {content:"\f063";}
+        // &.up:after {content:"\f077";}
+    // &.down:after {content:"\f078";}
+    
+    
+    &:hover {
+      background:white;
+      &:after {color:$rojo_claro;}
+    }
+  
+  }
+}
+
+
+.analysis {
+  text-align:center;
+ 
+}
+
+.region-sidebar .block {background:$gris_body;padding:1em;border-radius:10px}
+
+.block.graphic {
+
+  img {width:100%;}
+
+
+
+  
+}

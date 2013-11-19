@@ -1,0 +1,112 @@
+@prefix : <http://project-first.eu/ontology#>.
+@prefix OWL: <http://www.w3.org/2002/07/owl#>.
+@prefix RDF: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix RDFS: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix XSD: <http://www.w3.org/2001/XMLSchema#>.
+
+#classes
+:Digital_Currency
+    a OWL:Class;
+    RDFS:label "Digital_Currency";
+    RDFS:subClassOf :Financial_Instrument.
+   
+:Digital_Currency_Market
+    a OWL:Class;
+    RDFS:label "Digital_Currency_Market";
+    RDFS:subClassOf :Digital_Currency.
+
+:Cryptocoin
+    a OWL:Class;
+    RDFS:label "Digital_Currency";
+    RDFS:subClassOf :Digital_Currency.
+   
+# instances
+
+:glo_digital_currency_term
+	:identifiedBy :glo_digital_currency_term_Gazetteer;
+	a :Digital_Currency;
+	RDFS:label "Digital currency term".
+
+:glo_digital_currency_term_Gazetteer
+	:term "Digital currency",
+		"virtual currency",
+        "cryptocurrency",
+        "P2P digital currency",
+        "Cryptocoin";
+	a :Gazetteer.
+
+# currencies
+    
+:glo_Bitcoin
+	:identifiedBy :glo_Bitcoin_Gazetteer;
+	a :Digital_Currency;
+	RDFS:label "Bitcoin".
+
+:glo_Bitcoin_Gazetteer
+	:term "Bitcoin";
+	a :Gazetteer.
+
+:glo_Litecoin
+	:identifiedBy :glo_Litecoin_Gazetteer;
+	a :Digital_Currency;
+	RDFS:label "Litecoin".
+
+:glo_Litecoin_Gazetteer
+	:term "Litecoin";
+	a :Gazetteer.
+    
+:glo_Namecoin
+	:identifiedBy :glo_Namecoin_Gazetteer;
+	a :Digital_Currency;
+	RDFS:label "".
+
+:glo_Namecoin_Gazetteer
+	:term "Namecoin";
+	a :Gazetteer.
+    
+:glo_PPcoin
+	:identifiedBy :glo_PPcoin_Gazetteer;
+	a :Digital_Currency;
+	RDFS:label "PPcoin".
+
+:glo_PPcoin_Gazetteer
+	:term "PPcoin";
+	a :Gazetteer.
+
+# Markets
+
+:glo_Mt_Gox
+	:identifiedBy :glo_Mt_Gox_Gazetteer;
+	a :Digital_Currency_Market;
+	RDFS:label "Mt.Gox".
+
+:glo_Mt_Gox_Gazetteer
+	:term "Mt.Gox/c=em";
+	a :Gazetteer.
+
+:glo_Bitstamp
+	:identifiedBy :glo_Bitstamp_Gazetteer;
+	a :Digital_Currency_Market;
+	RDFS:label "Bitstamp".
+
+:glo_Bitstamp_Gazetteer
+	:term "Bitstamp/c=em";
+	a :Gazetteer.
+
+:glo_BTC_E
+	:identifiedBy :glo_BTC_E_Gazetteer;
+	a :Digital_Currency_Market;
+	RDFS:label "BTC-E".
+
+:glo_BTC_E_Gazetteer
+	:term "BTC-E/c=em";
+	a :Gazetteer.
+    
+:glo_CampBX
+	:identifiedBy :glo_CampBX_Gazetteer;
+	a :Digital_Currency_Market;
+	RDFS:label "CampBX".
+
+:glo_CampBX_Gazetteer
+	:term "CampBX/c=em";
+	a :Gazetteer.

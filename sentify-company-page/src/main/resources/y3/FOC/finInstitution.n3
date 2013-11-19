@@ -1,0 +1,972 @@
+﻿@prefix : <http://project-first.eu/ontology#>.
+@prefix OWL: <http://www.w3.org/2002/07/owl#>.
+@prefix RDF: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix RDFS: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix XSD: <http://www.w3.org/2001/XMLSchema#>.
+
+:comp_ACE_Ltd
+	:identifiedBy :comp_gaz_ACE_Ltd;
+	a :Company;
+	RDFS:label "ACE LTD".
+
+:comp_Affiliated_Managers_Group_Inc
+	:identifiedBy :comp_gaz_Affiliated_Managers_Group_Inc;
+	a :Company;
+	RDFS:label "AFFIL MANAGERS".
+
+:comp_Ally_Financial_Inc
+	:identifiedBy :comp_gaz_Ally_Financial_Inc;
+	a :Company;
+	RDFS:label "ALLY FINANCIAL I".
+
+:comp_Aon_Corp
+	:identifiedBy :comp_gaz_Aon_Corp;
+	a :Company;
+	RDFS:label "AON CORP".
+
+:comp_Archstone-Smith_Trust
+	:identifiedBy :comp_gaz_Archstone-Smith_Trust;
+	a :Company;
+	RDFS:label "ARCHSTONE-SMITH".
+
+:comp_Assured_Guaranty_Corp
+	:identifiedBy :comp_gaz_Assured_Guaranty_Corp;
+	a :Company;
+	RDFS:label "ASSURED GUARANTY".
+
+:comp_AvalonBay_Communities_Inc
+	:identifiedBy :comp_gaz_AvalonBay_Communities_Inc;
+	a :Company;
+	RDFS:label "AVALONBAY COMMUN".
+
+:comp_Axis_Capital_Holdings_Ltd
+	:identifiedBy :comp_gaz_Axis_Capital_Holdings_Ltd;
+	a :Company;
+	RDFS:label "AXIS CAPITAL".
+
+:comp_Banca_Nazionale_del_Lavoro_SpA
+	:identifiedBy :comp_gaz_Banca_Nazionale_del_Lavoro_SpA;
+	a :Company;
+	RDFS:label "BNL - ORD".
+
+:comp_Banco_Pastor_SA
+	:identifiedBy :comp_gaz_Banco_Pastor_SA;
+	a :Company;
+	RDFS:label "BANCO PASTOR".
+
+:comp_Banque_Federative_du_Credit_Mutuel_SA
+	:identifiedBy :comp_gaz_Banque_Federative_du_Credit_Mutuel_SA;
+	a :Company;
+	RDFS:label "BANQ FED CREDIT".
+
+:comp_BAWAG_PSK_Bank_fuer_Arbeit_und_Wirtschaft_und_Oesterreichische_Postsparkasse_AG
+	:identifiedBy :comp_gaz_BAWAG_PSK_Bank_fuer_Arbeit_und_Wirtschaft_und_Oesterreichische_Postsparkasse_AG;
+	a :Company;
+	RDFS:label "BAWAG P.S.K. BAN".
+
+:comp_Bayerische_Landesbank
+	:identifiedBy :comp_gaz_Bayerische_Landesbank;
+	a :Company;
+	RDFS:label "BAYERISCHE LB".
+
+:comp_Brandywine_Realty_Trust
+	:identifiedBy :comp_gaz_Brandywine_Realty_Trust;
+	a :Company;
+	RDFS:label "BRANDYWINE RLTY".
+
+:comp_BRE_Properties_Inc
+	:identifiedBy :comp_gaz_BRE_Properties_Inc;
+	a :Company;
+	RDFS:label "BRE PROPERTIES".
+
+:comp_Caixa_Geral_de_Depositos_SA
+	:identifiedBy :comp_gaz_Caixa_Geral_de_Depositos_SA;
+	a :Company;
+	RDFS:label "CAIXA GERAL DEP".
+
+:comp_Caja_de_Ahorros_del_Mediterraneo
+	:identifiedBy :comp_gaz_Caja_de_Ahorros_del_Mediterraneo;
+	a :Company;
+	RDFS:label "CAJA AHOR DEL ME".
+
+:comp_Caja_de_Ahorros_y_Pensiones_de_Barcelona
+	:identifiedBy :comp_gaz_Caja_de_Ahorros_y_Pensiones_de_Barcelona;
+	a :Company;
+	RDFS:label "LA CAIXA".
+
+:comp_Camden_Property_Trust
+	:identifiedBy :comp_gaz_Camden_Property_Trust;
+	a :Company;
+	RDFS:label "CAMDEN PROP TR".
+
+:comp_Chubb_CorpThe
+	:identifiedBy :comp_gaz_Chubb_CorpThe;
+	a :Company;
+	RDFS:label "CHUBB CORP".
+
+:comp_CNA_Financial_Corp
+	:identifiedBy :comp_gaz_CNA_Financial_Corp;
+	a :Company;
+	RDFS:label "CNA FINL CORP".
+
+:comp_CommonWealth_REIT
+	:identifiedBy :comp_gaz_CommonWealth_REIT;
+	a :Company;
+	RDFS:label "COMMONWEALTH REI".
+
+:comp_Cooperatieve_Centrale_Raiffeisen-Boerenleenbank_BANetherlands
+	:identifiedBy :comp_gaz_Cooperatieve_Centrale_Raiffeisen-Boerenleenbank_BANetherlands;
+	a :Company;
+	RDFS:label "COOPERATIEVE CEN".
+
+:comp_DDR_Corp
+	:identifiedBy :comp_gaz_DDR_Corp;
+	a :Company;
+	RDFS:label "DDR CORP".
+
+:comp_DZ_Bank_AG_Deutsche_Zentral-Genossenschaftsbank
+	:identifiedBy :comp_gaz_DZ_Bank_AG_Deutsche_Zentral-Genossenschaftsbank;
+	a :Company;
+	RDFS:label "DZ BANK AG DEUTS".
+
+:comp_Equity_Office_Properties_Trust
+	:identifiedBy :comp_gaz_Equity_Office_Properties_Trust;
+	a :Company;
+	RDFS:label "EQUITY OFFICE PR".
+
+:comp_Equity_One_Inc
+	:identifiedBy :comp_gaz_Equity_One_Inc;
+	a :Company;
+	RDFS:label "EQUITY ONE INC".
+
+:comp_ERC_Ireland_Finance_Ltd
+	:identifiedBy :comp_gaz_ERC_Ireland_Finance_Ltd;
+	a :Company;
+	RDFS:label "ERC IRELAND FINA".
+
+:comp_Everest_Re_Group_Ltd
+	:identifiedBy :comp_gaz_Everest_Re_Group_Ltd;
+	a :Company;
+	RDFS:label "EVEREST RE GROUP".
+
+:comp_FCE_Bank_PLC
+	:identifiedBy :comp_gaz_FCE_Bank_PLC;
+	a :Company;
+	RDFS:label "FCE BANK PLC".
+
+:comp_Federal_National_Mortgage_Association
+	:identifiedBy :comp_gaz_Federal_National_Mortgage_Association;
+	a :Company;
+	RDFS:label "FANNIE MAE".
+
+:comp_Federal_Realty_Investment_Trust
+	:identifiedBy :comp_gaz_Federal_Realty_Investment_Trust;
+	a :Company;
+	RDFS:label "FED REALTY INVS".
+
+:comp_Fidelity_National_Financial_IncOld
+	:identifiedBy :comp_gaz_Fidelity_National_Financial_IncOld;
+	a :Company;
+	RDFS:label "FID NATL FIN-OLD".
+
+:comp_Fortis_Bank_SANV
+	:identifiedBy :comp_gaz_Fortis_Bank_SANV;
+	a :Company;
+	RDFS:label "FORTIS BANQUE".
+
+:comp_Franklin_Resources_Inc
+	:identifiedBy :comp_gaz_Franklin_Resources_Inc;
+	a :Company;
+	RDFS:label "FRANKLIN RES INC".
+
+:comp_gaz_ACE_Ltd
+	:imports :gaz_USA_StopWords;
+	:term "ACE Ltd",
+		"ACE LTD",
+		"ACE/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Affiliated_Managers_Group_Inc
+	:imports :gaz_USA_StopWords;
+	:term "AFFIL MANAGERS",
+		"Affiliated Managers Group Inc",
+		"AMG/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Ally_Financial_Inc
+	:imports :gaz_USA_StopWords;
+	:term "ALLY FINANCIAL I",
+		"Ally Financial Inc",
+		"ALLY/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Aon_Corp
+	:imports :gaz_USA_StopWords;
+	:term "Aon Corp",
+		"AON CORP",
+		"AON/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Archstone-Smith_Trust
+	:imports :gaz_USA_StopWords;
+	:term "ARCHSTONE-SMITH",
+		"Archstone-Smith Trust",
+		"ASN/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Assured_Guaranty_Corp
+	:imports :gaz_USA_StopWords;
+	:term "AGC/c=auc",
+		"ASSURED GUARANTY",
+		"Assured Guaranty Corp";
+	a :Gazetteer.
+
+:comp_gaz_AvalonBay_Communities_Inc
+	:imports :gaz_USA_StopWords;
+	:term "AVALONBAY COMMUN",
+		"AvalonBay Communities Inc",
+		"AVB/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Axis_Capital_Holdings_Ltd
+	:imports :gaz_USA_StopWords;
+	:term "AXIS CAPITAL",
+		"Axis Capital Holdings Ltd",
+		"AXS/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Banca_Nazionale_del_Lavoro_SpA
+	:imports :gaz_USA_StopWords;
+	:term "Banca Nazionale del Lavoro SpA",
+		"BNL - ORD",
+		"LAVORO/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Banco_Pastor_SA
+	:imports :gaz_USA_StopWords;
+	:term "BANCO PASTOR",
+		"Banco Pastor SA",
+		"PASSM/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Banque_Federative_du_Credit_Mutuel_SA
+	:imports :gaz_USA_StopWords;
+	:term "BANQ FED CREDIT",
+		"Banque Federative du Credit Mutuel SA",
+		"BFCM/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_BAWAG_PSK_Bank_fuer_Arbeit_und_Wirtschaft_und_Oesterreichische_Postsparkasse_AG
+	:imports :gaz_USA_StopWords;
+	:term "BAWAG P.S.K. BAN",
+		"BAWAG PSK Bank fuer Arbeit und Wirtschaft und Oesterreichische Postsparkasse AG",
+		"BAWAG/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Bayerische_Landesbank
+	:imports :gaz_USA_StopWords;
+	:term "Bayerische Landesbank",
+		"BAYERISCHE LB",
+		"BYLAN/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Brandywine_Realty_Trust
+	:imports :gaz_USA_StopWords;
+	:term "BDNTRST/c=auc",
+		"Brandywine Realty Trust",
+		"BRANDYWINE RLTY";
+	a :Gazetteer.
+
+:comp_gaz_BRE_Properties_Inc
+	:imports :gaz_USA_StopWords;
+	:term "BRE PROPERTIES",
+		"BRE Properties Inc",
+		"BRE/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Caixa_Geral_de_Depositos_SA
+	:imports :gaz_USA_StopWords;
+	:term "Caixa Geral de Depositos SA",
+		"CAIXA GERAL DEP",
+		"CXGD/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Caja_de_Ahorros_del_Mediterraneo
+	:imports :gaz_USA_StopWords;
+	:term "CAJA AHOR DEL ME",
+		"Caja de Ahorros del Mediterraneo",
+		"CAJAME/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Caja_de_Ahorros_y_Pensiones_de_Barcelona
+	:imports :gaz_USA_StopWords;
+	:term "CAIXABF/c=auc",
+		"Caja de Ahorros y Pensiones de Barcelona",
+		"LA CAIXA";
+	a :Gazetteer.
+
+:comp_gaz_Camden_Property_Trust
+	:imports :gaz_USA_StopWords;
+	:term "CAMDEN PROP TR",
+		"Camden Property Trust",
+		"CPT/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Chubb_CorpThe
+	:imports :gaz_USA_StopWords;
+	:term "CHUBB CORP",
+		"Chubb Corp/The";
+	a :Gazetteer.
+
+:comp_gaz_CNA_Financial_Corp
+	:imports :gaz_USA_StopWords;
+	:term "CNA Financial Corp",
+		"CNA FINL CORP",
+		"CNAFNL/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_CommonWealth_REIT
+	:imports :gaz_USA_StopWords;
+	:term "COMMONWEALTH REI",
+		"CommonWealth REIT",
+		"CWH/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Cooperatieve_Centrale_Raiffeisen-Boerenleenbank_BANetherlands
+	:imports :gaz_USA_StopWords;
+	:term "COOPERATIEVE CEN",
+		"Cooperatieve Centrale Raiffeisen-Boerenleenbank BA/Netherlands",
+		"RABOBK/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_DDR_Corp
+	:imports :gaz_USA_StopWords;
+	:term "DDR Corp",
+		"DDR CORP",
+		"DDR/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_DZ_Bank_AG_Deutsche_Zentral-Genossenschaftsbank
+	:imports :gaz_USA_StopWords;
+	:term "DZ BANK AG DEUTS",
+		"DZ Bank AG Deutsche Zentral-Genossenschaftsbank",
+		"DZBK/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Equity_Office_Properties_Trust
+	:imports :gaz_USA_StopWords;
+	:term "EOPOFF/c=auc",
+		"EQUITY OFFICE PR",
+		"Equity Office Properties Trust";
+	a :Gazetteer.
+
+:comp_gaz_Equity_One_Inc
+	:imports :gaz_USA_StopWords;
+	:term "Equity One Inc",
+		"EQUITY ONE INC",
+		"EQY/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_ERC_Ireland_Finance_Ltd
+	:imports :gaz_USA_StopWords;
+	:term "BCMAU/c=auc",
+		"ERC IRELAND FINA",
+		"ERC Ireland Finance Ltd";
+	a :Gazetteer.
+
+:comp_gaz_Everest_Re_Group_Ltd
+	:imports :gaz_USA_StopWords;
+	:term "EVEREST RE GROUP",
+		"Everest Re Group Ltd",
+		"EVEREST/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_FCE_Bank_PLC
+	:imports :gaz_USA_StopWords;
+	:term "FBANK/c=auc",
+		"FCE Bank PLC",
+		"FCE BANK PLC";
+	a :Gazetteer.
+
+:comp_gaz_Federal_National_Mortgage_Association
+	:imports :gaz_USA_StopWords;
+	:term "FANNIE MAE",
+		"Federal National Mortgage Association",
+		"FNMA/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Federal_Realty_Investment_Trust
+	:imports :gaz_USA_StopWords;
+	:term "FED REALTY INVS",
+		"Federal Realty Investment Trust",
+		"FRT/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Fidelity_National_Financial_IncOld
+	:imports :gaz_USA_StopWords;
+	:term "FID NATL FIN-OLD",
+		"Fidelity National Financial Inc/Old",
+		"FIS/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Fortis_Bank_SANV
+	:imports :gaz_USA_StopWords;
+	:term "FBAVP/c=auc",
+		"Fortis Bank SA/NV",
+		"FORTIS BANQUE";
+	a :Gazetteer.
+
+:comp_gaz_Franklin_Resources_Inc
+	:imports :gaz_USA_StopWords;
+	:term "BEN/c=auc",
+		"FRANKLIN RES INC",
+		"Franklin Resources Inc";
+	a :Gazetteer.
+
+:comp_gaz_Gecina_SA
+	:imports :gaz_USA_StopWords;
+	:term "Gecina SA",
+		"GECINA SA",
+		"GFCFP/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Governor__and__Co_of_the_Bank_of_IrelandThe
+	:imports :gaz_USA_StopWords;
+	:term "BANK IRELAND",
+		"BKIR/c=auc",
+		"Governor & Co of the Bank of Ireland/The";
+	a :Gazetteer.
+
+:comp_gaz_Hannover_Rueckversicherung_AG
+	:imports :gaz_USA_StopWords;
+	:term "Hannover Rueckversicherung AG",
+		"HANNOVER RUE-REG",
+		"HANRUE/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_HCP_Inc
+	:imports :gaz_USA_StopWords;
+	:term "HCP Inc",
+		"HCP INC",
+		"HCP/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Health_Care_REIT_Inc
+	:imports :gaz_USA_StopWords;
+	:term "HCN/c=auc",
+		"HEALTH CARE REIT",
+		"Health Care REIT Inc";
+	a :Gazetteer.
+
+:comp_gaz_Healthcare_Realty_Trust_Inc
+	:imports :gaz_USA_StopWords;
+	:term "Healthcare Realty Trust Inc",
+		"HEALTHCARE RLTY";
+	a :Gazetteer.
+
+:comp_gaz_Hospitality_Properties_Trust
+	:imports :gaz_USA_StopWords;
+	:term "HOSPITALITY PROP",
+		"Hospitality Properties Trust",
+		"HPT/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_HSH_Nordbank_AG
+	:imports :gaz_USA_StopWords;
+	:term "HSH Nordbank AG",
+		"HSH NORDBANK AG",
+		"HSHN/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_IKB_Deutsche_Industriebank_AG
+	:imports :gaz_USA_StopWords;
+	:term "IKB DEUT INDBANK",
+		"IKB Deutsche Industriebank AG",
+		"IKB/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_ISS_Global_AS
+	:imports :gaz_USA_StopWords;
+	:term "ISS Global A/S",
+		"ISS GLOBAL A/S",
+		"ISS/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_iStar_Financial_Inc
+	:imports :gaz_USA_StopWords;
+	:term "ISTAR FINANCIAL",
+		"iStar Financial Inc",
+		"SFI/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Kimco_Realty_Corp
+	:imports :gaz_USA_StopWords;
+	:term "KIMCO REALTY",
+		"Kimco Realty Corp",
+		"KIMCO/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Landesbank_Hessen-Thueringen_Girozentrale
+	:imports :gaz_USA_StopWords;
+	:term "HESLAN/c=auc",
+		"Landesbank Hessen-Thueringen Girozentrale",
+		"LANDESBK HESSEN";
+	a :Gazetteer.
+
+:comp_gaz_LBBW
+	:imports :gaz_USA_StopWords;
+	:term "LANDESBANK BADEN",
+		"LBBW",
+		"LBSACH/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Legg_Mason_Inc
+	:imports :gaz_USA_StopWords;
+	:term "Legg Mason Inc",
+		"LEGG MASON INC";
+	a :Gazetteer.
+
+:comp_gaz_Liberty_Property_Trust
+	:imports :gaz_USA_StopWords;
+	:term "LIBERTY PROP",
+		"Liberty Property Trust",
+		"LRY/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Lloyds_TSB_Bank_PLC
+	:imports :gaz_USA_StopWords;
+	:term "LLOY/c=auc",
+		"LLOYDS TSB BANK",
+		"Lloyds TSB Bank PLC";
+	a :Gazetteer.
+
+:comp_gaz_Loews_Corp
+	:imports :gaz_USA_StopWords;
+	:term "Loews Corp",
+		"LOEWS CORP";
+	a :Gazetteer.
+
+:comp_gaz_Merrill_Lynch__and__Co_Inc
+	:imports :gaz_USA_StopWords;
+	:term "MER/c=auc",
+		"MERRILL LYNCH",
+		"Merrill Lynch & Co Inc";
+	a :Gazetteer.
+
+:comp_gaz_MGIC_Investment_Corp
+	:imports :gaz_USA_StopWords;
+	:term "MGIC Investment Corp",
+		"MGIC INVT CORP",
+		"MTG/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Muenchener_Rueckversicherungs_AG
+	:imports :gaz_USA_StopWords;
+	:term "Muenchener Rueckversicherungs AG",
+		"MUENCHENER RUE-R",
+		"MUNRE/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Nationwide_Building_Society
+	:imports :gaz_USA_StopWords;
+	:term "NATIONWIDE BLDG",
+		"Nationwide Building Society",
+		"NWIDE/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Nationwide_Financial_Services_Inc
+	:imports :gaz_USA_StopWords;
+	:term "NATIONWIDE FIN",
+		"Nationwide Financial Services Inc",
+		"NATMUT/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Navistar_International_Corp
+	:imports :gaz_USA_StopWords;
+	:term "NAV/c=auc",
+		"Navistar International Corp",
+		"NAVISTAR INTL";
+	a :Gazetteer.
+
+:comp_gaz_NIBC_Bank_NV
+	:imports :gaz_USA_StopWords;
+	:term "NIBC Bank NV",
+		"NIBC BANK NV",
+		"NIBCAP/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Odyssey_Re_Holdings_Corp
+	:imports :gaz_USA_StopWords;
+	:term "ODYSSEY RE HLDGS",
+		"Odyssey Re Holdings Corp",
+		"ODYSSEY/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Old_Mutual_PLC
+	:imports :gaz_USA_StopWords;
+	:term "Old Mutual PLC",
+		"OLD MUTUAL PLC",
+		"OLDMUT/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Ono_Finance_II_PLC
+	:imports :gaz_USA_StopWords;
+	:term "ONO FINANCE II P",
+		"Ono Finance II PLC",
+		"ONOFII/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_PMI_Group_IncThe
+	:imports :gaz_USA_StopWords;
+	:term "PMI GROUP INC",
+		"PMI Group Inc/The",
+		"PMI/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Progressive_CorpThe
+	:imports :gaz_USA_StopWords;
+	:term "PGR/c=auc",
+		"PROGRESSIVE CORP",
+		"Progressive Corp/The";
+	a :Gazetteer.
+
+:comp_gaz_Radian_Group_Inc
+	:imports :gaz_USA_StopWords;
+	:term "Radian Group Inc",
+		"RADIAN GROUP INC",
+		"RDN/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Raiffeisen_Zentralbank_Oesterreich_AG
+	:imports :gaz_USA_StopWords;
+	:term "RAIF ZENTRLBK-PA",
+		"Raiffeisen Zentralbank Oesterreich AG",
+		"RZB/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Realogy_Corp
+	:imports :gaz_USA_StopWords;
+	:term "REALOG/c=auc",
+		"Realogy Corp",
+		"REALOGY CORP";
+	a :Gazetteer.
+
+:comp_gaz_RenaissanceRe_Holdings_Ltd
+	:imports :gaz_USA_StopWords;
+	:term "RENAISSANCERE",
+		"RenaissanceRe Holdings Ltd",
+		"RNR/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Santander_UK_PLC
+	:imports :gaz_USA_StopWords;
+	:term "Santander UK PLC",
+		"SANTANDER UK PLC",
+		"SANTUK/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Sberbank_of_Russia
+	:imports :gaz_USA_StopWords;
+	:term "SBERB/c=auc",
+		"SBERBANK",
+		"Sberbank of Russia";
+	a :Gazetteer.
+
+:comp_gaz_SNS_Bank_NV
+	:imports :gaz_USA_StopWords;
+	:term "SNS Bank NV",
+		"SNS BANK NV",
+		"SNSSNS/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Springleaf_Finance_Corp
+	:imports :gaz_USA_StopWords;
+	:term "AMGEN/c=auc",
+		"SPRINGLEAF FINAN",
+		"Springleaf Finance Corp";
+	a :Gazetteer.
+
+:comp_gaz_Svenska_Handelsbanken_AB
+	:imports :gaz_USA_StopWords;
+	:term "SHBASS/c=auc",
+		"SVENSKA HAN-A",
+		"Svenska Handelsbanken AB";
+	a :Gazetteer.
+
+:comp_gaz_Swiss_Reinsurance_Co_Ltd
+	:imports :gaz_USA_StopWords;
+	:term "SWISS REINSURANC",
+		"Swiss Reinsurance Co Ltd",
+		"SWISSRE/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_UDR_Inc
+	:imports :gaz_USA_StopWords;
+	:term "UDR Inc",
+		"UDR INC",
+		"UDR/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_Unum_Group
+	:imports :gaz_USA_StopWords;
+	:term "UNM/c=auc",
+		"Unum Group",
+		"UNUM GROUP";
+	a :Gazetteer.
+
+:comp_gaz_Wachovia_Corp
+	:imports :gaz_USA_StopWords;
+	:term "Wachovia Corp",
+		"WACHOVIA CORP",
+		"WBCORP/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_WestLB_AG
+	:imports :gaz_USA_StopWords;
+	:term "WestLB AG",
+		"WESTLB AG",
+		"WESTLB/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_White_Mountains_Insurance_Group_Ltd
+	:imports :gaz_USA_StopWords;
+	:term "WHITE MOUNTAINS",
+		"White Mountains Insurance Group Ltd",
+		"WTM/c=auc";
+	a :Gazetteer.
+
+:comp_gaz_XL_Group_Plc
+	:imports :gaz_USA_StopWords;
+	:term "XL Group Plc",
+		"XL GROUP PLC";
+	a :Gazetteer.
+
+:comp_Gecina_SA
+	:identifiedBy :comp_gaz_Gecina_SA;
+	a :Company;
+	RDFS:label "GECINA SA".
+
+:comp_Governor__and__Co_of_the_Bank_of_IrelandThe
+	:identifiedBy :comp_gaz_Governor__and__Co_of_the_Bank_of_IrelandThe;
+	a :Company;
+	RDFS:label "BANK IRELAND".
+
+:comp_Hannover_Rueckversicherung_AG
+	:identifiedBy :comp_gaz_Hannover_Rueckversicherung_AG;
+	a :Company;
+	RDFS:label "HANNOVER RUE-REG".
+
+:comp_HCP_Inc
+	:identifiedBy :comp_gaz_HCP_Inc;
+	a :Company;
+	RDFS:label "HCP INC".
+
+:comp_Health_Care_REIT_Inc
+	:identifiedBy :comp_gaz_Health_Care_REIT_Inc;
+	a :Company;
+	RDFS:label "HEALTH CARE REIT".
+
+:comp_Healthcare_Realty_Trust_Inc
+	:identifiedBy :comp_gaz_Healthcare_Realty_Trust_Inc;
+	a :Company;
+	RDFS:label "HEALTHCARE RLTY".
+
+:comp_Hospitality_Properties_Trust
+	:identifiedBy :comp_gaz_Hospitality_Properties_Trust;
+	a :Company;
+	RDFS:label "HOSPITALITY PROP".
+
+:comp_HSH_Nordbank_AG
+	:identifiedBy :comp_gaz_HSH_Nordbank_AG;
+	a :Company;
+	RDFS:label "HSH NORDBANK AG".
+
+:comp_IKB_Deutsche_Industriebank_AG
+	:identifiedBy :comp_gaz_IKB_Deutsche_Industriebank_AG;
+	a :Company;
+	RDFS:label "IKB DEUT INDBANK".
+
+:comp_ISS_Global_AS
+	:identifiedBy :comp_gaz_ISS_Global_AS;
+	a :Company;
+	RDFS:label "ISS GLOBAL A/S".
+
+:comp_iStar_Financial_Inc
+	:identifiedBy :comp_gaz_iStar_Financial_Inc;
+	a :Company;
+	RDFS:label "ISTAR FINANCIAL".
+
+:comp_Kimco_Realty_Corp
+	:identifiedBy :comp_gaz_Kimco_Realty_Corp;
+	a :Company;
+	RDFS:label "KIMCO REALTY".
+
+:comp_Landesbank_Hessen-Thueringen_Girozentrale
+	:identifiedBy :comp_gaz_Landesbank_Hessen-Thueringen_Girozentrale;
+	a :Company;
+	RDFS:label "LANDESBK HESSEN".
+
+:comp_LBBW
+	:identifiedBy :comp_gaz_LBBW;
+	a :Company;
+	RDFS:label "LANDESBANK BADEN".
+
+:comp_Legg_Mason_Inc
+	:identifiedBy :comp_gaz_Legg_Mason_Inc;
+	a :Company;
+	RDFS:label "LEGG MASON INC".
+
+:comp_Liberty_Property_Trust
+	:identifiedBy :comp_gaz_Liberty_Property_Trust;
+	a :Company;
+	RDFS:label "LIBERTY PROP".
+
+:comp_Lloyds_TSB_Bank_PLC
+	:identifiedBy :comp_gaz_Lloyds_TSB_Bank_PLC;
+	a :Company;
+	RDFS:label "LLOYDS TSB BANK".
+
+:comp_Loews_Corp
+	:identifiedBy :comp_gaz_Loews_Corp;
+	a :Company;
+	RDFS:label "LOEWS CORP".
+
+:comp_Merrill_Lynch__and__Co_Inc
+	:identifiedBy :comp_gaz_Merrill_Lynch__and__Co_Inc;
+	a :Company;
+	RDFS:label "MERRILL LYNCH".
+
+:comp_MGIC_Investment_Corp
+	:identifiedBy :comp_gaz_MGIC_Investment_Corp;
+	a :Company;
+	RDFS:label "MGIC INVT CORP".
+
+:comp_Muenchener_Rueckversicherungs_AG
+	:identifiedBy :comp_gaz_Muenchener_Rueckversicherungs_AG;
+	a :Company;
+	RDFS:label "MUENCHENER RUE-R".
+
+:comp_Nationwide_Building_Society
+	:identifiedBy :comp_gaz_Nationwide_Building_Society;
+	a :Company;
+	RDFS:label "NATIONWIDE BLDG".
+
+:comp_Nationwide_Financial_Services_Inc
+	:identifiedBy :comp_gaz_Nationwide_Financial_Services_Inc;
+	a :Company;
+	RDFS:label "NATIONWIDE FIN".
+
+:comp_Navistar_International_Corp
+	:identifiedBy :comp_gaz_Navistar_International_Corp;
+	a :Company;
+	RDFS:label "NAVISTAR INTL".
+
+:comp_NIBC_Bank_NV
+	:identifiedBy :comp_gaz_NIBC_Bank_NV;
+	a :Company;
+	RDFS:label "NIBC BANK NV".
+
+:comp_Odyssey_Re_Holdings_Corp
+	:identifiedBy :comp_gaz_Odyssey_Re_Holdings_Corp;
+	a :Company;
+	RDFS:label "ODYSSEY RE HLDGS".
+
+:comp_Old_Mutual_PLC
+	:identifiedBy :comp_gaz_Old_Mutual_PLC;
+	a :Company;
+	RDFS:label "OLD MUTUAL PLC".
+
+:comp_Ono_Finance_II_PLC
+	:identifiedBy :comp_gaz_Ono_Finance_II_PLC;
+	a :Company;
+	RDFS:label "ONO FINANCE II P".
+
+:comp_PMI_Group_IncThe
+	:identifiedBy :comp_gaz_PMI_Group_IncThe;
+	a :Company;
+	RDFS:label "PMI GROUP INC".
+
+:comp_Progressive_CorpThe
+	:identifiedBy :comp_gaz_Progressive_CorpThe;
+	a :Company;
+	RDFS:label "PROGRESSIVE CORP".
+
+:comp_Radian_Group_Inc
+	:identifiedBy :comp_gaz_Radian_Group_Inc;
+	a :Company;
+	RDFS:label "RADIAN GROUP INC".
+
+:comp_Raiffeisen_Zentralbank_Oesterreich_AG
+	:identifiedBy :comp_gaz_Raiffeisen_Zentralbank_Oesterreich_AG;
+	a :Company;
+	RDFS:label "RAIF ZENTRLBK-PA".
+
+:comp_Realogy_Corp
+	:identifiedBy :comp_gaz_Realogy_Corp;
+	a :Company;
+	RDFS:label "REALOGY CORP".
+
+:comp_RenaissanceRe_Holdings_Ltd
+	:identifiedBy :comp_gaz_RenaissanceRe_Holdings_Ltd;
+	a :Company;
+	RDFS:label "RENAISSANCERE".
+
+:comp_Santander_UK_PLC
+	:identifiedBy :comp_gaz_Santander_UK_PLC;
+	a :Company;
+	RDFS:label "SANTANDER UK PLC".
+
+:comp_Sberbank_of_Russia
+	:identifiedBy :comp_gaz_Sberbank_of_Russia;
+	a :Company;
+	RDFS:label "SBERBANK".
+
+:comp_SNS_Bank_NV
+	:identifiedBy :comp_gaz_SNS_Bank_NV;
+	a :Company;
+	RDFS:label "SNS BANK NV".
+
+:comp_Springleaf_Finance_Corp
+	:identifiedBy :comp_gaz_Springleaf_Finance_Corp;
+	a :Company;
+	RDFS:label "SPRINGLEAF FINAN".
+
+:comp_Svenska_Handelsbanken_AB
+	:identifiedBy :comp_gaz_Svenska_Handelsbanken_AB;
+	a :Company;
+	RDFS:label "SVENSKA HAN-A".
+
+:comp_Swiss_Reinsurance_Co_Ltd
+	:identifiedBy :comp_gaz_Swiss_Reinsurance_Co_Ltd;
+	a :Company;
+	RDFS:label "SWISS REINSURANC".
+
+:comp_UDR_Inc
+	:identifiedBy :comp_gaz_UDR_Inc;
+	a :Company;
+	RDFS:label "UDR INC".
+
+:comp_Unum_Group
+	:identifiedBy :comp_gaz_Unum_Group;
+	a :Company;
+	RDFS:label "UNUM GROUP".
+
+:comp_Wachovia_Corp
+	:identifiedBy :comp_gaz_Wachovia_Corp;
+	a :Company;
+	RDFS:label "WACHOVIA CORP".
+
+:comp_WestLB_AG
+	:identifiedBy :comp_gaz_WestLB_AG;
+	a :Company;
+	RDFS:label "WESTLB AG".
+
+:comp_White_Mountains_Insurance_Group_Ltd
+	:identifiedBy :comp_gaz_White_Mountains_Insurance_Group_Ltd;
+	a :Company;
+	RDFS:label "WHITE MOUNTAINS".
+
+:comp_XL_Group_Plc
+	:identifiedBy :comp_gaz_XL_Group_Plc;
+	a :Company;
+	RDFS:label "XL GROUP PLC".

@@ -1,0 +1,5 @@
+#map-loading {
+	background-image: ('images/spinner.gif');
+	background-repeat: "no-repeat";
+	background-position: "center";
+}

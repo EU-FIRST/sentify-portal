@@ -1,0 +1,52 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://project-first.eu/ontology#> .
+
+
+:Fund a owl:Class ;
+	rdfs:label "Fund" ;
+	rdfs:subClassOf :Company .
+    
+    
+:GlossaryItem a owl:Class ;   
+	:settings "c=ic/l=y" ;   # ignore case, lematize = yes
+    rdfs:label "GlossaryItem";
+    rdfs:subClassOf :SentimentObject.
+    
+    
+    
+#
+# Glossary for gazetter limitation
+#    
+    
+:gaz_bank a :Gazetteer;
+    :settings "c=ic/l=y" ;   # ignore case, lematize = yes
+	:term "bank".
+
+:gaz_fund a :Gazetteer;
+    :settings "c=ic/l=y" ;   # ignore case, lematize = yes
+	:term "fund".	
+    
+:gaz_insurer a :Gazetteer;
+    :settings "c=ic/l=y" ;   # ignore case, lematize = yes
+	:term "insure";
+    :term "insurer";
+    :term "insurence".
+    
+:gaz_loan a :Gazetteer;
+    :settings "c=ic/l=y" ;   # ignore case, lematize = yes
+	:term "loan";
+    :term "credit";
+    :term "debt";
+    :term "mortgage";
+    :term "investment".	
+    
+:gaz_company a :Gazetteer;
+    :settings "c=ic/l=y" ;   # ignore case, lematize = yes
+	:term "company";
+    :term "business organization";
+    :term "corporation";
+    :term "firm".    
+    

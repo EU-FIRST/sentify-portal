@@ -1,0 +1,30 @@
+/*
+.v-loading-indicator-delay {
+	background-image: url('images/loading.gif');
+	background-repeat: norepeat;
+	background-position: center center;
+}
+*/
+.v-loading-indicator,
+.v-loading-indicator-delay,
+.v-loading-indicator-wait {
+	height: 50px;
+	width: 300px;
+	background-image: url('../images/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: relative;
+}
+
+.v-Notification-system .popupContent {
+
+	margin-top: 20px;
+	background-color: #cc2222;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-box-shadow: 3px 3px 3px;
+	-moz-box-shadow: 3px 3px 3px;
+}

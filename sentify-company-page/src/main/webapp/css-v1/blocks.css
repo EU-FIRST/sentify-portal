@@ -1,0 +1,215 @@
+/* line 4, ../sass/blocks.scss */
+ul.links {
+  background: silver;
+  background: rgba(186, 186, 186, 0.3);
+}
+/* line 5, ../sass/blocks.scss */
+ul.links li {
+  display: inline-block;
+  margin: 2px 5px;
+}
+/* line 7, ../sass/blocks.scss */
+ul.links .read_more a:before {
+  content: "\f054";
+}
+
+/* line 11, ../sass/blocks.scss */
+.block {
+  margin: 10px 0;
+}
+
+/* line 12, ../sass/blocks.scss */
+.block + .block {
+  margin-top: 25px;
+}
+
+/* line 16, ../sass/blocks.scss */
+ul.news, ul.links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 19, ../sass/blocks.scss */
+ul.news li {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(100%, #f3f3f3));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: -moz-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: -o-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: linear-gradient(top, #f9f9f9, #f3f3f3);
+  position: relative;
+  /* improvements of news list design*/
+  padding: 12px 15px 12px 12px;
+  margin: 3px 0px 3px 0px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 7px #AAA;
+  
+}
+/* line 28, ../sass/blocks.scss */
+ul.news li.up {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eef8de), color-stop(100%, #c9e2cd));
+  background-image: -webkit-linear-gradient(top, #eef8de, #c9e2cd);
+  background-image: -moz-linear-gradient(top, #eef8de, #c9e2cd);
+  background-image: -o-linear-gradient(top, #eef8de, #c9e2cd);
+  background-image: -ms-linear-gradient(top, #eef8de, #c9e2cd);
+  background-image: linear-gradient(top, #eef8de, #c9e2cd);
+}
+/* line 30, ../sass/blocks.scss */
+ul.news li.up:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2fbd0), color-stop(100%, #8bec9a));
+  background-image: -webkit-linear-gradient(top, #f2fbd0, #8bec9a);
+  background-image: -moz-linear-gradient(top, #f2fbd0, #8bec9a);
+  background-image: -o-linear-gradient(top, #f2fbd0, #8bec9a);
+  background-image: -ms-linear-gradient(top, #f2fbd0, #8bec9a);
+  background-image: linear-gradient(top, #f2fbd0, #8bec9a);
+}
+/* line 34, ../sass/blocks.scss */
+ul.news li.down {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4ead9), color-stop(100%, #e3cdca));
+  background-image: -webkit-linear-gradient(top, #f4ead9, #e3cdca);
+  background-image: -moz-linear-gradient(top, #f4ead9, #e3cdca);
+  background-image: -o-linear-gradient(top, #f4ead9, #e3cdca);
+  background-image: -ms-linear-gradient(top, #f4ead9, #e3cdca);
+  background-image: linear-gradient(top, #f4ead9, #e3cdca);
+}
+/* line 36, ../sass/blocks.scss */
+ul.news li.down:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7dfbf), color-stop(100%, #ecaba2));
+  background-image: -webkit-linear-gradient(top, #f7dfbf, #ecaba2);
+  background-image: -moz-linear-gradient(top, #f7dfbf, #ecaba2);
+  background-image: -o-linear-gradient(top, #f7dfbf, #ecaba2);
+  background-image: -ms-linear-gradient(top, #f7dfbf, #ecaba2);
+  background-image: linear-gradient(top, #f7dfbf, #ecaba2);
+}
+/* line 42, ../sass/blocks.scss */
+ul.news li h3 {
+  padding-top: 0;
+}
+/* line 45, ../sass/blocks.scss */
+ul.news li.up, ul.news li.down {
+  padding-right: 35px;
+}
+/* line 46, ../sass/blocks.scss */
+ul.news li.up:after, ul.news li.down:after {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+  color: #7b7a44;
+}
+/* line 53, ../sass/blocks.scss */
+ul.news li.up:after {
+  content: "\f087";
+}
+/* line 54, ../sass/blocks.scss */
+ul.news li.down:after {
+  content: "\f088";
+}
+/* line 61, ../sass/blocks.scss */
+ul.news li:hover {
+  background: white;
+}
+/* line 63, ../sass/blocks.scss */
+ul.news li:hover:after {
+  color: #904028;
+}
+
+/* line 70, ../sass/blocks.scss */
+.analysis {
+  text-align: center;
+}
+
+/* line 75, ../sass/blocks.scss */
+.region-sidebar .block {
+  background: #e6e6e6;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+/* line 79, ../sass/blocks.scss */
+/*
+.block.graphic img {
+  width: 100%;
+}
+*/
+
+@media all and (min-width:720px) {
+  /* line 87, ../sass/blocks.scss */
+  .visualisations ul {
+    overflow: hidden;
+  }
+  /* line 91, ../sass/blocks.scss */
+  .visualisations ul li {
+    display: inline;
+  }
+  /* line 95, ../sass/blocks.scss */
+  .visualisations ul li a {
+    float: left;
+    margin: 15px 5px;
+    width: 100px;
+    height: 0px;
+    opacity: 0.5;
+    padding-top: 60px;
+    border: 10px solid white;
+    border-bottom-width: 20px;
+    box-shadow: 2px 2px 10px #494949;
+    border-radius: 5px;
+    background: url(../images/graph/contact-details-activity.jpg) no-repeat;
+    background-size: cover;
+  }
+  /* line 106, ../sass/blocks.scss */
+  .visualisations ul li a:hover {
+    opacity: 1;
+  }
+  /* line 117, ../sass/blocks.scss */
+  .visualisations ul .vis-2 a {
+    background-image: url(../images/graph/dashboard-wf-v1.png);
+  }
+  /* line 118, ../sass/blocks.scss */
+  .visualisations ul .vis-3 a {
+    background-image: url(../images/graph/screen_shot_2012-11-07_at_11.55.03_pm_1x.png);
+  }
+  /* line 119, ../sass/blocks.scss */
+  .visualisations ul .vis-4 a {
+    background-image: url(../images/graph/pie-charts_1x.png);
+  }
+  /* line 120, ../sass/blocks.scss */
+  .visualisations ul .vis-5 a {
+    background-image: url(../images/graph/project.png);
+  }
+}
+/* line 130, ../sass/blocks.scss */
+.thumbnails ul {
+  overflow: hidden;
+}
+/* line 134, ../sass/blocks.scss */
+.thumbnails ul li {
+  display: inline;
+}
+/* line 138, ../sass/blocks.scss */
+.thumbnails ul li a {
+  float: left;
+  margin: 15px 5px;
+  width: 100px;
+  height: 80px;
+  opacity: 0.5;
+  border: 10px solid white;
+  border-bottom-width: 20px;
+  box-shadow: 2px 2px 10px #494949;
+  border-radius: 5px;
+}
+/* line 149, ../sass/blocks.scss */
+.thumbnails ul li a:hover {
+  opacity: 1;
+}
+
+
+ul.news, ul.links, .visualisations ul, ul.thumbs {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+

@@ -1,0 +1,594 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://project-first.eu/ontology#> .
+
+
+:reg_Africa_Gazetteer a :Gazetteer ;
+	 :term "Africa" .
+:reg_Asia_Gazetteer a :Gazetteer ;
+	 :term "Asia" .
+:reg_Europe_Gazetteer a :Gazetteer ;
+	 :term "Europe" .
+:reg_North_America_Gazetteer a :Gazetteer ;
+	 :term "North America" .
+:reg_Oceania_Gazetteer a :Gazetteer ;
+	 :term "Oceania" .
+:reg_South_America_Gazetteer a :Gazetteer ;
+	 :term "South America" .
+:reg_Antarctica_Gazetteer a :Gazetteer ;
+	 :term "Antarctica" .
+:cou_AD_Gazetteer a :Gazetteer ;
+	 :term "Andorra" .
+:cou_AE_Gazetteer a :Gazetteer ;
+	 :term "United Arab Emirates" .
+:cou_AF_Gazetteer a :Gazetteer ;
+	 :term "Afghanistan" .
+:cou_AG_Gazetteer a :Gazetteer ;
+	 :term "Antigua and Barbuda" .
+:cou_AI_Gazetteer a :Gazetteer ;
+	 :term "Anguilla" .
+:cou_AL_Gazetteer a :Gazetteer ;
+	 :term "Albania" .
+:cou_AM_Gazetteer a :Gazetteer ;
+	 :term "Armenia" .
+:cou_AO_Gazetteer a :Gazetteer ;
+	 :term "Angola" .
+:cou_AR_Gazetteer a :Gazetteer ;
+	 :term "Argentina" .
+:cou_AS_Gazetteer a :Gazetteer ;
+	 :term "American Samoa" .
+:cou_AT_Gazetteer a :Gazetteer ;
+	 :term "Austria" .
+:cou_AU_Gazetteer a :Gazetteer ;
+	 :term "Australia" .
+:cou_AW_Gazetteer a :Gazetteer ;
+	 :term "Aruba" .
+:cou_AX_Gazetteer a :Gazetteer ;
+	 :term "Aland Islands" .
+:cou_AZ_Gazetteer a :Gazetteer ;
+	 :term "Azerbaijan" .
+:cou_BA_Gazetteer a :Gazetteer ;
+	 :term "Bosnia and Herzegovina" .
+:cou_BB_Gazetteer a :Gazetteer ;
+	 :term "Barbados" .
+:cou_BD_Gazetteer a :Gazetteer ;
+	 :term "Bangladesh" .
+:cou_BE_Gazetteer a :Gazetteer ;
+	 :term "Belgium" .
+:cou_BF_Gazetteer a :Gazetteer ;
+	 :term "Burkina Faso" .
+:cou_BG_Gazetteer a :Gazetteer ;
+	 :term "Bulgaria" .
+:cou_BH_Gazetteer a :Gazetteer ;
+	 :term "Bahrain" .
+:cou_BI_Gazetteer a :Gazetteer ;
+	 :term "Burundi" .
+:cou_BJ_Gazetteer a :Gazetteer ;
+	 :term "Benin" .
+:cou_BL_Gazetteer a :Gazetteer ;
+	 :term "Saint Barthelemy" .
+:cou_BM_Gazetteer a :Gazetteer ;
+	 :term "Bermuda" .
+:cou_BN_Gazetteer a :Gazetteer ;
+	 :term "Brunei" .
+:cou_BO_Gazetteer a :Gazetteer ;
+	 :term "Bolivia" .
+:cou_BQ_Gazetteer a :Gazetteer ;
+	 :term "Bonaire, Saint Eustatius and Saba" .
+:cou_BR_Gazetteer a :Gazetteer ;
+	 :term "Brazil" .
+:cou_BS_Gazetteer a :Gazetteer ;
+	 :term "Bahamas" .
+:cou_BT_Gazetteer a :Gazetteer ;
+	 :term "Bhutan" .
+:cou_BV_Gazetteer a :Gazetteer ;
+	 :term "Bouvet Island" .
+:cou_BW_Gazetteer a :Gazetteer ;
+	 :term "Botswana" .
+:cou_BY_Gazetteer a :Gazetteer ;
+	 :term "Belarus" .
+:cou_BZ_Gazetteer a :Gazetteer ;
+	 :term "Belize" .
+:cou_CA_Gazetteer a :Gazetteer ;
+	 :term "Canada" .
+:cou_CC_Gazetteer a :Gazetteer ;
+	 :term "Cocos Islands" .
+:cou_CD_Gazetteer a :Gazetteer ;
+	 :term "Democratic Republic of the Congo" .
+:cou_CF_Gazetteer a :Gazetteer ;
+	 :term "Central African Republic" .
+:cou_CG_Gazetteer a :Gazetteer ;
+	 :term "Republic of the Congo" .
+:cou_CH_Gazetteer a :Gazetteer ;
+	 :term "Switzerland" .
+:cou_CI_Gazetteer a :Gazetteer ;
+	 :term "Ivory Coast" .
+:cou_CK_Gazetteer a :Gazetteer ;
+	 :term "Cook Islands" .
+:cou_CL_Gazetteer a :Gazetteer ;
+	 :term "Chile" .
+:cou_CM_Gazetteer a :Gazetteer ;
+	 :term "Cameroon" .
+:cou_CN_Gazetteer a :Gazetteer ;
+	 :term "China" .
+:cou_CO_Gazetteer a :Gazetteer ;
+	 :term "Colombia" .
+:cou_CR_Gazetteer a :Gazetteer ;
+	 :term "Costa Rica" .
+:cou_CU_Gazetteer a :Gazetteer ;
+	 :term "Cuba" .
+:cou_CV_Gazetteer a :Gazetteer ;
+	 :term "Cape Verde" .
+:cou_CW_Gazetteer a :Gazetteer ;
+	 :term "Curacao" .
+:cou_CX_Gazetteer a :Gazetteer ;
+	 :term "Christmas Island" .
+:cou_CY_Gazetteer a :Gazetteer ;
+	 :term "Cyprus" .
+:cou_CZ_Gazetteer a :Gazetteer ;
+	 :term "Czech Republic" .
+:cou_DE_Gazetteer a :Gazetteer ;
+	 :term "Germany" .
+:cou_DJ_Gazetteer a :Gazetteer ;
+	 :term "Djibouti" .
+:cou_DK_Gazetteer a :Gazetteer ;
+	 :term "Denmark" .
+:cou_DM_Gazetteer a :Gazetteer ;
+	 :term "Dominica" .
+:cou_DO_Gazetteer a :Gazetteer ;
+	 :term "Dominican Republic" .
+:cou_DZ_Gazetteer a :Gazetteer ;
+	 :term "Algeria" .
+:cou_EC_Gazetteer a :Gazetteer ;
+	 :term "Ecuador" .
+:cou_EE_Gazetteer a :Gazetteer ;
+	 :term "Estonia" .
+:cou_EG_Gazetteer a :Gazetteer ;
+	 :term "Egypt" .
+:cou_EH_Gazetteer a :Gazetteer ;
+	 :term "Western Sahara" .
+:cou_ER_Gazetteer a :Gazetteer ;
+	 :term "Eritrea" .
+:cou_ES_Gazetteer a :Gazetteer ;
+	 :term "Spain" .
+:cou_ET_Gazetteer a :Gazetteer ;
+	 :term "Ethiopia" .
+:cou_FI_Gazetteer a :Gazetteer ;
+	 :term "Finland" .
+:cou_FJ_Gazetteer a :Gazetteer ;
+	 :term "Fiji" .
+:cou_FK_Gazetteer a :Gazetteer ;
+	 :term "Falkland Islands" .
+:cou_FM_Gazetteer a :Gazetteer ;
+	 :term "Micronesia" .
+:cou_FO_Gazetteer a :Gazetteer ;
+	 :term "Faroe Islands" .
+:cou_FR_Gazetteer a :Gazetteer ;
+	 :term "France" .
+:cou_GA_Gazetteer a :Gazetteer ;
+	 :term "Gabon" .
+:cou_GB_Gazetteer a :Gazetteer ;
+	 :term "United Kingdom" ;
+	 :term "UK/c=auc" ;
+	 :term "U.K./c=auc" ;
+	 :term "Great Britain"; 
+     :term "G.B./c=auc";
+     :term "GB/c=auc".
+:cou_GD_Gazetteer a :Gazetteer ;
+	 :term "Grenada" .
+:cou_GE_Gazetteer a :Gazetteer ;
+	 :term "Georgia" .
+:cou_GF_Gazetteer a :Gazetteer ;
+	 :term "French Guiana" .
+:cou_GG_Gazetteer a :Gazetteer ;
+	 :term "Guernsey" .
+:cou_GH_Gazetteer a :Gazetteer ;
+	 :term "Ghana" .
+:cou_GI_Gazetteer a :Gazetteer ;
+	 :term "Gibraltar" .
+:cou_GL_Gazetteer a :Gazetteer ;
+	 :term "Greenland" .
+:cou_GM_Gazetteer a :Gazetteer ;
+	 :term "Gambia" .
+:cou_GN_Gazetteer a :Gazetteer ;
+	 :term "Guinea" .
+:cou_GP_Gazetteer a :Gazetteer ;
+	 :term "Guadeloupe" .
+:cou_GQ_Gazetteer a :Gazetteer ;
+	 :term "Equatorial Guinea" .
+:cou_GR_Gazetteer a :Gazetteer ;
+	 :term "Greece" .
+:cou_GS_Gazetteer a :Gazetteer ;
+	 :term "South Georgia and the South Sandwich Islands" .
+:cou_GT_Gazetteer a :Gazetteer ;
+	 :term "Guatemala" .
+:cou_GU_Gazetteer a :Gazetteer ;
+	 :term "Guam" .
+:cou_GW_Gazetteer a :Gazetteer ;
+	 :term "Guinea-Bissau" .
+:cou_GY_Gazetteer a :Gazetteer ;
+	 :term "Guyana" .
+:cou_HK_Gazetteer a :Gazetteer ;
+	 :term "Hong Kong" .
+:cou_HM_Gazetteer a :Gazetteer ;
+	 :term "Heard Island and McDonald Islands" .
+:cou_HN_Gazetteer a :Gazetteer ;
+	 :term "Honduras" .
+:cou_HR_Gazetteer a :Gazetteer ;
+	 :term "Croatia" .
+:cou_HT_Gazetteer a :Gazetteer ;
+	 :term "Haiti" .
+:cou_HU_Gazetteer a :Gazetteer ;
+	 :term "Hungary" .
+:cou_ID_Gazetteer a :Gazetteer ;
+	 :term "Indonesia" .
+:cou_IE_Gazetteer a :Gazetteer ;
+	 :term "Ireland" .
+:cou_IL_Gazetteer a :Gazetteer ;
+	 :term "Israel" .
+:cou_IM_Gazetteer a :Gazetteer ;
+	 :term "Isle of Man" .
+:cou_IN_Gazetteer a :Gazetteer ;
+	 :term "India" .
+:cou_IO_Gazetteer a :Gazetteer ;
+	 :term "British Indian Ocean Territory" .
+:cou_IQ_Gazetteer a :Gazetteer ;
+	 :term "Iraq" .
+:cou_IR_Gazetteer a :Gazetteer ;
+	 :term "Iran" .
+:cou_IS_Gazetteer a :Gazetteer ;
+	 :term "Iceland" .
+:cou_IT_Gazetteer a :Gazetteer ;
+	 :term "Italy" .
+:cou_JE_Gazetteer a :Gazetteer ;
+	 :term "Jersey" .
+:cou_JM_Gazetteer a :Gazetteer ;
+	 :term "Jamaica" .
+:cou_JO_Gazetteer a :Gazetteer ;
+	 :term "Jordan" .
+:cou_JP_Gazetteer a :Gazetteer ;
+	 :term "Japan" .
+:cou_KE_Gazetteer a :Gazetteer ;
+	 :term "Kenya" .
+:cou_KG_Gazetteer a :Gazetteer ;
+	 :term "Kyrgyzstan" .
+:cou_KH_Gazetteer a :Gazetteer ;
+	 :term "Cambodia" .
+:cou_KI_Gazetteer a :Gazetteer ;
+	 :term "Kiribati" .
+:cou_KM_Gazetteer a :Gazetteer ;
+	 :term "Comoros" .
+:cou_KN_Gazetteer a :Gazetteer ;
+	 :term "Saint Kitts and Nevis" .
+:cou_KP_Gazetteer a :Gazetteer ;
+	 :term "North Korea" .
+:cou_KR_Gazetteer a :Gazetteer ;
+	 :term "South Korea" .
+:cou_KW_Gazetteer a :Gazetteer ;
+	 :term "Kuwait" .
+:cou_KY_Gazetteer a :Gazetteer ;
+	 :term "Cayman Islands" .
+:cou_KZ_Gazetteer a :Gazetteer ;
+	 :term "Kazakhstan" .
+:cou_LA_Gazetteer a :Gazetteer ;
+	 :term "Laos" .
+:cou_LB_Gazetteer a :Gazetteer ;
+	 :term "Lebanon" .
+:cou_LC_Gazetteer a :Gazetteer ;
+	 :term "Saint Lucia" .
+:cou_LI_Gazetteer a :Gazetteer ;
+	 :term "Liechtenstein" .
+:cou_LK_Gazetteer a :Gazetteer ;
+	 :term "Sri Lanka" .
+:cou_LR_Gazetteer a :Gazetteer ;
+	 :term "Liberia" .
+:cou_LS_Gazetteer a :Gazetteer ;
+	 :term "Lesotho" .
+:cou_LT_Gazetteer a :Gazetteer ;
+	 :term "Lithuania" .
+:cou_LU_Gazetteer a :Gazetteer ;
+	 :term "Luxembourg" .
+:cou_LV_Gazetteer a :Gazetteer ;
+	 :term "Latvia" .
+:cou_LY_Gazetteer a :Gazetteer ;
+	 :term "Libya" .
+:cou_MA_Gazetteer a :Gazetteer ;
+	 :term "Morocco" .
+:cou_MC_Gazetteer a :Gazetteer ;
+	 :term "Monaco" .
+:cou_MD_Gazetteer a :Gazetteer ;
+	 :term "Moldova" .
+:cou_ME_Gazetteer a :Gazetteer ;
+	 :term "Montenegro" .
+:cou_MF_Gazetteer a :Gazetteer ;
+	 :term "Saint Martin" .
+:cou_MG_Gazetteer a :Gazetteer ;
+	 :term "Madagascar" .
+:cou_MH_Gazetteer a :Gazetteer ;
+	 :term "Marshall Islands" .
+:cou_MK_Gazetteer a :Gazetteer ;
+	 :term "Macedonia" .
+:cou_ML_Gazetteer a :Gazetteer ;
+	 :term "Mali" .
+:cou_MM_Gazetteer a :Gazetteer ;
+	 :term "Myanmar" .
+:cou_MN_Gazetteer a :Gazetteer ;
+	 :term "Mongolia" .
+:cou_MO_Gazetteer a :Gazetteer ;
+	 :term "Macao" .
+:cou_MP_Gazetteer a :Gazetteer ;
+	 :term "Northern Mariana Islands" .
+:cou_MQ_Gazetteer a :Gazetteer ;
+	 :term "Martinique" .
+:cou_MR_Gazetteer a :Gazetteer ;
+	 :term "Mauritania" .
+:cou_MS_Gazetteer a :Gazetteer ;
+	 :term "Montserrat" .
+:cou_MT_Gazetteer a :Gazetteer ;
+	 :term "Malta" .
+:cou_MU_Gazetteer a :Gazetteer ;
+	 :term "Mauritius" .
+:cou_MV_Gazetteer a :Gazetteer ;
+	 :term "Maldives" .
+:cou_MW_Gazetteer a :Gazetteer ;
+	 :term "Malawi" .
+:cou_MX_Gazetteer a :Gazetteer ;
+	 :term "Mexico" .
+:cou_MY_Gazetteer a :Gazetteer ;
+	 :term "Malaysia" .
+:cou_MZ_Gazetteer a :Gazetteer ;
+	 :term "Mozambique" .
+:cou_NA_Gazetteer a :Gazetteer ;
+	 :term "Namibia" .
+:cou_NC_Gazetteer a :Gazetteer ;
+	 :term "New Caledonia" .
+:cou_NE_Gazetteer a :Gazetteer ;
+	 :term "Niger" .
+:cou_NF_Gazetteer a :Gazetteer ;
+	 :term "Norfolk Island" .
+:cou_NG_Gazetteer a :Gazetteer ;
+	 :term "Nigeria" .
+:cou_NI_Gazetteer a :Gazetteer ;
+	 :term "Nicaragua" .
+:cou_NL_Gazetteer a :Gazetteer ;
+	 :term "Netherlands" .
+:cou_NO_Gazetteer a :Gazetteer ;
+	 :term "Norway" .
+:cou_NP_Gazetteer a :Gazetteer ;
+	 :term "Nepal" .
+:cou_NR_Gazetteer a :Gazetteer ;
+	 :term "Nauru" .
+:cou_NU_Gazetteer a :Gazetteer ;
+	 :term "Niue" .
+:cou_NZ_Gazetteer a :Gazetteer ;
+	 :term "New Zealand" .
+:cou_OM_Gazetteer a :Gazetteer ;
+	 :term "Oman" .
+:cou_PA_Gazetteer a :Gazetteer ;
+	 :term "Panama" .
+:cou_PE_Gazetteer a :Gazetteer ;
+	 :term "Peru" .
+:cou_PF_Gazetteer a :Gazetteer ;
+	 :term "French Polynesia" .
+:cou_PG_Gazetteer a :Gazetteer ;
+	 :term "Papua New Guinea" .
+:cou_PH_Gazetteer a :Gazetteer ;
+	 :term "Philippines" .
+:cou_PK_Gazetteer a :Gazetteer ;
+	 :term "Pakistan" .
+:cou_PL_Gazetteer a :Gazetteer ;
+	 :term "Poland" .
+:cou_PM_Gazetteer a :Gazetteer ;
+	 :term "Saint Pierre and Miquelon" .
+:cou_PN_Gazetteer a :Gazetteer ;
+	 :term "Pitcairn" .
+:cou_PR_Gazetteer a :Gazetteer ;
+	 :term "Puerto Rico" .
+:cou_PS_Gazetteer a :Gazetteer ;
+	 :term "Palestinian Territory" .
+:cou_PT_Gazetteer a :Gazetteer ;
+	 :term "Portugal" .
+:cou_PW_Gazetteer a :Gazetteer ;
+	 :term "Palau" .
+:cou_PY_Gazetteer a :Gazetteer ;
+	 :term "Paraguay" .
+:cou_QA_Gazetteer a :Gazetteer ;
+	 :term "Qatar" .
+:cou_RE_Gazetteer a :Gazetteer ;
+	 :term "Reunion" .
+:cou_RO_Gazetteer a :Gazetteer ;
+	 :term "Romania" .
+:cou_RS_Gazetteer a :Gazetteer ;
+	 :term "Serbia" .
+:cou_RU_Gazetteer a :Gazetteer ;
+	 :term "Russia" .
+:cou_RW_Gazetteer a :Gazetteer ;
+	 :term "Rwanda" .
+:cou_SA_Gazetteer a :Gazetteer ;
+	 :term "Saudi Arabia" .
+:cou_SB_Gazetteer a :Gazetteer ;
+	 :term "Solomon Islands" .
+:cou_SC_Gazetteer a :Gazetteer ;
+	 :term "Seychelles" .
+:cou_SD_Gazetteer a :Gazetteer ;
+	 :term "Sudan" .
+:cou_SE_Gazetteer a :Gazetteer ;
+	 :term "Sweden" .
+:cou_SG_Gazetteer a :Gazetteer ;
+	 :term "Singapore" .
+:cou_SH_Gazetteer a :Gazetteer ;
+	 :term "Saint Helena" .
+:cou_SI_Gazetteer a :Gazetteer ;
+	 :term "Slovenia" .
+:cou_SJ_Gazetteer a :Gazetteer ;
+	 :term "Svalbard and Jan Mayen" .
+:cou_SK_Gazetteer a :Gazetteer ;
+     :term "Slovak Republic";
+	 :term "Slovakia" .
+:cou_SL_Gazetteer a :Gazetteer ;
+	 :term "Sierra Leone" .
+:cou_SM_Gazetteer a :Gazetteer ;
+	 :term "San Marino" .
+:cou_SN_Gazetteer a :Gazetteer ;
+	 :term "Senegal" .
+:cou_SO_Gazetteer a :Gazetteer ;
+	 :term "Somalia" .
+:cou_SR_Gazetteer a :Gazetteer ;
+	 :term "Suriname" .
+:cou_SS_Gazetteer a :Gazetteer ;
+	 :term "South Sudan" .
+:cou_ST_Gazetteer a :Gazetteer ;
+	 :term "Sao Tome and Principe" .
+:cou_SV_Gazetteer a :Gazetteer ;
+	 :term "El Salvador" .
+:cou_SX_Gazetteer a :Gazetteer ;
+	 :term "Sint Maarten" .
+:cou_SY_Gazetteer a :Gazetteer ;
+	 :term "Syria" .
+:cou_SZ_Gazetteer a :Gazetteer ;
+	 :term "Swaziland" .
+:cou_TC_Gazetteer a :Gazetteer ;
+	 :term "Turks and Caicos Islands" .
+:cou_TD_Gazetteer a :Gazetteer ;
+	 :term "Chad" .
+:cou_TF_Gazetteer a :Gazetteer ;
+	 :term "French Southern Territories" .
+:cou_TG_Gazetteer a :Gazetteer ;
+	 :term "Togo" .
+:cou_TH_Gazetteer a :Gazetteer ;
+	 :term "Thailand" .
+:cou_TJ_Gazetteer a :Gazetteer ;
+	 :term "Tajikistan" .
+:cou_TK_Gazetteer a :Gazetteer ;
+	 :term "Tokelau" .
+:cou_TL_Gazetteer a :Gazetteer ;
+	 :term "East Timor" .
+:cou_TM_Gazetteer a :Gazetteer ;
+	 :term "Turkmenistan" .
+:cou_TN_Gazetteer a :Gazetteer ;
+	 :term "Tunisia" .
+:cou_TO_Gazetteer a :Gazetteer ;
+	 :term "Tonga" .
+:cou_TR_Gazetteer a :Gazetteer ;
+	 :term "Turkey" .
+:cou_TT_Gazetteer a :Gazetteer ;
+	 :term "Trinidad and Tobago" .
+:cou_TV_Gazetteer a :Gazetteer ;
+	 :term "Tuvalu" .
+:cou_TW_Gazetteer a :Gazetteer ;
+	 :term "Taiwan" .
+:cou_TZ_Gazetteer a :Gazetteer ;
+	 :term "Tanzania" .
+:cou_UA_Gazetteer a :Gazetteer ;
+	 :term "Ukraine" .
+:cou_UG_Gazetteer a :Gazetteer ;
+	 :term "Uganda" .
+:cou_UM_Gazetteer a :Gazetteer ;
+	 :term "U.S. Minor Outlying Islands" .
+:cou_US_Gazetteer a :Gazetteer ;
+	 :term "United States" ;
+	 :term "USA/c=auc" ;
+	 :term "U.S.A./c=auc" ;
+	 :term "US/c=auc" ;
+	 :term "U.S./c=auc" .
+:cou_UY_Gazetteer a :Gazetteer ;
+	 :term "Uruguay" .
+:cou_UZ_Gazetteer a :Gazetteer ;
+	 :term "Uzbekistan" .
+:cou_VA_Gazetteer a :Gazetteer ;
+	 :term "Holy See" ;
+	 :term "Vatican" .
+:cou_VC_Gazetteer a :Gazetteer ;
+	 :term "Saint Vincent and the Grenadines" .
+:cou_VE_Gazetteer a :Gazetteer ;
+	 :term "Venezuela" .
+:cou_VG_Gazetteer a :Gazetteer ;
+	 :term "British Virgin Islands" .
+:cou_VI_Gazetteer a :Gazetteer ;
+	 :term "U.S. Virgin Islands" .
+:cou_VN_Gazetteer a :Gazetteer ;
+	 :term "Vietnam" .
+:cou_VU_Gazetteer a :Gazetteer ;
+	 :term "Vanuatu" .
+:cou_WF_Gazetteer a :Gazetteer ;
+	 :term "Wallis and Futuna" .
+:cou_WS_Gazetteer a :Gazetteer ;
+	 :term "Samoa" .
+:cou_XK_Gazetteer a :Gazetteer ;
+	 :term "Kosovo" .
+:cou_YE_Gazetteer a :Gazetteer ;
+	 :term "Yemen" .
+:cou_YT_Gazetteer a :Gazetteer ;
+	 :term "Mayotte" .
+:cou_ZA_Gazetteer a :Gazetteer ;
+	 :term "South Africa" .
+:cou_ZM_Gazetteer a :Gazetteer ;
+	 :term "Zambia" .
+:cou_ZW_Gazetteer a :Gazetteer ;
+	 :term "Zimbabwe" .
+:reg_Atlantic_Ocean_Gazetteer a :Gazetteer ;
+	 :term "Atlantic Ocean" .
+:reg_Caribbean_Gazetteer a :Gazetteer ;
+	 :term "Caribbean" .
+:reg_Central_Africa_Gazetteer a :Gazetteer ;
+	 :term "Central Africa" .
+:reg_Central_America_Gazetteer a :Gazetteer ;
+	 :term "Central America" .
+:reg_Central_Asia_Gazetteer a :Gazetteer ;
+	 :term "Central Asia" .
+:reg_Central_Europe_Gazetteer a :Gazetteer ;
+	 :term "Central Europe" .
+:reg_Central_South_America_Gazetteer a :Gazetteer ;
+	 :term "Central South America" .
+:reg_Eastern_Africa_Gazetteer a :Gazetteer ;
+	 :term "Eastern Africa" .
+:reg_Eastern_Asia_Gazetteer a :Gazetteer ;
+	 :term "Eastern Asia" .
+:reg_Eastern_Europe_Gazetteer a :Gazetteer ;
+	 :term "Eastern Europe" .
+:reg_Eastern_South_America_Gazetteer a :Gazetteer ;
+	 :term "Eastern South America" .
+:reg_Indian_Ocean_Gazetteer a :Gazetteer ;
+	 :term "Indian Ocean" .
+:reg_Middle_America_Gazetteer a :Gazetteer ;
+	 :term "Middle America" .
+:reg_Middle_East_Gazetteer a :Gazetteer ;
+	 :term "Middle East" .
+:reg_Northern_Africa_Gazetteer a :Gazetteer ;
+	 :term "Northern Africa" .
+:reg_Northern_Asia_Gazetteer a :Gazetteer ;
+	 :term "Northern Asia" .
+:reg_Northern_Europe_Gazetteer a :Gazetteer ;
+	 :term "Northern Europe" .
+:reg_Northern_North_America_Gazetteer a :Gazetteer ;
+	 :term "Northern North America" .
+:reg_Northern_South_America_Gazetteer a :Gazetteer ;
+	 :term "Northern South America" .
+:reg_Pacific_Ocean_Gazetteer a :Gazetteer ;
+	 :term "Pacific Ocean" .
+:reg_Southeastern_Africa_Gazetteer a :Gazetteer ;
+	 :term "Southeastern Africa" .
+:reg_Southeastern_Asia_Gazetteer a :Gazetteer ;
+	 :term "Southeastern Asia" .
+:reg_Southeastern_Europe_Gazetteer a :Gazetteer ;
+	 :term "Southeastern Europe" .
+:reg_Southern_Africa_Gazetteer a :Gazetteer ;
+	 :term "Southern Africa" .
+:reg_Southern_Asia_Gazetteer a :Gazetteer ;
+	 :term "Southern Asia" .
+:reg_Southern_Europe_Gazetteer a :Gazetteer ;
+	 :term "Southern Europe" .
+:reg_Southern_South_America_Gazetteer a :Gazetteer ;
+	 :term "Southern South America" .
+:reg_Southwestern_Asia_Gazetteer a :Gazetteer ;
+	 :term "Southwestern Asia" .
+:reg_Southwestern_Europe_Gazetteer a :Gazetteer ;
+	 :term "Southwestern Europe" .
+:reg_Western_Africa_Gazetteer a :Gazetteer ;
+	 :term "Western Africa" .
+:reg_Western_Europe_Gazetteer a :Gazetteer ;
+	 :term "Western Europe" .
+:reg_Western_South_America_Gazetteer a :Gazetteer ;
+	 :term "Western South America" .

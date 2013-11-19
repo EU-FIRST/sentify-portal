@@ -1,0 +1,699 @@
+﻿@prefix : <http://project-first.eu/ontology#>.
+@prefix OWL: <http://www.w3.org/2002/07/owl#>.
+@prefix RDF: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix RDFS: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix XSD: <http://www.w3.org/2001/XMLSchema#>.
+
+:comp_otc_ACMM_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "ACCOM",
+		"ACMM/c=auc";
+	a :Gazetteer.
+
+:comp_otc_ACMM
+	:identifiedBy :comp_otc_ACMM_Gazetteer;
+	a :Otc;
+	RDFS:label "ACMM".
+
+:comp_otc_CARI_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "BANCA CARIGE S.P.A.";
+	a :Gazetteer.
+
+:comp_otc_CARI
+	:identifiedBy :comp_otc_CARI_Gazetteer;
+	a :Otc;
+	RDFS:label "CARI".
+
+:comp_otc_CCCI_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	a :Gazetteer.
+
+:comp_otc_CCCI
+	:identifiedBy :comp_otc_CCCI_Gazetteer;
+	a :Otc;
+	RDFS:label "CCCI".
+
+:comp_otc_CFGI_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "CFGI/c=auc",
+		"CROWN FINL HOLDING INC";
+	a :Gazetteer.
+
+:comp_otc_CFGI
+	:identifiedBy :comp_otc_CFGI_Gazetteer;
+	a :Otc;
+	RDFS:label "CFGI".
+
+:comp_otc_CHML_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "CHINAMALLUSA COM",
+		"CHML/c=auc";
+	a :Gazetteer.
+
+:comp_otc_CHML
+	:identifiedBy :comp_otc_CHML_Gazetteer;
+	a :Otc;
+	RDFS:label "CHML".
+
+:comp_otc_CLRN_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "CLARENT";
+	a :Gazetteer.
+
+:comp_otc_CLRN
+	:identifiedBy :comp_otc_CLRN_Gazetteer;
+	a :Otc;
+	RDFS:label "CLRN".
+
+:comp_otc_COIB_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "COMPUTER THERMAL";
+	a :Gazetteer.
+
+:comp_otc_COIB
+	:identifiedBy :comp_otc_COIB_Gazetteer;
+	a :Otc;
+	RDFS:label "COIB".
+
+:comp_otc_COVE_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	a :Gazetteer.
+
+:comp_otc_COVE
+	:identifiedBy :comp_otc_COVE_Gazetteer;
+	a :Otc;
+	RDFS:label "COVE".
+
+:comp_otc_CYRD_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "CYBERECORD",
+		"CYRD/c=auc";
+	a :Gazetteer.
+
+:comp_otc_CYRD
+	:identifiedBy :comp_otc_CYRD_Gazetteer;
+	a :Otc;
+	RDFS:label "CYRD".
+
+:comp_otc_DFTS_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "DEFENSE TECHNOLOGY SYSTEMS INC",
+		"DFTS/c=auc";
+	a :Gazetteer.
+
+:comp_otc_DFTS
+	:identifiedBy :comp_otc_DFTS_Gazetteer;
+	a :Otc;
+	RDFS:label "DFTS".
+
+:comp_otc_DSTR_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "CEDC/c=auc",
+		"CENTRAL EUROPEAN DISTRIBUTION CORP.",
+		"DSTR/c=auc";
+	a :Gazetteer.
+
+:comp_otc_DSTR
+	:identifiedBy :comp_otc_DSTR_Gazetteer;
+	a :Otc;
+	RDFS:label "DSTR".
+
+:comp_otc_EACI_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "EAC INDUSTRIES",
+		"EACI/c=auc";
+	a :Gazetteer.
+
+:comp_otc_EACI
+	:identifiedBy :comp_otc_EACI_Gazetteer;
+	a :Otc;
+	RDFS:label "EACI".
+
+:comp_otc_EYES_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "MUTUAL EXCH INTL";
+	a :Gazetteer.
+
+:comp_otc_EYES
+	:identifiedBy :comp_otc_EYES_Gazetteer;
+	a :Otc;
+	RDFS:label "EYES".
+
+:comp_otc_FRST_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "AFG ARBONIA-FORSTER-HOLDING AG",
+		"AFGN/c=auc",
+		"FRST/c=auc";
+	a :Gazetteer.
+
+:comp_otc_FRST
+	:identifiedBy :comp_otc_FRST_Gazetteer;
+	a :Otc;
+	RDFS:label "FRST".
+
+:comp_otc_GSTN_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "GREYSTONE DIGITL",
+		"GSTN/c=auc";
+	a :Gazetteer.
+
+:comp_otc_GSTN
+	:identifiedBy :comp_otc_GSTN_Gazetteer;
+	a :Otc;
+	RDFS:label "GSTN".
+
+:comp_otc_HENL_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	a :Gazetteer.
+
+:comp_otc_HENL
+	:identifiedBy :comp_otc_HENL_Gazetteer;
+	a :Otc;
+	RDFS:label "HENL".
+
+:comp_otc_HRUM_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "HRUM/c=auc";
+	a :Gazetteer.
+
+:comp_otc_HRUM
+	:identifiedBy :comp_otc_HRUM_Gazetteer;
+	a :Otc;
+	RDFS:label "HRUM".
+
+:comp_otc_HSHL_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "HOME SOLUTIONS HEALTH INC",
+		"HSHL/c=auc";
+	a :Gazetteer.
+
+:comp_otc_HSHL
+	:identifiedBy :comp_otc_HSHL_Gazetteer;
+	a :Otc;
+	RDFS:label "HSHL".
+
+:comp_otc_IBXG_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "IBX GROUP";
+	a :Gazetteer.
+
+:comp_otc_IBXG
+	:identifiedBy :comp_otc_IBXG_Gazetteer;
+	a :Otc;
+	RDFS:label "IBXG".
+
+:comp_otc_IGAI_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "IGAI/c=auc",
+		"IGIA INC";
+	a :Gazetteer.
+
+:comp_otc_IGAI
+	:identifiedBy :comp_otc_IGAI_Gazetteer;
+	a :Otc;
+	RDFS:label "IGAI".
+
+:comp_otc_IMCC_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "IMCMORTGAGECO";
+	a :Gazetteer.
+
+:comp_otc_IMCC
+	:identifiedBy :comp_otc_IMCC_Gazetteer;
+	a :Otc;
+	RDFS:label "IMCC".
+
+:comp_otc_INTE_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	a :Gazetteer.
+
+:comp_otc_INTE
+	:identifiedBy :comp_otc_INTE_Gazetteer;
+	a :Otc;
+	RDFS:label "INTE".
+
+:comp_otc_IPAH_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "INTERPHARM HOLDINGS",
+		"IPAH/c=auc";
+	a :Gazetteer.
+
+:comp_otc_IPAH
+	:identifiedBy :comp_otc_IPAH_Gazetteer;
+	a :Otc;
+	RDFS:label "IPAH".
+
+:comp_otc_IRIDQ_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "IRIDIUM WORLD";
+	a :Gazetteer.
+
+:comp_otc_IRIDQ
+	:identifiedBy :comp_otc_IRIDQ_Gazetteer;
+	a :Otc;
+	RDFS:label "IRIDQ".
+
+:comp_otc_ISPD_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "INTERSPEED",
+		"ISPD/c=auc";
+	a :Gazetteer.
+
+:comp_otc_ISPD
+	:identifiedBy :comp_otc_ISPD_Gazetteer;
+	a :Otc;
+	RDFS:label "ISPD".
+
+:comp_otc_ISVG_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "INTEGRATED SERVICES GROUP INC",
+		"ISVG/c=auc";
+	a :Gazetteer.
+
+:comp_otc_ISVG
+	:identifiedBy :comp_otc_ISVG_Gazetteer;
+	a :Otc;
+	RDFS:label "ISVG".
+
+:comp_otc_ITGL_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "GREEN MOUNTAIN CAPITAL INC",
+		"ITGL/c=auc";
+	a :Gazetteer.
+
+:comp_otc_ITGL
+	:identifiedBy :comp_otc_ITGL_Gazetteer;
+	a :Otc;
+	RDFS:label "ITGL".
+
+:comp_otc_KENCA_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	a :Gazetteer.
+
+:comp_otc_KENCA
+	:identifiedBy :comp_otc_KENCA_Gazetteer;
+	a :Otc;
+	RDFS:label "KENCA".
+
+:comp_otc_LEXI_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "LEXICO RSCS";
+	a :Gazetteer.
+
+:comp_otc_LEXI
+	:identifiedBy :comp_otc_LEXI_Gazetteer;
+	a :Otc;
+	RDFS:label "LEXI".
+
+:comp_otc_LTWC_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "LTWC CORP",
+		"LTWC/c=auc";
+	a :Gazetteer.
+
+:comp_otc_LTWC
+	:identifiedBy :comp_otc_LTWC_Gazetteer;
+	a :Otc;
+	RDFS:label "LTWC".
+
+:comp_otc_LYLP_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "LOYALTY POINT INC",
+		"LYLP/c=auc";
+	a :Gazetteer.
+
+:comp_otc_LYLP
+	:identifiedBy :comp_otc_LYLP_Gazetteer;
+	a :Otc;
+	RDFS:label "LYLP".
+
+:comp_otc_MBEW_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "MALIBU ENTMT WRL",
+		"MBEW/c=auc";
+	a :Gazetteer.
+
+:comp_otc_MBEW
+	:identifiedBy :comp_otc_MBEW_Gazetteer;
+	a :Otc;
+	RDFS:label "MBEW".
+
+:comp_otc_MDEA_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "MEDIA 100 INC";
+	a :Gazetteer.
+
+:comp_otc_MDEA
+	:identifiedBy :comp_otc_MDEA_Gazetteer;
+	a :Otc;
+	RDFS:label "MDEA".
+
+:comp_otc_MDRA_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "MEDICALCV INC";
+	a :Gazetteer.
+
+:comp_otc_MDRA
+	:identifiedBy :comp_otc_MDRA_Gazetteer;
+	a :Otc;
+	RDFS:label "MDRA".
+
+:comp_otc_MELL_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	a :Gazetteer.
+
+:comp_otc_MELL
+	:identifiedBy :comp_otc_MELL_Gazetteer;
+	a :Otc;
+	RDFS:label "MELL".
+
+:comp_otc_MIIX_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "MIIX GROUP",
+		"MIIX/c=auc";
+	a :Gazetteer.
+
+:comp_otc_MIIX
+	:identifiedBy :comp_otc_MIIX_Gazetteer;
+	a :Otc;
+	RDFS:label "MIIX".
+
+:comp_otc_MRVT_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "MIRAVANT MEDICAL";
+	a :Gazetteer.
+
+:comp_otc_MRVT
+	:identifiedBy :comp_otc_MRVT_Gazetteer;
+	a :Otc;
+	RDFS:label "MRVT".
+
+:comp_otc_NETO_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "NETO/c=auc",
+		"NETOBJECTS INC C";
+	a :Gazetteer.
+
+:comp_otc_NETO
+	:identifiedBy :comp_otc_NETO_Gazetteer;
+	a :Otc;
+	RDFS:label "NETO".
+
+:comp_otc_NPNTQ_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "NORTHPOINT COMMS";
+	a :Gazetteer.
+
+:comp_otc_NPNTQ
+	:identifiedBy :comp_otc_NPNTQ_Gazetteer;
+	a :Otc;
+	RDFS:label "NPNTQ".
+
+:comp_otc_NTHD_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "NETIMPACT HOLDINGS INC",
+		"NTHD/c=auc";
+	a :Gazetteer.
+
+:comp_otc_NTHD
+	:identifiedBy :comp_otc_NTHD_Gazetteer;
+	a :Otc;
+	RDFS:label "NTHD".
+
+:comp_otc_NTPL_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "NETPLEX GROUP",
+		"NTPL/c=auc";
+	a :Gazetteer.
+
+:comp_otc_NTPL
+	:identifiedBy :comp_otc_NTPL_Gazetteer;
+	a :Otc;
+	RDFS:label "NTPL".
+
+:comp_otc_NWGN_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "NEWGEN TECHNOLOGIES INC",
+		"NWGN/c=auc";
+	a :Gazetteer.
+
+:comp_otc_NWGN
+	:identifiedBy :comp_otc_NWGN_Gazetteer;
+	a :Otc;
+	RDFS:label "NWGN".
+
+:comp_otc_OLNK_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "ONE LINK 4 TRAVEL INC";
+	a :Gazetteer.
+
+:comp_otc_OLNK
+	:identifiedBy :comp_otc_OLNK_Gazetteer;
+	a :Otc;
+	RDFS:label "OLNK".
+
+:comp_otc_ORLSF_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "ORIOLE SYS",
+		"ORLSF/c=auc";
+	a :Gazetteer.
+
+:comp_otc_ORLSF
+	:identifiedBy :comp_otc_ORLSF_Gazetteer;
+	a :Otc;
+	RDFS:label "ORLSF".
+
+:comp_otc_OSRC_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "ONESOURCE TECHS",
+		"OSRC/c=auc";
+	a :Gazetteer.
+
+:comp_otc_OSRC
+	:identifiedBy :comp_otc_OSRC_Gazetteer;
+	a :Otc;
+	RDFS:label "OSRC".
+
+:comp_otc_PCFC_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "PACIFIC FINANCIAL CORP";
+	a :Gazetteer.
+
+:comp_otc_PCFC
+	:identifiedBy :comp_otc_PCFC_Gazetteer;
+	a :Otc;
+	RDFS:label "PCFC".
+
+:comp_otc_PSYC_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "PSYCHEMEDICS";
+	a :Gazetteer.
+
+:comp_otc_PSYC
+	:identifiedBy :comp_otc_PSYC_Gazetteer;
+	a :Otc;
+	RDFS:label "PSYC".
+
+:comp_otc_PVNX_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "PVNX/c=auc";
+	a :Gazetteer.
+
+:comp_otc_PVNX
+	:identifiedBy :comp_otc_PVNX_Gazetteer;
+	a :Otc;
+	RDFS:label "PVNX".
+
+:comp_otc_PWREQ_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "OCEAN POWER",
+		"PWREQ/c=auc";
+	a :Gazetteer.
+
+:comp_otc_PWREQ
+	:identifiedBy :comp_otc_PWREQ_Gazetteer;
+	a :Otc;
+	RDFS:label "PWREQ".
+
+:comp_otc_ROIX_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "RESP ONCOLOGY",
+		"ROIX/c=auc";
+	a :Gazetteer.
+
+:comp_otc_ROIX
+	:identifiedBy :comp_otc_ROIX_Gazetteer;
+	a :Otc;
+	RDFS:label "ROIX".
+
+:comp_otc_SCYA_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "SCYA/c=auc",
+		"SECURITY ASSET";
+	a :Gazetteer.
+
+:comp_otc_SCYA
+	:identifiedBy :comp_otc_SCYA_Gazetteer;
+	a :Otc;
+	RDFS:label "SCYA".
+
+:comp_otc_SDCF_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "SANDER CONFECTIO",
+		"SDCF/c=auc";
+	a :Gazetteer.
+
+:comp_otc_SDCF
+	:identifiedBy :comp_otc_SDCF_Gazetteer;
+	a :Otc;
+	RDFS:label "SDCF".
+
+:comp_otc_STLB_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "STERLING BUSINES",
+		"STLB/c=auc";
+	a :Gazetteer.
+
+:comp_otc_STLB
+	:identifiedBy :comp_otc_STLB_Gazetteer;
+	a :Otc;
+	RDFS:label "STLB".
+
+:comp_otc_SVTLQ_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "SIVAULT SYSTEMS INC";
+	a :Gazetteer.
+
+:comp_otc_SVTLQ
+	:identifiedBy :comp_otc_SVTLQ_Gazetteer;
+	a :Otc;
+	RDFS:label "SVTLQ".
+
+:comp_otc_TCOA_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "TATA MOTORS LTD.";
+	a :Gazetteer.
+
+:comp_otc_TCOA
+	:identifiedBy :comp_otc_TCOA_Gazetteer;
+	a :Otc;
+	RDFS:label "TCOA".
+
+:comp_otc_THLT_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "TECHLITE";
+	a :Gazetteer.
+
+:comp_otc_THLT
+	:identifiedBy :comp_otc_THLT_Gazetteer;
+	a :Otc;
+	RDFS:label "THLT".
+
+:comp_otc_TLDG_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "TELEDIGITAL INC",
+		"TLDG/c=auc";
+	a :Gazetteer.
+
+:comp_otc_TLDG
+	:identifiedBy :comp_otc_TLDG_Gazetteer;
+	a :Otc;
+	RDFS:label "TLDG".
+
+:comp_otc_TVCE_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "TVC TELECOM INC";
+	a :Gazetteer.
+
+:comp_otc_TVCE
+	:identifiedBy :comp_otc_TVCE_Gazetteer;
+	a :Otc;
+	RDFS:label "TVCE".
+
+:comp_otc_TWAIQ_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "TRANS WORLD AIR",
+		"TWAIQ/c=auc";
+	a :Gazetteer.
+
+:comp_otc_TWAIQ
+	:identifiedBy :comp_otc_TWAIQ_Gazetteer;
+	a :Otc;
+	RDFS:label "TWAIQ".
+
+:comp_otc_UCPC_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "UCPC/c=auc",
+		"UNICAPITAL";
+	a :Gazetteer.
+
+:comp_otc_UCPC
+	:identifiedBy :comp_otc_UCPC_Gazetteer;
+	a :Otc;
+	RDFS:label "UCPC".
+
+:comp_otc_UVCL_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "HYPERMEDIA",
+		"UVCL/c=auc";
+	a :Gazetteer.
+
+:comp_otc_UVCL
+	:identifiedBy :comp_otc_UVCL_Gazetteer;
+	a :Otc;
+	RDFS:label "UVCL".
+
+:comp_otc_VSNI_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "VISEON";
+	a :Gazetteer.
+
+:comp_otc_VSNI
+	:identifiedBy :comp_otc_VSNI_Gazetteer;
+	a :Otc;
+	RDFS:label "VSNI".
+
+:comp_otc_VSTCQ_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "GTX GLOBAL CORPORATION",
+		"VSTCQ/c=auc";
+	a :Gazetteer.
+
+:comp_otc_VSTCQ
+	:identifiedBy :comp_otc_VSTCQ_Gazetteer;
+	a :Otc;
+	RDFS:label "VSTCQ".
+
+:comp_otc_WCAP_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "WCAP/c=auc",
+		"WINFIELD CAP";
+	a :Gazetteer.
+
+:comp_otc_WCAP
+	:identifiedBy :comp_otc_WCAP_Gazetteer;
+	a :Otc;
+	RDFS:label "WCAP".
+
+:comp_otc_WMDA_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "WATCHIT MEDIA INC",
+		"WMDA/c=auc";
+	a :Gazetteer.
+
+:comp_otc_WMDA
+	:identifiedBy :comp_otc_WMDA_Gazetteer;
+	a :Otc;
+	RDFS:label "WMDA".
+
+:comp_otc_XPDR_Gazetteer
+	:hasDocumentLevelCondition :gaz_trading;
+	:term "XPDR/c=auc",
+		"XPEDIORINC";
+	a :Gazetteer.
+
+:comp_otc_XPDR
+	:identifiedBy :comp_otc_XPDR_Gazetteer;
+	a :Otc;
+	RDFS:label "XPDR".

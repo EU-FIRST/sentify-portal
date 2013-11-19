@@ -1,0 +1,93 @@
+/* line 3, ../sass/html.scss */
+.news li:after, .read_more a:before {
+  font-family: FontAwesome;
+}
+
+/* line 7, ../sass/html.scss */
+.read_more a:before {
+  padding-right: 0.6em;
+}
+
+/* line 9, ../sass/html.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 11, ../sass/html.scss */
+body {
+  color: #4d4d4d;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.4em;
+}
+
+/* line 17, ../sass/html.scss */
+.region-sidebar {
+  color: #6b6b6b;
+}
+
+/* line 22, ../sass/html.scss */
+#page-wrapper {
+  font-size: 0.9375em;
+  font-size: 0.875em;
+}
+
+/* line 27, ../sass/html.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 31, ../sass/html.scss */
+#header {
+  color: #e3c67f;
+}
+/* line 33, ../sass/html.scss */
+#header a {
+  color: #fbf6a8;
+}
+
+/* line 44, ../sass/html.scss */
+ul.menu {
+  list-style-type: none;
+}
+
+/* line 49, ../sass/html.scss */
+h1, h2 {
+  margin: 0;
+  padding: 0.4em 0;
+}
+
+h3 {
+	margin: 0;
+	padding: 0.1em 0;
+}
+
+/* line 62, ../sass/html.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 71, ../sass/html.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 75, ../sass/html.scss */
+html[xmlns] .clearfix {
+  display: block;
+}
+
+/* line 79, ../sass/html.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+*:focus {
+  outline: none;
+}

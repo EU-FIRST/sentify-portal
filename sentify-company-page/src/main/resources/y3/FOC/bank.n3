@@ -1,0 +1,238 @@
+@prefix : <http://project-first.eu/ontology#>.
+@prefix OWL: <http://www.w3.org/2002/07/owl#>.
+@prefix RDF: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix RDFS: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix XSD: <http://www.w3.org/2001/XMLSchema#>.
+
+:bank_Agricultural_Bank_Of_Greece_Gazetteer
+	:term "Ag. Bank Greece",
+		"Agricultural Bank Of Greece";
+	a :Gazetteer.
+
+:bank_Agricultural_Bank_Of_Greece
+	:identifiedBy :bank_Agricultural_Bank_Of_Greece_Gazetteer;
+	a :Bank;
+	RDFS:label "Agricultural Bank Of Greece".
+
+:bank_Alpha_Bank_Ae_Gazetteer
+	:term "Alpha Bank",
+		"Alpha Bank Ae",
+        "ALPHA/c=auc";
+	a :Gazetteer.
+
+:bank_Alpha_Bank_Ae
+	:identifiedBy :bank_Alpha_Bank_Ae_Gazetteer;
+	a :Bank;
+	RDFS:label "Alpha Bank Ae".
+
+:bank_Amlin_Plc_Gazetteer
+	:term "Amlin",
+		"Amlin Plc";
+	a :Gazetteer.
+
+:bank_Amlin_Plc
+	:identifiedBy :bank_Amlin_Plc_Gazetteer;
+	a :Bank;
+	RDFS:label "Amlin Plc".
+
+:bank_Attica_Bank_Gazetteer
+	:term "Attica",
+		"Attica Bank";
+	a :Gazetteer.
+
+:bank_Attica_Bank
+	:identifiedBy :bank_Attica_Bank_Gazetteer;
+	a :Bank;
+	RDFS:label "Attica Bank".
+
+:bank_Baloise_Holding_Ag_Gazetteer
+	:term "Baloise",
+		"Baloise Holding Ag";
+	a :Gazetteer.
+
+:bank_Baloise_Holding_Ag
+	:identifiedBy :bank_Baloise_Holding_Ag_Gazetteer;
+	a :Bank;
+	RDFS:label "Baloise Holding Ag".
+
+:bank_Danske_Bank_A_s_Gazetteer
+	:term "Banske",
+		"Danske Bank A/s",
+        "DANBNK/c=auc";
+	a :Gazetteer.
+
+:bank_Danske_Bank_A_s
+	:identifiedBy :bank_Danske_Bank_A_s_Gazetteer;
+	a :Bank;
+	RDFS:label "Danske Bank A/s".
+
+:bank_Delta_Lloyd_Nv_Gazetteer
+	:term "Delta Lloyd",
+		"Delta Lloyd Nv";
+	a :Gazetteer.
+
+:bank_Delta_Lloyd_Nv
+	:identifiedBy :bank_Delta_Lloyd_Nv_Gazetteer;
+	a :Bank;
+	RDFS:label "Delta Lloyd Nv".
+
+:bank_Deutsche_Postbank_Ag_Gazetteer
+	:term "Deutsche Postbank",
+		"Deutsche Postbank Ag",
+		"Postbank";
+	a :Gazetteer.
+
+:bank_Deutsche_Postbank_Ag
+	:identifiedBy :bank_Deutsche_Postbank_Ag_Gazetteer;
+	a :Bank;
+	RDFS:label "Deutsche Postbank Ag".
+
+:bank_Dexia_Sa_Gazetteer
+	:term "Dexia",
+		"Dexia Sa",
+        "DEXCL/c=auc";
+	a :Gazetteer.
+
+:bank_Dexia_Sa
+	:identifiedBy :bank_Dexia_Sa_Gazetteer;
+	a :Bank;
+	RDFS:label "Dexia Sa".
+
+:bank_Efg_Eurobank_Ergasias_Sa_Gazetteer
+	:term #"EFG/c=auc",
+		"Efg Eurobank Ergasias Sa",
+		"Ergasias";
+	a :Gazetteer.   
+
+:bank_Efg_Eurobank_Ergasias_Sa_ACR_Gazetter
+        :term "EFG/c=auc";
+        :hasDocumentLevelCondition :gaz_bank;
+        a :Gazetteer.
+
+:bank_Efg_Eurobank_Ergasias_Sa
+	:identifiedBy :bank_Efg_Eurobank_Ergasias_Sa_Gazetteer;
+    :identifiedBy :bank_Efg_Eurobank_Ergasias_Sa_ACR_Gazetteer;
+	a :Bank;
+	RDFS:label "Efg Eurobank Ergasias Sa".
+
+:bank_Emporiki_Bank_Sa_Gazetteer
+	:term "Emporiki",
+		"Emporiki Bank Sa";
+	a :Gazetteer.
+
+:bank_Emporiki_Bank_Sa
+	:identifiedBy :bank_Emporiki_Bank_Sa_Gazetteer;
+	a :Bank;
+	RDFS:label "Emporiki Bank Sa".
+
+:bank_Helvetia_Holding_Ag_Gazetteer
+	:term "Helvetia",
+		"Helvetia Holding Ag";
+	a :Gazetteer.
+
+:bank_Helvetia_Holding_Ag
+	:identifiedBy :bank_Helvetia_Holding_Ag_Gazetteer;
+	a :Bank;
+	RDFS:label "Helvetia Holding Ag".
+
+
+:bank_Landesbank_Berlin_Holding_Ag_Gazetteer
+	:term "Landesbank Berlin",
+		"Landesbank Berlin Holding Ag";
+	a :Gazetteer.
+
+:bank_Landesbank_Berlin_Holding_Ag
+	:identifiedBy :bank_Landesbank_Berlin_Holding_Ag_Gazetteer;
+	a :Bank;
+	RDFS:label "Landesbank Berlin Holding Ag".
+
+:bank_Milano_Assicurazioni_Spa_Gazetteer
+	:term "Milano Assicurazioni",
+		"Milano Assicurazioni Spa";
+	a :Gazetteer.
+
+:bank_Milano_Assicurazioni_Spa
+	:identifiedBy :bank_Milano_Assicurazioni_Spa_Gazetteer;
+	a :Bank;
+	RDFS:label "Milano Assicurazioni Spa".
+
+:bank_Natixis_Gazetteer
+	:term "Natixis";
+	a :Gazetteer.
+
+:bank_Natixis
+	:identifiedBy :bank_Natixis_Gazetteer;
+	a :Bank;
+	RDFS:label "Natixis".
+
+:bank_Phoenix_Group_Holdings_Gazetteer
+	:term "Phoenix Group Holdings";
+	a :Gazetteer.
+
+:bank_Phoenix_Group_Holdings
+	:identifiedBy :bank_Phoenix_Group_Holdings_Gazetteer;
+	a :Bank;
+	RDFS:label "Phoenix Group Holdings".
+
+:bank_Piraeus_Bank_Sa_Gazetteer
+	:term "Piraeus",
+		"Piraeus Bank Sa",
+		"Pireus";
+	a :Gazetteer.
+
+:bank_Piraeus_Bank_Sa
+	:identifiedBy :bank_Piraeus_Bank_Sa_Gazetteer;
+	a :Bank;
+	RDFS:label "Piraeus Bank Sa".
+
+:bank_Premafin_Finanziaria_Spa_Gazetteer
+	:term "Premafin",
+		"Premafin Finanziaria Spa";
+	a :Gazetteer.
+
+:bank_Premafin_Finanziaria_Spa
+	:identifiedBy :bank_Premafin_Finanziaria_Spa_Gazetteer;
+	a :Bank;
+	RDFS:label "Premafin Finanziaria Spa".
+
+:bank_Swiss_Life_Holding_Ag_Gazetteer
+	:term "Swiss Life",
+		"Swiss Life Holding Ag";
+	a :Gazetteer.
+
+:bank_Swiss_Life_Holding_Ag
+	:identifiedBy :bank_Swiss_Life_Holding_Ag_Gazetteer;
+	a :Bank;
+	RDFS:label "Swiss Life Holding Ag".
+
+:bank_Unipol_Gruppo_Finanziario_Spa_Gazetteer
+	:term "Unipol",
+		"Unipol Gruppo Finanziario Spa";
+	a :Gazetteer.
+
+:bank_Unipol_Gruppo_Finanziario_Spa
+	:identifiedBy :bank_Unipol_Gruppo_Finanziario_Spa_Gazetteer;
+	a :Bank;
+	RDFS:label "Unipol Gruppo Finanziario Spa".
+
+:bank_Wuerttembergische_Lebensversic_Gazetteer
+	:term "Wuerttemberg Versicherung",
+		"Wuerttembergische Lebensversic",
+		"Wuerttembergische Lebensversicherung";
+	a :Gazetteer.
+
+:bank_Wuerttembergische_Lebensversic
+	:identifiedBy :bank_Wuerttembergische_Lebensversic_Gazetteer;
+	a :Bank;
+	RDFS:label "Wuerttembergische Lebensversic".
+
+   
+:bank_northern_rock_Gazetteer
+	:term "northern rock",
+		"NROCK";
+	a :Gazetteer.
+
+:bank_northern_rock
+	:identifiedBy :bank_northern_rock_Gazetteer;
+	a :Bank;
+	RDFS:label "northern rock".    

@@ -1,0 +1,54 @@
+@import "_variables.scss";
+@import "compass/css3"; 
+
+body {
+  background:#e6e6e6 url(../images/gradient_texture.png);
+}
+
+
+
+#header {
+  background:$rojo_oscuro;
+  box-shadow:0 5px 5px silver;
+  }
+.main-inner {background:$gris_main;}
+
+// #main-content {background:$gris_main_content;}
+@media all and (min-width:960px) {
+
+#header {
+
+  @include background-image(linear-gradient(bottom, #7e1e1d, #904028)); 
+  // @include background-image(linear-gradient(bottom, #904028 10px, #7e1e1d 11px, #904028)); 
+@include background-image(linear-gradient(bottom, #7e1e1d, #904028)); 
+  
+   z-index:99;
+
+ 
+  position:relative;
+}
+
+.main-inner {
+  background:$gris_main;
+  border:1px solid white;
+  border-top-color:silver;
+  box-shadow:0 0 15px silver;
+   
+}
+
+
+#navigation:after, #header:after {
+  content:"";
+  width:100%;
+  height:15px;
+  background:#904028;
+  
+  left:0;
+  position:absolute;
+  bottom:0;
+  
+}
+#header:after {height:16px; }
+
+#navigation:after { z-index:99;}
+}

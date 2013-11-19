@@ -1,0 +1,32 @@
+@import "_variables.scss";
+@import "compass/css3"; 
+
+
+
+
+#header-inner {max-width:1200px;margin:0 auto;text-align:center;}
+.inner {margin:0 20px;}
+
+body {padding:0;margin:0;}
+
+@media all and (min-width:720px) {
+
+}
+@media all and (min-width:960px) {
+.main-inner {margin:0 10px;background:silver;position:relative;FLOAT:LEFT;}
+  #main {
+    max-width:1200px;
+    margin:0 auto;
+    
+   
+    position:relative;
+   
+    display:block;
+
+
+  }
+
+  #main-content {width:$content;float:left;margin-right:- $content;}
+  #region-sidebar {width:$side;float:left;margin-right:-100%;margin-left:$content;}
+  
+}

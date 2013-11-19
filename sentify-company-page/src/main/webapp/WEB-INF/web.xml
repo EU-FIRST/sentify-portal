@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="true"
+         version="3.0">
+    <display-name>Sentify Portal</display-name>
+    <context-param>
+        <description>Sentify portal</description>
+        <param-name>productionMode</param-name>
+        <param-value>false</param-value>
+    </context-param>
+    
+    <!-- H2 database listener (TCP) -->
+	<context-param>
+		<param-name>db.url</param-name>
+		<param-value>jdbc:h2:tcp://localhost/~/aggregates</param-value>
+	</context-param>
+	<context-param>
+		<param-name>db.user</param-name>
+		<param-value>sa</param-value>
+	</context-param>
+	<context-param>
+		<param-name>db.password</param-name>
+		<param-value>sa</param-value>
+	</context-param>
+	<context-param>
+		<param-name>db.tcpServer</param-name>
+		<param-value>-tcpAllowOthers</param-value>
+	</context-param>
+	<listener>
+		<listener-class>org.h2.server.web.DbStarter</listener-class>
+	</listener>
+
+	<!-- H2 database console -->
+	<servlet>
+		<servlet-name>H2Console</servlet-name>
+		<servlet-class>org.h2.server.web.WebServlet</servlet-class>
+		<init-param>
+			<param-name>webAllowOthers</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>H2Console</servlet-name>
+		<url-pattern>/console/*</url-pattern>
+	</servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+<!--     <servlet>
+        <servlet-name>Vaadin Application Servlet</servlet-name>
+        <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+        <init-param>
+            <description>Vaadin UI to display</description>
+            <param-name>UI</param-name>
+            <param-value>eu.first.sentify.companypage.MyVaadinUI</param-value>
+        </init-param>
+                <init-param>
+            <description>Application widgetset</description>
+            <param-name>widgetset</param-name>
+            <param-value>eu.first.sentify.companypage.AppWidgetSet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Vaadin Application Servlet</servlet-name>
+        <url-pattern>/company/*</url-pattern>
+        <url-pattern>/VAADIN/*</url-pattern>
+    </servlet-mapping> -->
+
+	<!-- Gzip filter for compressing of big files (widgetset) 
+	See: http://download.eclipse.org/jetty/stable-7/apidocs/org/eclipse/jetty/servlets/GzipFilter.html
+	-->
+	<filter>
+		<filter-name>GzipFilter</filter-name>
+		<filter-class>org.eclipse.jetty.servlets.GzipFilter</filter-class>
+		<init-param>
+			<param-name>mimeTypes</param-name>
+			<param-value>text/html,text/plain,text/xml,application/xhtml+xml,text/css,application/javascript,image/svg+xml,application/x-javascript</param-value>
+		</init-param>
+		<init-param>
+			<param-name>minGzipSize</param-name>
+			<param-value>20000</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>GzipFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> 
+  
+    <!--  -->
+    <servlet>
+        <servlet-name>Vaadin Application Servlet 2</servlet-name>
+        <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+        <init-param>
+            <description>Vaadin UI to display</description>
+            <param-name>UI</param-name>
+            <param-value>vaadin_test.vaadin_test.MyVaadinUI</param-value>
+        </init-param>
+                <init-param>
+            <description>Application widgetset</description>
+            <param-name>widgetset</param-name>
+            <param-value>eu.first.sentify.companypage.AppWidgetSet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Vaadin Application Servlet 2</servlet-name>
+        <url-pattern>/vaadin-test/*</url-pattern>
+        <url-pattern>/VAADIN/*</url-pattern>
+    </servlet-mapping>
+    
+    <!--  -->
+    <servlet>
+        <servlet-name>Vaadin Application Servlet 4</servlet-name>
+        <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+        <init-param>
+            <description>Vaadin UI to display</description>
+            <param-name>UI</param-name>
+            <param-value>vaadin_test2.vaadin_test2.MyVaadinUI</param-value>
+        </init-param>
+                <init-param>
+            <description>Application widgetset</description>
+            <param-name>widgetset</param-name>
+            <param-value>eu.first.sentify.companypage.AppWidgetSet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Vaadin Application Servlet 4</servlet-name>
+        <url-pattern>/vaadin-test2/*</url-pattern>
+        <url-pattern>/VAADIN/*</url-pattern>
+    </servlet-mapping>
+    
+	<!--  -->
+    <servlet>
+        <servlet-name>News List Widget</servlet-name>
+        <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+        <init-param>
+            <description>Vaadin UI to display</description>
+            <param-name>UI</param-name>
+            <param-value>eu.first.sentify.widget.companynewslist.app.WidgetApp</param-value>
+        </init-param>
+        <init-param>
+            <description>Application widgetset</description>
+            <param-name>widgetset</param-name>
+            <param-value>eu.first.sentify.companypage.AppWidgetSet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>News List Widget</servlet-name>
+        <url-pattern>/sentify-company-newslist/*</url-pattern>
+        <url-pattern>/VAADIN/*</url-pattern>
+    </servlet-mapping>
+
+	<!--  -->
+    <servlet>
+        <servlet-name>News List Widget (Fuzzy Sentiment)</servlet-name>
+        <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+        <init-param>
+            <description>Vaadin UI to display</description>
+            <param-name>UI</param-name>
+            <param-value>eu.first.sentify.widget.companynewslistfuzzy.app.WidgetApp</param-value>
+        </init-param>
+        <init-param>
+            <description>Application widgetset</description>
+            <param-name>widgetset</param-name>
+            <param-value>eu.first.sentify.companypage.AppWidgetSet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>News List Widget (Fuzzy Sentiment)</servlet-name>
+        <url-pattern>/sentify-company-newslist-fuzzy/*</url-pattern>
+        <url-pattern>/VAADIN/*</url-pattern>
+    </servlet-mapping>
+	    
+	<!--  -->
+    <servlet>
+        <servlet-name>Drilldown Widget</servlet-name>
+        <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+        <init-param>
+            <description>Vaadin UI to display</description>
+            <param-name>UI</param-name>
+            <param-value>eu.first.sentify.widget.drilldown.app.DrillDownApp</param-value>
+        </init-param>
+        <init-param>
+            <description>Application widgetset</description>
+            <param-name>widgetset</param-name>
+            <param-value>eu.first.sentify.companypage.AppWidgetSet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Drilldown Widget</servlet-name>
+        <url-pattern>/sentify-drilldown/*</url-pattern>
+        <url-pattern>/VAADIN/*</url-pattern>
+    </servlet-mapping>
+	    
+	<!--  -->
+    <servlet>
+        <servlet-name>Documents Analyzed Servlet</servlet-name>
+        <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+        <init-param>
+            <description>Vaadin UI to display</description>
+            <param-name>UI</param-name>
+            <param-value>eu.first.sentify.widgets.documentsanalyzed.app.DocumentsAnalyzedApp</param-value>
+        </init-param>
+        <init-param>
+            <description>Application widgetset</description>
+            <param-name>widgetset</param-name>
+            <param-value>eu.first.sentify.companypage.AppWidgetSet</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Documents Analyzed Servlet</servlet-name>
+        <url-pattern>/sentify-documents-analyzed/*</url-pattern>
+        <url-pattern>/VAADIN/*</url-pattern>
+    </servlet-mapping>
+    
+   	<!--  -->
+    <servlet>
+        <servlet-name>Company Search Servlet</servlet-name>
+        <servlet-class>eu.first.sentify.companypage.search.CompanySearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Company Search Servlet</servlet-name>
+        <url-pattern>/search-old</url-pattern>
+    </servlet-mapping>
+    
+   	<!--  -->
+    <servlet>
+        <servlet-name>Company Search Servlet 2</servlet-name>
+        <servlet-class>eu.first.sentify.companypage.search.CompanySearchServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Company Search Servlet 2</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+    
+   	<!--  -->
+    <servlet>
+        <servlet-name>Visualisations Servlet</servlet-name>
+        <servlet-class>eu.first.sentify.companypage.visualisations.VisualisationsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Visualisations Servlet</servlet-name>
+        <url-pattern>/visualisations</url-pattern>
+    </servlet-mapping>
+
+   	<!--  -->
+    <servlet>
+        <servlet-name>Company Servlet</servlet-name>
+       <servlet-class>eu.first.sentify.companypage.company.CompanyPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Company Servlet</servlet-name>
+        <url-pattern>/company</url-pattern>
+        <url-pattern>/company-fuzzy</url-pattern>
+        <url-pattern>/company-fuzzy2</url-pattern>
+        <url-pattern>/company-reputation</url-pattern>
+    </servlet-mapping>    
+    
+   	<!--  -->
+    <servlet>
+        <servlet-name>Stock Servlet</servlet-name>
+       <servlet-class>eu.first.sentify.companypage.stock.StockPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Stock Servlet</servlet-name>
+        <url-pattern>/stocks</url-pattern>
+        <url-pattern>/stocks-fuzzy</url-pattern>
+        <url-pattern>/stocks-fuzzy2</url-pattern>
+        <url-pattern>/stocks-twitter</url-pattern>
+    </servlet-mapping>    
+
+   	<!--  -->
+    <servlet>
+        <servlet-name>Drilldown Servlet</servlet-name>
+       <servlet-class>eu.first.sentify.companypage.drilldown.DocumentDrilldownServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Drilldown Servlet</servlet-name>
+        <url-pattern>/drilldown</url-pattern>
+    </servlet-mapping>    
+    
+    <!--  -->
+    <servlet>
+        <servlet-name>Ontology Update</servlet-name>
+       <servlet-class>eu.first.sentify.companypage.ontologyupdate.OntologyUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ontology Update</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>    
+    
+	<!-- sources -->    
+    <servlet>
+	    <servlet-name>News Sources</servlet-name>
+	    <jsp-file>/sources.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>News Sources</servlet-name>
+	    <url-pattern>/sources</url-pattern>
+	</servlet-mapping>
+
+   	<!--  -->
+    <servlet>
+        <servlet-name>Country Servlet</servlet-name>
+       <servlet-class>eu.first.sentify.companypage.country.CountryPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Country Servlet</servlet-name>
+        <url-pattern>/world</url-pattern>
+        <url-pattern>/countries</url-pattern>
+        <url-pattern>/countries-fuzzy</url-pattern>
+        <url-pattern>/countries-fuzzy2</url-pattern>
+    </servlet-mapping>    
+    
+   	<!--  -->
+    <servlet>
+        <servlet-name>Other Servlet</servlet-name>
+       <servlet-class>eu.first.sentify.companypage.other.OtherPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Other Servlet</servlet-name>
+        <url-pattern>/other</url-pattern>
+        <url-pattern>/other-fuzzy</url-pattern>
+        <url-pattern>/other-fuzzy2</url-pattern>
+    </servlet-mapping>    
+    
+    
+   	<!--  -->
+    <servlet>
+        <servlet-name>Datasource Servlet 1</servlet-name>
+        <servlet-class>eu.first.sentify.companypage.datasources.SOTimeSeries</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Datasource Servlet 1</servlet-name>
+        <url-pattern>/timeserie</url-pattern>
+    </servlet-mapping>
+    
+    <!--  -->
+    <servlet>
+        <servlet-name>Datasource Servlet 2</servlet-name>
+        <servlet-class>eu.first.sentify.companypage.datasources.SOTimeSeriesVolume</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Datasource Servlet 2</servlet-name>
+        <url-pattern>/timeserievolume</url-pattern>
+    </servlet-mapping>
+
+    <!--  -->
+    <servlet>
+        <servlet-name>Datasource Servlet 3</servlet-name>
+        <servlet-class>eu.first.sentify.companypage.datasources.TrendingTopics</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Datasource Servlet 3</servlet-name>
+        <url-pattern>/trendingtopics</url-pattern>
+    </servlet-mapping>
+ 
+    <!--  -->
+    <servlet>
+        <servlet-name>Datasource Servlet 4</servlet-name>
+        <servlet-class>eu.first.sentify.companypage.datasources.SOTimeSeriesFuzzy</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Datasource Servlet 4</servlet-name>
+        <url-pattern>/timeseriefuzzy</url-pattern>
+    </servlet-mapping>
+           
+   	<!--  -->
+    <servlet>
+		<servlet-name>Twitter Sentiment Service Proxy</servlet-name>
+		<servlet-class>eu.first.sentify.companypage.twittersentiment.TwitterSentiment</servlet-class>
+	</servlet>
+ 
+	<servlet-mapping>
+		<servlet-name>Twitter Sentiment Service Proxy</servlet-name>
+		<url-pattern>/GetSentimentTimeline</url-pattern>
+	</servlet-mapping>
+	
+	<!-- sentify-aggregations -->
+	<servlet>
+        <servlet-name>Aggregates Countries</servlet-name>
+        <servlet-class>eu.first.sentify.aggregates.datasource.CountriesAggregatedSentiment</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Aggregates Countries</servlet-name>
+        <url-pattern>/aggregates/cas</url-pattern>
+    </servlet-mapping>
+	
+	<!-- to be uncommented  -->
+ 	<!-- 
+ 	<welcome-file-list>
+    	<welcome-file>maintenance.jsp</welcome-file>
+    </welcome-file-list>
+ 	 -->
+	
+	<mime-mapping>
+		<extension>woff</extension>
+		<mime-type>application/font-woff</mime-type>
+	</mime-mapping>
+	<mime-mapping>
+		<extension>map</extension>
+		<mime-type>application/json</mime-type>
+	</mime-mapping>
+	    	    
+</web-app>

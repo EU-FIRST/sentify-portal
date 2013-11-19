@@ -1,0 +1,41 @@
+@import "_variables.scss";
+#logo {
+
+text-indent: 200%;
+	white-space: nowrap;
+background:url(../images/logo_head_small.png) no-repeat;
+width:94px;
+height:50px;
+display:inline-block;
+float:left;
+margin:10px 0 5px 30px;
+
+overflow:hidden;
+
+}
+
+a#main-menu-link {display:inline-block;background:$rojo_claro;float:right;margin-top:18px;margin-right:10px;padding:5px 15px;opacity:0.8;border:1px solid $enlaces_head}
+a#main-menu-link:hover {opacity:1}
+
+#header {overflow:hidden;}
+
+
+#footer {text-align:center;padding:15px;;clear:both;}
+
+@media all and (min-width:960px) {
+
+  #logo {
+
+  background:url(../images/logo_head.png) no-repeat;
+  width:160px;
+  height:85px;
+  display:block;
+
+
+  }
+  a#main-menu-link {display:none;}
+
+}
+
+
+

@@ -1,0 +1,89 @@
+@prefix : <http://project-first.eu/ontology#>.
+@prefix OWL: <http://www.w3.org/2002/07/owl#>.
+@prefix RDF: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix RDFS: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix XSD: <http://www.w3.org/2001/XMLSchema#>.
+
+:n_aint
+	a :Negation;
+	RDFS:label "aint".
+
+:n_arent
+	a :Negation;
+	RDFS:label "arent".
+
+:n_cant
+	a :Negation;
+	RDFS:label "cant".
+
+:n_couldnt
+	a :Negation;
+	RDFS:label "couldnt".
+
+:n_didnt
+	a :Negation;
+	RDFS:label "didnt".
+
+:n_doesnt
+	a :Negation;
+	RDFS:label "doesnt".
+
+:n_dont
+	a :Negation;
+	RDFS:label "dont".
+
+:n_hadnt
+	a :Negation;
+	RDFS:label "hadnt".
+
+:n_hasnt
+	a :Negation;
+	RDFS:label "hasnt".
+
+:n_havent
+	a :Negation;
+	RDFS:label "havent".
+
+:n_isnt
+	a :Negation;
+	RDFS:label "isnt".
+
+:n_never
+	a :Negation;
+	RDFS:label "never".
+
+:n_no
+	a :Negation;
+	RDFS:label "no".
+
+:n_none
+	a :Negation;
+	RDFS:label "none".
+
+:n_noone
+	a :Negation;
+	RDFS:label "noone".
+
+:n_not
+	a :Negation;
+	RDFS:label "not".
+
+:n_nothing
+	a :Negation;
+	RDFS:label "nothing".
+
+:n_nowhere
+	a :Negation;
+	RDFS:label "nowhere".
+
+:n_shouldnt
+	a :Negation;
+	RDFS:label "shouldnt".
+
+:n_wont
+	a :Negation;
+	RDFS:label "wont".
+
+:n_wouldnt
+	a :Negation;
+	RDFS:label "wouldnt".

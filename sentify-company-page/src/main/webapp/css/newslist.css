@@ -1,0 +1,11 @@
+span.meta span {
+	padding: 0px 1px;
+}
+
+div.news-row-label {
+	display: inline;
+}
+
+.inline{
+	display: inline-block;
+}

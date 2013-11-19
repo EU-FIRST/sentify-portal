@@ -1,0 +1,17 @@
+/*
+.v-loading-indicator-delay {
+	background-image: url('images/loading.gif');
+	background-repeat: norepeat;
+	background-position: center center;
+}
+*/
+.v-loading-indicator,
+.v-loading-indicator-delay,
+.v-loading-indicator-wait {
+	height: 50px;
+	width: 300px;
+	background-image: url('../images/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: relative;
+}

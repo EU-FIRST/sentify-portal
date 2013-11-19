@@ -1,0 +1,57 @@
+@import "_variables.scss";
+
+ul.menu {
+padding:0;margin:0;
+  li {
+  display:inline;
+  a {display:block;padding:0.5em 1em 2px;}
+  }
+  
+  li + li a {border-top:1px solid $borde;}
+  
+}
+
+#navigation  {
+  background:$rojo_claro;
+  color:$enlaces_head;
+  a {color:$enlaces_head;}
+}
+
+
+
+@media all and (min-width:960px) {
+
+#navigation  {
+
+  
+  margin-top:-44px;
+  position:relative;
+  ul.menu {
+      
+    padding:0;margin:0;
+    padding-bottom:15px;
+      margin-left:210px;
+      z-index:99;
+      position:relative;
+
+ 
+    li {
+     
+      a {
+        line-height:1em;
+        opacity:0.7;
+        display:inline-block;
+        border-radius:10px 10px 0 0;
+        height:18px;
+        border-top:none;
+      
+        
+        &.active,&:hover {opacity:1;background:#904028;box-shadow:5px 0 15px #5f0d2c;}
+      }
+    }
+  }
+
+
+
+}
+}

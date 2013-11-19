@@ -1,0 +1,47 @@
+div.document-drilldown {
+	
+	border-color: #c0c0c0;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #f9f9f9;
+	padding: 15px;
+	min-width: 700px;
+}
+
+
+span.highlight {
+	background-color: rgba(255, 255, 0, 0.35);
+	border-radius: 5px;
+	padding: 2px 0px 2px 0px;
+}
+
+span.highlight-se {
+	text-decoration: underline;
+	
+	font-weight: bold;
+}
+
+span.highlight-f {
+	
+	color: #550000;
+	font-style: italic;
+	font-weight: bold;
+	
+	background-color: rgba(250, 100, 100, 0.4);
+	padding: 2px 4px 2px 4px;
+}
+
+.news-title {
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.publication-date {
+	padding-bottom: 10px;
+}
+
+.news-source {
+	padding-top: 10px;
+	font-style: italic;
+}

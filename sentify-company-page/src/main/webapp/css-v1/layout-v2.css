@@ -1,0 +1,50 @@
+/* line 7, ../sass/layout.scss */
+#header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 8, ../sass/layout.scss */
+.inner {
+  margin: 0 20px;
+}
+
+/* line 10, ../sass/layout.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@media all and (min-width:960px) {
+  /* line 16, ../sass/layout.scss */
+  .main-inner {
+    margin: 0 10px;
+    background: silver;
+    position: relative;
+    FLOAT: LEFT;
+  }
+
+  /* line 17, ../sass/layout.scss */
+  #main {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+  }
+
+  /* line 29, ../sass/layout.scss */
+  #main-content {
+    width: 58%;
+    float: left;
+    margin-right: -58%;
+  }
+
+  /* line 30, ../sass/layout.scss */
+  #region-sidebar {
+    width: 42%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 58%;
+  }
+}

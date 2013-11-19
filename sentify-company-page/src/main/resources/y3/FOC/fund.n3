@@ -1,0 +1,1278 @@
+@prefix : <http://project-first.eu/ontology#>.
+@prefix OWL: <http://www.w3.org/2002/07/owl#>.
+@prefix RDF: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix RDFS: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix XSD: <http://www.w3.org/2001/XMLSchema#>.
+
+:fund_Aletti_Gestielle_Sgr_Spa_Gazetteer
+	:term "Aletti",
+		"Aletti Gestielle",
+		"Aletti Gestielle Sgr Spa";
+	a :Gazetteer.
+
+:fund_Aletti_Gestielle_Sgr_Spa
+	:identifiedBy :fund_Aletti_Gestielle_Sgr_Spa_Gazetteer;
+	a :Fund;
+	RDFS:label "Aletti Gestielle Sgr Spa".
+
+:fund_Allianz_Global_Investors
+	:term "Allianz France",
+		"Allianz Global Investors France",
+		"Allianz Global Investors Italia",
+		"Allianz Italia",
+        "Allianz Global Investors Kag Mbh",
+        "Allianz Greece",
+		"Allianz Hellenic",
+		"Allianz Hellenic Mutual Fund Mgm";
+	a :Gazetteer.
+
+:fund_Alpha_Mutual_Fund_Management_Co_Gazetteer
+	:term "Alpha Fund",
+		"Alpha Mutal",
+		"Alpha Mutual Fund Management Co";
+	a :Gazetteer.
+
+:fund_Alpha_Mutual_Fund_Management_Co
+	:identifiedBy :fund_Alpha_Mutual_Fund_Management_Co_Gazetteer;
+	a :Fund;
+	RDFS:label "Alpha Mutual Fund Management Co".
+
+:fund_Amundi_Gazetteer
+	:term "Amundi";
+	a :Gazetteer.
+
+:fund_Amundi_Luxembourg_Sa_Gazetteer
+	:term "Amundi Lux",
+		"Amundi Luxembourg",
+		"Amundi Luxembourg Sa";
+	a :Gazetteer.
+
+:fund_Amundi_Luxembourg_Sa
+	:identifiedBy :fund_Amundi_Luxembourg_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Amundi Luxembourg Sa".
+
+:fund_Amundi
+	:identifiedBy :fund_Amundi_Gazetteer;
+	a :Fund;
+	RDFS:label "Amundi".
+
+:fund_Arca_Sgr_Spa_Gazetteer
+	:term "Arca",
+		"Arca Sgr Spa",
+		"Arcaonline";
+	a :Gazetteer.
+
+:fund_Arca_Sgr_Spa
+	:identifiedBy :fund_Arca_Sgr_Spa_Gazetteer;
+	a :Fund;
+	RDFS:label "Arca Sgr Spa".
+
+:fund_Ate_Mutual_Fund_Management_Co_Sa_Gazetteer
+	:term "Ate Mutual",
+		"Ate Mutual Fund Management Co Sa",
+		"Ateibal";
+	a :Gazetteer.
+
+:fund_Ate_Mutual_Fund_Management_Co_Sa
+	:identifiedBy :fund_Ate_Mutual_Fund_Management_Co_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Ate Mutual Fund Management Co Sa".
+
+:fund_Axa_Funds_Management_Gazetteer
+	:term "Axa Funds",
+		"Axa Funds Management",
+		"Axa Im";
+	a :Gazetteer.
+
+:fund_Axa_Funds_Management
+	:identifiedBy :fund_Axa_Funds_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Axa Funds Management".
+
+:fund_Bancoposta_Fondi_Spa_Sgr_Gazetteer
+	:term "Bancoposta",
+		"Bancoposta Fondi",
+		"Bancoposta Fondi Spa Sgr";
+	a :Gazetteer.
+
+:fund_Bancoposta_Fondi_Spa_Sgr
+	:identifiedBy :fund_Bancoposta_Fondi_Spa_Sgr_Gazetteer;
+	a :Fund;
+	RDFS:label "Bancoposta Fondi Spa Sgr".
+
+:fund_Bankinter_Gestion_De_Activos_Sa_Gazetteer
+	:term "Bankinter Fund",
+		"Bankinter Gestion De Activos Sa";
+	a :Gazetteer.
+
+:fund_Bankinter_Gestion_De_Activos_Sa
+	:identifiedBy :fund_Bankinter_Gestion_De_Activos_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Bankinter Gestion De Activos Sa".
+
+:fund_Barclays_Wealth_Managers_Sgiic_S_Gazetteer
+	:term 
+		"Barclays Wealth Managers Sgiic S";
+	a :Gazetteer.
+
+:fund_Barclays_Wealth_Managers_Sgiic_S
+	:identifiedBy :fund_Barclays_Wealth_Managers_Sgiic_S_Gazetteer;
+	a :Fund;
+	RDFS:label "Barclays Wealth Managers Sgiic S".
+
+:fund_Bbk_Gestion_Sa_Sgiic_spain_Gazetteer
+	:term #"BBK/c=auc",
+		"Bbk Gestion",
+		"Bbk Gestion Sa Sgiic/spain";
+	a :Gazetteer.
+    
+:fund_Bbk_Gestion_Sa_Sgiic_spain_ACR_Gazetter
+        :term "BBK/c=auc";
+        :hasDocumentLevelCondition :gaz_fund;
+        a :Gazetteer.    
+
+:fund_Bbk_Gestion_Sa_Sgiic_spain
+	:identifiedBy :fund_Bbk_Gestion_Sa_Sgiic_spain_Gazetteer;
+    :identifiedBy :fund_Bbk_Gestion_Sa_Sgiic_spain_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Bbk Gestion Sa Sgiic/spain".
+
+:fund_Bbva_Gestion_Sa_Sgiic_spain_Gazetteer
+	:term #"BBVA/c=auc",        
+		"Bbva Gestion Sa Sgiic/spain";
+	a :Gazetteer.
+    
+:fund_Bbva_Gestion_Sa_Sgiic_spain_ACR_Gazetter
+        :term "BBVA/c=auc";
+        :hasDocumentLevelCondition :cou_ES_Gazetteer;        
+        a :Gazetteer.
+
+:fund_Bbva_Gestion_Sa_Sgiic_spain
+	:identifiedBy :fund_Bbva_Gestion_Sa_Sgiic_spain_Gazetteer;
+	:identifiedBy :fund_Bbva_Gestion_Sa_Sgiic_spain_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Bbva Gestion Sa Sgiic/spain".
+
+:fund_Bbva_Patrimonios_Gestora_Sgiic_S_Gazetteer
+	:term #"BBVA/c=auc",
+		"Bbva Patrimonios Gestora Sgiic S";
+	a :Gazetteer.
+    
+:fund_Bbva_Patrimonios_Gestora_Sgiic_S_ACR_Gazetter
+        :term "BBVA/c=auc";
+        :hasDocumentLevelCondition :gaz_fund;
+        a :Gazetteer.
+
+:fund_Bbva_Patrimonios_Gestora_Sgiic_S
+	:identifiedBy :fund_Bbva_Patrimonios_Gestora_Sgiic_S_Gazetteer;
+	:identifiedBy :fund_Bbva_Patrimonios_Gestora_Sgiic_S_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Bbva Patrimonios Gestora Sgiic S".
+
+:fund_Bnp_Asset_Management_Paris_Gazetteer
+	:term "Bnp Asset",
+		"Bnp Asset Management Paris";
+	a :Gazetteer.
+
+:fund_Bnp_Asset_Management_Paris
+	:identifiedBy :fund_Bnp_Asset_Management_Paris_Gazetteer;
+	a :Fund;
+	RDFS:label "Bnp Asset Management Paris".
+
+:fund_Bnp_Paribas_Asset_Management_Sgr_Gazetteer
+	:term "Bnp Paribas Asset Management Sgr",
+		"Paribas Assets";
+	a :Gazetteer.
+
+:fund_Bnp_Paribas_Asset_Management_Sgr
+	:identifiedBy :fund_Bnp_Paribas_Asset_Management_Sgr_Gazetteer;
+	a :Fund;
+	RDFS:label "Bnp Paribas Asset Management Sgr".
+
+:fund_Bnp_Paribas_Gestion_De_Inversion_Gazetteer
+	:term #"BNP/c=auc",
+		"Bnp Paribas Gestion De Inversion";
+	a :Gazetteer.
+    
+:fund_Bnp_Paribas_Gestion_De_Inversion_ACR_Gazetter
+        :term "BNP/c=auc";
+        :hasDocumentLevelCondition :gaz_fund;
+        a :Gazetteer.
+
+:fund_Bnp_Paribas_Gestion_De_Inversion
+	:identifiedBy :fund_Bnp_Paribas_Gestion_De_Inversion_Gazetteer;
+    :identifiedBy :fund_Bnp_Paribas_Gestion_De_Inversion_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Bnp Paribas Gestion De Inversion".
+
+:fund_Bpi_Fundos_Gfim_Sa_portugal_Gazetteer
+	:term #"BPI/c=auc",
+		"Bpi Fund",
+		"Bpi Fundos Gfim Sa/portugal";
+	a :Gazetteer.
+
+:fund_Bpi_Fundos_Gfim_Sa_portugal_ACR_Gazetter
+        :term "BPI/c=auc";
+        :hasDocumentLevelCondition :gaz_fund;
+        a :Gazetteer.    
+    
+:fund_Bpi_Fundos_Gfim_Sa_portugal
+	:identifiedBy :fund_Bpi_Fundos_Gfim_Sa_portugal_Gazetteer;
+    :identifiedBy :fund_Bpi_Fundos_Gfim_Sa_portugal_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Bpi Fundos Gfim Sa/portugal".
+
+:fund_Caixagest_Sa_portugal_Gazetteer
+	:term "Caixagest",
+		"Caixagest Sa/portugal";
+	a :Gazetteer.
+
+:fund_Caixagest_Sa_portugal
+	:identifiedBy :fund_Caixagest_Sa_portugal_Gazetteer;
+	a :Fund;
+	RDFS:label "Caixagest Sa/portugal".
+
+:fund_Capital_Research_And_Management_Gazetteer
+	:term "Capital Research",
+		"Capital Research And Management";
+	a :Gazetteer.
+
+:fund_Capital_Research_And_Management
+	:identifiedBy :fund_Capital_Research_And_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Capital Research And Management".
+
+:fund_Chuo_Mitsui_Asset_Management_Gazetteer
+	:term "Chuo Mitsui",
+		"Chuo Mitsui Asset Management";
+	a :Gazetteer.
+
+:fund_Chuo_Mitsui_Asset_Management
+	:identifiedBy :fund_Chuo_Mitsui_Asset_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Chuo Mitsui Asset Management".
+
+:fund_Cpr_Asset_Management_Gazetteer
+	:term #"CPR/c=auc",
+		"Cpr Asset",
+		"Cpr Asset Management";
+	a :Gazetteer.
+
+
+:fund_Cpr_Asset_Management_ACR_Gazetter
+        :term "CPR/c=auc";
+        :hasDocumentLevelCondition :gaz_fund;
+        a :Gazetteer.    
+    
+:fund_Cpr_Asset_Management
+	:identifiedBy :fund_Cpr_Asset_Management_Gazetteer;
+    :identifiedBy :fund_Cpr_Asset_Management_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Cpr Asset Management".
+
+:fund_Credit_Suisse_Asset_Management_Gazetteer
+	:term "Credit Suisse Asset",
+		"Credit Suisse Asset Management",
+		"Csuisse Asset";
+	a :Gazetteer.
+
+:fund_Credit_Suisse_Asset_Management
+	:identifiedBy :fund_Credit_Suisse_Asset_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Credit Suisse Asset Management".
+
+:fund_Credito_Agricola_Gest__sgfim_Sa_Gazetteer
+	:term "Credito Agricola",
+		"Credito Agricola Gest -sgfim Sa";
+	a :Gazetteer.
+
+:fund_Credito_Agricola_Gest__sgfim_Sa
+	:identifiedBy :fund_Credito_Agricola_Gest__sgfim_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Credito Agricola Gest -sgfim Sa".
+
+:fund_Daiwa_Asset_Management_Gazetteer
+	:term "Daiwa",
+		"Daiwa Asset",
+		"Daiwa Asset Management";
+	a :Gazetteer.
+
+:fund_Daiwa_Asset_Management
+	:identifiedBy :fund_Daiwa_Asset_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Daiwa Asset Management".
+
+:fund_Danske_Invest_A_s_Gazetteer
+	:term "Danske",
+		"Danske Invest A/s";
+	a :Gazetteer.
+
+:fund_Danske_Invest_A_s
+	:identifiedBy :fund_Danske_Invest_A_s_Gazetteer;
+	a :Fund;
+	RDFS:label "Danske Invest A/s".
+
+:fund_Db_Platinum_Advisors_Gazetteer
+	:term "Db Platinum",
+		"Db Platinum Advisors";
+	a :Gazetteer.
+
+:fund_Db_Platinum_Advisors
+	:identifiedBy :fund_Db_Platinum_Advisors_Gazetteer;
+	a :Fund;
+	RDFS:label "Db Platinum Advisors".
+
+:fund_Degroof_Gestion_Institutionnelle_Gazetteer
+	:term "de Groof",
+		"Degroof",
+		"Degroof Gestion",
+		"Degroof Gestion Institutionnelle";
+	a :Gazetteer.
+
+:fund_Degroof_Gestion_Institutionnelle
+	:identifiedBy :fund_Degroof_Gestion_Institutionnelle_Gazetteer;
+	a :Fund;
+	RDFS:label "Degroof Gestion Institutionnelle".
+
+:fund_Deka_Investment_Gmbh_Gazetteer
+	:term "Deka",
+		"Deka Investement",
+		"Deka Investment Gmbh";
+	a :Gazetteer.
+
+:fund_Deka_Investment_Gmbh
+	:identifiedBy :fund_Deka_Investment_Gmbh_Gazetteer;
+	a :Fund;
+	RDFS:label "Deka Investment Gmbh".
+
+:fund_Dexia_Asset_Management_Lux_Gazetteer
+	:term "Dexia Asset",
+		"Dexia Asset Management Lux";
+	a :Gazetteer.
+
+:fund_Dexia_Asset_Management_Lux
+	:identifiedBy :fund_Dexia_Asset_Management_Lux_Gazetteer;
+	a :Fund;
+	RDFS:label "Dexia Asset Management Lux".
+
+:fund_Diam_Co_Ltd_Gazetteer
+	:term "Diam",
+		"Diam Co Ltd";
+	a :Gazetteer.
+
+:fund_Diam_Co_Ltd
+	:identifiedBy :fund_Diam_Co_Ltd_Gazetteer;
+	a :Fund;
+	RDFS:label "Diam Co Ltd".
+
+:fund_Diethniki_Mutual_Fund_Mgmt_Gazetteer
+	:term "Diethniki Fund",
+		"Diethniki Mutual Fund Mgmt";
+	a :Gazetteer.
+
+:fund_Diethniki_Mutual_Fund_Mgmt
+	:identifiedBy :fund_Diethniki_Mutual_Fund_Mgmt_Gazetteer;
+	a :Fund;
+	RDFS:label "Diethniki Mutual Fund Mgmt".
+
+:fund_Dws_Investment_S_A_Gazetteer
+	:term "Dws Investement",
+		"Dws Investment S A",
+        "Dws Investment Gmbh";
+	a :Gazetteer.
+
+:fund_Dws_Investment_S_A
+	:identifiedBy :fund_Dws_Investment_S_A_Gazetteer;
+	a :Fund;
+	RDFS:label "Dws Investment S A".
+
+:fund_Erste_Sparinvest_Kagmbh_Gazetteer
+	:term "Erste Sparinvest",
+		"Erste Sparinvest Kagmbh";
+	a :Gazetteer.
+
+:fund_Erste_Sparinvest_Kagmbh
+	:identifiedBy :fund_Erste_Sparinvest_Kagmbh_Gazetteer;
+	a :Fund;
+	RDFS:label "Erste Sparinvest Kagmbh".
+
+:fund_Espirito_Santo_Fundos_De_Invest_Gazetteer
+	:term "Espirito Santo Fund",
+		"Espirito Santo Fundos De Invest",
+		"Espirito Santo Gestion Sa Sgiic";
+	a :Gazetteer.
+
+:fund_Espirito_Santo_Fundos_De_Invest
+	:identifiedBy :fund_Espirito_Santo_Fundos_De_Invest_Gazetteer;
+	a :Fund;
+	RDFS:label "Espirito Santo Fundos De Invest".
+
+
+:fund_Eurizon_Capital_Sa_Gazetteer
+	:term "Eurizon",
+		"Eurizon Capital Sa";
+	a :Gazetteer.
+
+:fund_Eurizon_Capital_Sa
+	:identifiedBy :fund_Eurizon_Capital_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Eurizon Capital Sa".
+
+:fund_Eurizon_Capital_Sgr_Spa_Gazetteer
+	:term "Eurizon",
+		"Eurizon Capital Sgr Spa";
+	a :Gazetteer.
+
+:fund_Eurizon_Capital_Sgr_Spa
+	:identifiedBy :fund_Eurizon_Capital_Sgr_Spa_Gazetteer;
+	a :Fund;
+	RDFS:label "Eurizon Capital Sgr Spa".
+
+:fund_Eurizon_Investment_Sicav_Gazetteer
+	:term "Eurizon",
+		"Eurizon Investment Sicav";
+	a :Gazetteer.
+
+:fund_Eurizon_Investment_Sicav
+	:identifiedBy :fund_Eurizon_Investment_Sicav_Gazetteer;
+	a :Fund;
+	RDFS:label "Eurizon Investment Sicav".
+
+:fund_Eurobank_Efg_Mutual_Fund_Mgmt_Co_Gazetteer
+	:term "Eurobank Efg Mutual Fund Mgmt Co",
+		"Eurobank Fund";
+	a :Gazetteer.
+
+:fund_Eurobank_Efg_Mutual_Fund_Mgmt_Co
+	:identifiedBy :fund_Eurobank_Efg_Mutual_Fund_Mgmt_Co_Gazetteer;
+	a :Fund;
+	RDFS:label "Eurobank Efg Mutual Fund Mgmt Co".
+
+:fund_Eurobank_Efg_Mutual_Fund_Mgmt_Gazetteer
+	:term "Eurobank Efg Mutual Fund Mgmt",
+		"Eurobank Fund";
+	a :Gazetteer.
+
+:fund_Eurobank_Efg_Mutual_Fund_Mgmt
+	:identifiedBy :fund_Eurobank_Efg_Mutual_Fund_Mgmt_Gazetteer;
+	a :Fund;
+	RDFS:label "Eurobank Efg Mutual Fund Mgmt".
+
+:fund_F_Van_Lanschot_Bankiers_Nv_Gazetteer
+	:term "F Van Lanschot Bankiers Nv",
+		"Lanschot",
+		"Van Lanschot";
+	a :Gazetteer.
+
+:fund_F_Van_Lanschot_Bankiers_Nv
+	:identifiedBy :fund_F_Van_Lanschot_Bankiers_Nv_Gazetteer;
+	a :Fund;
+	RDFS:label "F Van Lanschot Bankiers Nv".
+
+:fund_Fidelity_Investments_Luxembourg_Gazetteer
+	:term "Fidelity",
+		"Fidelity Investments Luxembourg",
+		"Fidelity Luxembourg";
+	a :Gazetteer.
+
+:fund_Fidelity_Investments_Luxembourg
+	:identifiedBy :fund_Fidelity_Investments_Luxembourg_Gazetteer;
+	a :Fund;
+	RDFS:label "Fidelity Investments Luxembourg".
+
+:fund_Fidelity_Management__Research_Gazetteer
+	:term "Fidelity",
+		"Fidelity Management",
+		"Fidelity Management & Research";
+	a :Gazetteer.
+
+:fund_Fidelity_Management__Research
+	:identifiedBy :fund_Fidelity_Management__Research_Gazetteer;
+	a :Fund;
+	RDFS:label "Fidelity Management & Research".
+
+:fund_Fideuram_Gestions_Sa_Gazetteer
+	:term "Fideuram",
+		"Fideuram Gestions Sa";
+	a :Gazetteer.
+
+:fund_Fideuram_Gestions_Sa
+	:identifiedBy :fund_Fideuram_Gestions_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Fideuram Gestions Sa".
+
+:fund_Fideuram_Investimenti_Sgr_Gazetteer
+	:term "Fideuram",
+		"Fideuram Investimenti Sgr";
+	a :Gazetteer.
+
+:fund_Fideuram_Investimenti_Sgr
+	:identifiedBy :fund_Fideuram_Investimenti_Sgr_Gazetteer;
+	a :Fund;
+	RDFS:label "Fideuram Investimenti Sgr".
+
+:fund_Fortis_Investment_Management_Sa_Gazetteer
+	:term "Fortis Investment Management Sa",
+        "Fortis Investments";
+	a :Gazetteer.
+
+:fund_Fortis_Investment_Management_Sa
+	:identifiedBy :fund_Fortis_Investment_Management_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Fortis Investment Management Sa".
+
+:fund_Franklin_Templeton_Companies_Llc_Gazetteer
+	:term "Franklin Templeton",
+		"Franklin Templeton Companies Llc",
+   		"Franklin Templeton Investments",
+		"Franklin Adv",
+		"Franklin Advisers Inc";
+	a :Gazetteer.
+
+:fund_Franklin_Templeton_Companies_Llc
+	:identifiedBy :fund_Franklin_Templeton_Companies_Llc_Gazetteer;
+	a :Fund;
+	RDFS:label "Franklin Templeton Companies Llc".
+
+
+
+:fund_Generali_Asset_Management_Sgr_Gazetteer
+	:term "Generali Asset",
+		"Generali Asset Management Sgr";
+	a :Gazetteer.
+
+:fund_Generali_Asset_Management_Sgr
+	:identifiedBy :fund_Generali_Asset_Management_Sgr_Gazetteer;
+	a :Fund;
+	RDFS:label "Generali Asset Management Sgr".
+
+:fund_Generali_Finances_Gazetteer
+	:term "Generali Finance",
+		"Generali Finances";
+	a :Gazetteer.
+
+:fund_Generali_Finances
+	:identifiedBy :fund_Generali_Finances_Gazetteer;
+	a :Fund;
+	RDFS:label "Generali Finances".
+
+:fund_Generali_Fund_Management_Sa_Gazetteer
+	:term "Generali Fund",
+		"Generali Fund Management Sa";
+	a :Gazetteer.
+
+:fund_Generali_Fund_Management_Sa
+	:identifiedBy :fund_Generali_Fund_Management_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Generali Fund Management Sa".
+
+:fund_Generali_Investments_Sicav_Gazetteer
+	:term "Generali Investments",
+		"Generali Investments Sicav";
+	a :Gazetteer.
+
+:fund_Generali_Investments_Sicav
+	:identifiedBy :fund_Generali_Investments_Sicav_Gazetteer;
+	a :Fund;
+	RDFS:label "Generali Investments Sicav".
+
+:fund_Gesmadrid_Sa_Sgiic_spain_Gazetteer
+	:term "Gesmadrid",
+		"Gesmadrid Sa Sgiic/spain";
+	a :Gazetteer.
+
+:fund_Gesmadrid_Sa_Sgiic_spain
+	:identifiedBy :fund_Gesmadrid_Sa_Sgiic_spain_Gazetteer;
+	a :Fund;
+	RDFS:label "Gesmadrid Sa Sgiic/spain".
+
+:fund_Gespastor_Sa_Sgiic_spain_Gazetteer
+	:term "Gespastor",
+		"Gespastor Sa Sgiic/spain";
+	a :Gazetteer.
+
+:fund_Gespastor_Sa_Sgiic_spain
+	:identifiedBy :fund_Gespastor_Sa_Sgiic_spain_Gazetteer;
+	a :Fund;
+	RDFS:label "Gespastor Sa Sgiic/spain".
+
+:fund_Groupama_Asset_Mgmt_Gazetteer
+	:term "Groupama",
+		"Groupama Asset",
+		"Groupama Asset Mgmt";
+	a :Gazetteer.
+
+:fund_Groupama_Asset_Mgmt
+	:identifiedBy :fund_Groupama_Asset_Mgmt_Gazetteer;
+	a :Fund;
+	RDFS:label "Groupama Asset Mgmt".
+
+:fund_Hsbc_Asset_Mgmt_Europe_Sa_Gazetteer
+	:term "Hsbc Asset",
+		"Hsbc Asset Mgmt Europe Sa";
+	a :Gazetteer.
+
+:fund_Hsbc_Asset_Mgmt_Europe_Sa
+	:identifiedBy :fund_Hsbc_Asset_Mgmt_Europe_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Hsbc Asset Mgmt Europe Sa".
+
+:fund_Hwang_dbs_Investment_Management_Gazetteer
+	:term "Hwang",
+		"Hwang-dbs",
+		"Hwang-dbs Investment Management";
+	a :Gazetteer.
+
+:fund_Hwang_dbs_Investment_Management
+	:identifiedBy :fund_Hwang_dbs_Investment_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Hwang-dbs Investment Management".
+
+:fund_Ibercaja_Gestion_Gazetteer
+	:term "Ibercaja",
+		"Ibercaja Gestion";
+	a :Gazetteer.
+
+:fund_Ibercaja_Gestion
+	:identifiedBy :fund_Ibercaja_Gestion_Gazetteer;
+	a :Fund;
+	RDFS:label "Ibercaja Gestion".
+
+:fund_Ing_Asset_Management_Gazetteer
+	:term "Ing Asset",
+		"Ing Asset Management",
+		"Ing Mgmt";
+	a :Gazetteer.
+
+:fund_Ing_Asset_Management
+	:identifiedBy :fund_Ing_Asset_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Ing Asset Management".
+
+:fund_Ing_International_Advisory_Sa_Gazetteer
+	:term "Ing International",
+		"Ing International Advisory Sa";
+	a :Gazetteer.
+
+:fund_Ing_International_Advisory_Sa
+	:identifiedBy :fund_Ing_International_Advisory_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Ing International Advisory Sa".
+
+:fund_Ing_Investment_Management_Nv_Gazetteer
+	:term "Ing Investment",
+		"Ing Investment Management Nv";
+	a :Gazetteer.
+
+:fund_Ing_Investment_Management_Nv
+	:identifiedBy :fund_Ing_Investment_Management_Nv_Gazetteer;
+	a :Fund;
+	RDFS:label "Ing Investment Management Nv".
+
+:fund_Ing_Piraeus_Fund_Management_Gazetteer
+	:term "Ing Piraeus Fund",
+		"Ing Piraeus Fund Management",
+		"Ing Pireus",
+		"Piraeus Fund",
+		"Pireus Fund";
+	a :Gazetteer.
+
+:fund_Ing_Piraeus_Fund_Management
+	:identifiedBy :fund_Ing_Piraeus_Fund_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Ing Piraeus Fund Management".
+
+:fund_Interfund_Advisory_Co_Sa_Gazetteer
+	:term "Interfund",
+		"Interfund Adv",
+		"Interfund Advisory Co Sa";
+	a :Gazetteer.
+
+:fund_Interfund_Advisory_Co_Sa
+	:identifiedBy :fund_Interfund_Advisory_Co_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Interfund Advisory Co Sa".
+
+:fund_Invercaixa_Gestion_Sa_Sgii_Gazetteer
+	:term "Invercaixa",
+		"Invercaixa Gestion Sa Sgii";
+	a :Gazetteer.
+
+:fund_Invercaixa_Gestion_Sa_Sgii
+	:identifiedBy :fund_Invercaixa_Gestion_Sa_Sgii_Gazetteer;
+	a :Fund;
+	RDFS:label "Invercaixa Gestion Sa Sgii".
+
+:fund_Jp_Morgan_Asset_Mgmt_Jpn_Gazetteer
+	:term "Jp Morgan Asset Mgmt Jpn",
+		"Jpm Asset",
+		"Jpmorgan Asset";
+	a :Gazetteer.
+
+:fund_Jp_Morgan_Asset_Mgmt_Jpn
+	:identifiedBy :fund_Jp_Morgan_Asset_Mgmt_Jpn_Gazetteer;
+	a :Fund;
+	RDFS:label "Jp Morgan Asset Mgmt Jpn".
+
+
+:fund_Kbc_Bank_Luxembourg_Sa_Gazetteer
+	:term #"KBC/c=auc",
+		"Kbc  Lux",
+		"Kbc Bank Luxembourg Sa";
+	a :Gazetteer.
+
+:fund_Kbc_Bank_Luxembourg_Sa_ACR_Gazetter
+        :term "KBC/c=auc";
+        :hasDocumentLevelCondition :gaz_fund;
+        a :Gazetteer.
+    
+:fund_Kbc_Bank_Luxembourg_Sa
+	:identifiedBy :fund_Kbc_Bank_Luxembourg_Sa_Gazetteer;
+    :identifiedBy :fund_Kbc_Bank_Luxembourg_Sa_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Kbc Bank Luxembourg Sa".
+
+:fund_Kepler_fonds_Kagmbh_Gazetteer
+	:term "Kepler",
+		"Kepler Funds",
+		"Kepler-fonds Kagmbh";
+	a :Gazetteer.
+
+:fund_Kepler_fonds_Kagmbh
+	:identifiedBy :fund_Kepler_fonds_Kagmbh_Gazetteer;
+	a :Fund;
+	RDFS:label "Kepler-fonds Kagmbh".
+
+:fund_Lbpam_Gazetteer
+	:term "La Banque Postale",
+		"Lbpam";
+	a :Gazetteer.
+
+:fund_Lbpam
+	:identifiedBy :fund_Lbpam_Gazetteer;
+	a :Fund;
+	RDFS:label "Lbpam".
+
+:fund_Lfp_Gazetteer
+	:term #"LFP/c=auc",
+		"Ufg-lfp";
+	a :Gazetteer.
+
+:fund_Lfp_ACR_Gazetter
+        :term "LFP/c=auc";
+        :hasDocumentLevelCondition :gaz_fund;
+        a :Gazetteer.
+
+:fund_Lfp
+	:identifiedBy :fund_Lfp_Gazetteer;
+    :identifiedBy :fund_Lfp_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Lfp".
+
+:fund_Loomis_Sayles__Company_Lp_Gazetteer
+	:term "Loomis",
+		"Loomis Sayles",
+		"Loomis Sayles & Company Lp",
+		"Lsayles";
+	a :Gazetteer.
+
+:fund_Loomis_Sayles__Company_Lp
+	:identifiedBy :fund_Loomis_Sayles__Company_Lp_Gazetteer;
+	a :Fund;
+	RDFS:label "Loomis Sayles & Company Lp".
+
+:fund_Mackenzie_Financial_Corp_Gazetteer
+	:term "Mackenzie",
+		"Mackenzie Fin",
+		"Mackenzie Financial Corp";
+	a :Gazetteer.
+
+:fund_Mackenzie_Financial_Corp
+	:identifiedBy :fund_Mackenzie_Financial_Corp_Gazetteer;
+	a :Fund;
+	RDFS:label "Mackenzie Financial Corp".
+
+:fund_March_Gestion_De_Fondos_Sa_Sgiic_Gazetteer
+	:term "March Gest",
+		"March Gestion",
+		"March Gestion De Fondos Sa Sgiic";
+	a :Gazetteer.
+
+:fund_March_Gestion_De_Fondos_Sa_Sgiic
+	:identifiedBy :fund_March_Gestion_De_Fondos_Sa_Sgiic_Gazetteer;
+	a :Fund;
+	RDFS:label "March Gestion De Fondos Sa Sgiic".
+
+:fund_Mellon_Global_Management_Ltd_Gazetteer
+	:term "Mellon Global Management Ltd",
+		"Mellon Management",
+		"Mellon Mgmt";
+	a :Gazetteer.
+
+:fund_Mellon_Global_Management_Ltd
+	:identifiedBy :fund_Mellon_Global_Management_Ltd_Gazetteer;
+	a :Fund;
+	RDFS:label "Mellon Global Management Ltd".
+
+:fund_Mg_Investment_Management_Ltd_Gazetteer
+	:term "M&g Inv",
+		"M&g Investment Management Ltd",
+		"M&g Mgmt";
+	a :Gazetteer.
+
+:fund_Mg_Investment_Management_Ltd
+	:identifiedBy :fund_Mg_Investment_Management_Ltd_Gazetteer;
+	a :Fund;
+	RDFS:label "M&g Investment Management Ltd".
+
+:fund_Mitsubishi_Ufj_Asset_Mgmt_Gazetteer
+	:term "Mitsubishi Asset",
+		"Mitsubishi Asset Mgmt",
+		"Mitsubishi Ufj Asset Mgmt";
+	a :Gazetteer.
+
+:fund_Mitsubishi_Ufj_Asset_Mgmt
+	:identifiedBy :fund_Mitsubishi_Ufj_Asset_Mgmt_Gazetteer;
+	a :Fund;
+	RDFS:label "Mitsubishi Ufj Asset Mgmt".
+
+:fund_Morgan_Stanley_Asset_Management_Gazetteer
+	:term "Morgan Stanley Asset Management",
+		"Ms Asset",
+		"Ms Asset Mgmt";
+	a :Gazetteer.
+
+:fund_Morgan_Stanley_Asset_Management
+	:identifiedBy :fund_Morgan_Stanley_Asset_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Morgan Stanley Asset Management".
+
+:fund_Natixis_Asset_Management_Advisor_Gazetteer
+	:term "Natixis Adv",
+		"Natixis Asset Adv",
+		"Natixis Asset Management Advisor";
+	a :Gazetteer.
+
+:fund_Natixis_Asset_Management_Advisor
+	:identifiedBy :fund_Natixis_Asset_Management_Advisor_Gazetteer;
+	a :Fund;
+	RDFS:label "Natixis Asset Management Advisor".
+
+:fund_Natixis_Asset_Management_Gazetteer
+	:term "Natixis Asset",
+		"Natixis Asset Management",
+		"Natixis Asset Mgmt";
+	a :Gazetteer.
+
+:fund_Natixis_Asset_Management
+	:identifiedBy :fund_Natixis_Asset_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Natixis Asset Management".
+
+:fund_Nikko_Asset_Management_Co_Ltd_Gazetteer
+	:term "Nikko Asset Management",
+		"Nikko Asset Management Co Ltd",
+		"Nikko Asset Mgmt";
+	a :Gazetteer.
+
+:fund_Nikko_Asset_Management_Co_Ltd
+	:identifiedBy :fund_Nikko_Asset_Management_Co_Ltd_Gazetteer;
+	a :Fund;
+	RDFS:label "Nikko Asset Management Co Ltd".
+
+:fund_Oppenheimerfunds_Incorporated_Gazetteer
+	:term #"Oppenheimer",
+		"Oppenheimer Funds",
+		"Oppenheimerfunds Incorporated";
+	a :Gazetteer.
+
+:fund_Oppenheimerfunds_Incorporated_ACR_Gazetteer
+	:term "Oppenheimer";
+	:hasDocumentLevelCondition :gaz_fund;
+    a :Gazetteer.
+
+:fund_Oppenheimerfunds_Incorporated
+	:identifiedBy :fund_Oppenheimerfunds_Incorporated_Gazetteer;
+    :identifiedBy :fund_Oppenheimerfunds_Incorporated_ACR_Gazetteer;
+	a :Fund;
+	RDFS:label "Oppenheimerfunds Incorporated".
+
+:fund_Optima_Sgr_Spa_Gazetteer
+	:term "Optima",
+		"Optima Sgr Spa";
+	a :Gazetteer.
+
+:fund_Optima_Sgr_Spa
+	:identifiedBy :fund_Optima_Sgr_Spa_Gazetteer;
+	a :Fund;
+	RDFS:label "Optima Sgr Spa".
+
+:fund_Palatine_Asset_Management_Gazetteer
+	:term "Palatine",
+		"Palatine Asset",
+		"Palatine Asset Management";
+	a :Gazetteer.
+
+:fund_Palatine_Asset_Management
+	:identifiedBy :fund_Palatine_Asset_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Palatine Asset Management".
+
+:fund_Parvest_Investment_Management_Gazetteer
+	:term "Parvest",
+		"Parvest Investment Management",
+		"Parvest Mgm";
+	a :Gazetteer.
+
+:fund_Parvest_Investment_Management
+	:identifiedBy :fund_Parvest_Investment_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Parvest Investment Management".
+
+:fund_Petercam_Sa_Gazetteer
+	:term "Petercam",
+		"Petercam Sa";
+	a :Gazetteer.
+
+:fund_Petercam_Sa
+	:identifiedBy :fund_Petercam_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Petercam Sa".
+
+:fund_Pimco_Advisors_Lp_Gazetteer
+	:term "Pimco",
+		"Pimco Adv",
+		"Pimco Advisors Lp";
+	a :Gazetteer.
+
+:fund_Pimco_Advisors_Lp
+	:identifiedBy :fund_Pimco_Advisors_Lp_Gazetteer;
+	a :Fund;
+	RDFS:label "Pimco Advisors Lp".
+
+:fund_Pimco_Funds_Global_Investors_Gazetteer
+	:term "Pimco Funds",
+		"Pimco Funds Global Investors";
+	a :Gazetteer.
+
+:fund_Pimco_Funds_Global_Investors
+	:identifiedBy :fund_Pimco_Funds_Global_Investors_Gazetteer;
+	a :Fund;
+	RDFS:label "Pimco Funds Global Investors".
+
+:fund_Pioneer_Asset_Management_Sa_Gazetteer
+	:term "Pioneer Asset",
+		"Pioneer Asset Management Sa",
+		"Pioneer Asset Mgma";
+	a :Gazetteer.
+
+:fund_Pioneer_Asset_Management_Sa
+	:identifiedBy :fund_Pioneer_Asset_Management_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Pioneer Asset Management Sa".
+
+:fund_Pioneer_Investment_Management_Gazetteer
+	:term "Pioneer Inv",
+		"Pioneer Investement",
+		"Pioneer Investment Management";
+	a :Gazetteer.
+
+:fund_Pioneer_Investment_Management
+	:identifiedBy :fund_Pioneer_Investment_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Pioneer Investment Management".
+
+:fund_Pioneer_Investment_Mgmt_Ltd_Gazetteer
+	:term "Pioneer Investement",
+		"Pioneer Investment Mgmt Ltd";
+	a :Gazetteer.
+
+:fund_Pioneer_Investment_Mgmt_Ltd
+	:identifiedBy :fund_Pioneer_Investment_Mgmt_Ltd_Gazetteer;
+	a :Fund;
+	RDFS:label "Pioneer Investment Mgmt Ltd".
+
+:fund_Pioneer_Investment_Mgmt_Sgrpa_Gazetteer
+	:term "Pioneer Investement",
+		"Pioneer Investment Mgmt Sgrpa";
+	a :Gazetteer.
+
+:fund_Pioneer_Investment_Mgmt_Sgrpa
+	:identifiedBy :fund_Pioneer_Investment_Mgmt_Sgrpa_Gazetteer;
+	a :Fund;
+	RDFS:label "Pioneer Investment Mgmt Sgrpa".
+
+:fund_Price_T_Rowe_Associates_Inc_Gazetteer
+	:term "Price T Rowe Associates Inc",
+		"Price Trowe",
+		"Rowe Price",
+		"T Rowe";
+	a :Gazetteer.
+
+:fund_Price_T_Rowe_Associates_Inc
+	:identifiedBy :fund_Price_T_Rowe_Associates_Inc_Gazetteer;
+	a :Fund;
+	RDFS:label "Price T Rowe Associates Inc".
+
+:fund_Prima_Asset_Management_Ltd_Gazetteer
+	:term "Prima Asset",
+		"Prima Asset Management Ltd";
+	a :Gazetteer.
+
+:fund_Prima_Asset_Management_Ltd
+	:identifiedBy :fund_Prima_Asset_Management_Ltd_Gazetteer;
+	a :Fund;
+	RDFS:label "Prima Asset Management Ltd".
+
+:fund_Renta_4_Gestora_Sgiic_Sa_spain_Gazetteer
+	:term "Renta 4 Gestora Sgiic Sa/spain",
+		"Renta Gestora",
+		"Renta4";
+	a :Gazetteer.
+
+:fund_Renta_4_Gestora_Sgiic_Sa_spain
+	:identifiedBy :fund_Renta_4_Gestora_Sgiic_Sa_spain_Gazetteer;
+	a :Fund;
+	RDFS:label "Renta 4 Gestora Sgiic Sa/spain".
+
+:fund_Riversource_Investments_Llc_Gazetteer
+	:term "Riversource",
+		"Riversource Investments Llc";
+	a :Gazetteer.
+
+:fund_Riversource_Investments_Llc
+	:identifiedBy :fund_Riversource_Investments_Llc_Gazetteer;
+	a :Fund;
+	RDFS:label "Riversource Investments Llc".
+
+:fund_Robeco_Investor_Services_Gazetteer
+	:term "Robeco",
+		"Robeco Inv",
+		"Robeco Investor Services";
+	a :Gazetteer.
+
+:fund_Robeco_Investor_Services
+	:identifiedBy :fund_Robeco_Investor_Services_Gazetteer;
+	a :Fund;
+	RDFS:label "Robeco Investor Services".
+
+:fund_Rothschild__Compagnie_Gestion_Gazetteer
+	:term "Rothschild & Compagnie Gestion",
+		"Rotschild",
+		"Rotschild Gest";
+	a :Gazetteer.
+
+:fund_Rothschild__Compagnie_Gestion
+	:identifiedBy :fund_Rothschild__Compagnie_Gestion_Gazetteer;
+	a :Fund;
+	RDFS:label "Rothschild & Compagnie Gestion".
+
+:fund_Sanpaolo_Asset_Management_Lux_Gazetteer
+	:term "San Paolo Asset",
+		"Sanpaolo Asset",
+		"Sanpaolo Asset Management Lux";
+	a :Gazetteer.
+
+:fund_Sanpaolo_Asset_Management_Lux
+	:identifiedBy :fund_Sanpaolo_Asset_Management_Lux_Gazetteer;
+	a :Fund;
+	RDFS:label "Sanpaolo Asset Management Lux".
+
+:fund_Sanpaolo_Imi_Asset_Management_Lu_Gazetteer
+	:term "San Paolo Imi",
+		"Sanpaolo Imi Asset Management Lu",
+		"Spaolo Asset",
+		"Spaolo Imi Asset";
+	a :Gazetteer.
+
+:fund_Sanpaolo_Imi_Asset_Management_Lu
+	:identifiedBy :fund_Sanpaolo_Imi_Asset_Management_Lu_Gazetteer;
+	a :Fund;
+	RDFS:label "Sanpaolo Imi Asset Management Lu".
+
+:fund_Santander_Asset_Mgmt_Sa_Sgiic_Gazetteer
+	:term "Santander Asset",
+		"Santander Asset Mgmt Sa Sgiic";
+	a :Gazetteer.
+
+:fund_Santander_Asset_Mgmt_Sa_Sgiic
+	:identifiedBy :fund_Santander_Asset_Mgmt_Sa_Sgiic_Gazetteer;
+	a :Fund;
+	RDFS:label "Santander Asset Mgmt Sa Sgiic".
+
+:fund_Santander_Sgfim_Sa_Gazetteer
+	:term "Santander Asset",
+		"Santander Sgfim Sa";
+	a :Gazetteer.
+
+:fund_Santander_Sgfim_Sa
+	:identifiedBy :fund_Santander_Sgfim_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Santander Sgfim Sa".
+
+:fund_Sella_Gestioni_Sgr_Spa_Gazetteer
+	:term "Banca Sella",
+		"Sella Gest",
+		"Sella Gestioni Sgr Spa";
+	a :Gazetteer.
+
+:fund_Sella_Gestioni_Sgr_Spa
+	:identifiedBy :fund_Sella_Gestioni_Sgr_Spa_Gazetteer;
+	a :Fund;
+	RDFS:label "Sella Gestioni Sgr Spa".
+
+:fund_Societe_Generale_Asset_Mgmt_Gazetteer
+	:term "Soc Gen Asset",
+		"Societe Generale Asset",
+		"Societe Generale Asset Mgmt";
+	a :Gazetteer.
+
+:fund_Societe_Generale_Asset_Mgmt
+	:identifiedBy :fund_Societe_Generale_Asset_Mgmt_Gazetteer;
+	a :Fund;
+	RDFS:label "Societe Generale Asset Mgmt".
+
+:fund_Stb_Asset_Management__sumishin__Gazetteer
+	:term "Stb Asset Manag",
+		"Stb Asset Management (sumishin)",
+		"Sumishin";
+	a :Gazetteer.
+
+:fund_Stb_Asset_Management__sumishin_
+	:identifiedBy :fund_Stb_Asset_Management__sumishin__Gazetteer;
+	a :Fund;
+	RDFS:label "Stb Asset Management (sumishin)".
+
+:fund_Tokio_Marine_Asset_Management_Co_Gazetteer
+	:term "Tokio Marine Asset",
+		"Tokio Marine Asset Management Co";
+	a :Gazetteer.
+
+:fund_Tokio_Marine_Asset_Management_Co
+	:identifiedBy :fund_Tokio_Marine_Asset_Management_Co_Gazetteer;
+	a :Fund;
+	RDFS:label "Tokio Marine Asset Management Co".
+
+:fund_Tt_Elta_Aedak_Gazetteer
+	:term "Tt Elta Aedak",
+		"Ttbank";
+	a :Gazetteer.
+
+:fund_Tt_Elta_Aedak
+	:identifiedBy :fund_Tt_Elta_Aedak_Gazetteer;
+	a :Fund;
+	RDFS:label "Tt Elta Aedak".
+
+:fund_Ubi_Pramerica_Sgr_Spa_Gazetteer
+	:term "Ubi Pramerica",
+		"Ubi Pramerica Sgr Spa";
+	a :Gazetteer.
+
+:fund_Ubi_Pramerica_Sgr_Spa
+	:identifiedBy :fund_Ubi_Pramerica_Sgr_Spa_Gazetteer;
+	a :Fund;
+	RDFS:label "Ubi Pramerica Sgr Spa".
+
+:fund_Ubs_Focused_Fund_Management_Co_Gazetteer
+	:term "Ubs Focused",
+		"Ubs Focused Fund Management Co";
+	a :Gazetteer.
+
+:fund_Ubs_Focused_Fund_Management_Co
+	:identifiedBy :fund_Ubs_Focused_Fund_Management_Co_Gazetteer;
+	a :Fund;
+	RDFS:label "Ubs Focused Fund Management Co".
+
+:fund_Ubs_Fund_Management_Switzerland_Gazetteer
+	:term "Ubs Fund Management Switzerland",
+		"Ubs Fund Swizterland";
+	a :Gazetteer.
+
+:fund_Ubs_Fund_Management_Switzerland
+	:identifiedBy :fund_Ubs_Fund_Management_Switzerland_Gazetteer;
+	a :Fund;
+	RDFS:label "Ubs Fund Management Switzerland".
+
+:fund_Ubs_Global_Asset_Management_Gazetteer
+	:term "Ubs Global Asset",
+		"Ubs Global Asset Management";
+	a :Gazetteer.
+
+:fund_Ubs_Global_Asset_Management
+	:identifiedBy :fund_Ubs_Global_Asset_Management_Gazetteer;
+	a :Fund;
+	RDFS:label "Ubs Global Asset Management".
+
+:fund_Ubs_Strategy_Fund_Mgmnt_Company_Gazetteer
+	:term "Ubs Strategy Fund",
+		"Ubs Strategy Fund Mgmnt Company";
+	a :Gazetteer.
+
+:fund_Ubs_Strategy_Fund_Mgmnt_Company
+	:identifiedBy :fund_Ubs_Strategy_Fund_Mgmnt_Company_Gazetteer;
+	a :Fund;
+	RDFS:label "Ubs Strategy Fund Mgmnt Company".
+
+:fund_Union_Investment_Gmbh_Gazetteer
+	:term "Union Invest",
+		"Union Investment Gmbh";
+	a :Gazetteer.
+
+:fund_Union_Investment_Gmbh
+	:identifiedBy :fund_Union_Investment_Gmbh_Gazetteer;
+	a :Fund;
+	RDFS:label "Union Investment Gmbh".
+
+:fund_Union_Investment_Luxembourg_Sa_Gazetteer
+	:term "Union Invest Lux",
+		"Union Investment Luxembourg Sa";
+	a :Gazetteer.
+
+:fund_Union_Investment_Luxembourg_Sa
+	:identifiedBy :fund_Union_Investment_Luxembourg_Sa_Gazetteer;
+	a :Fund;
+	RDFS:label "Union Investment Luxembourg Sa".
+
+:fund_Universal_Invest_Conseil_Gazetteer
+	:term "Universal Conseil",
+		"Universal Inv",
+		"Universal Invest Conseil";
+	a :Gazetteer.
+
+:fund_Universal_Invest_Conseil
+	:identifiedBy :fund_Universal_Invest_Conseil_Gazetteer;
+	a :Fund;
+	RDFS:label "Universal Invest Conseil".
+
+:fund_Universal_Investment_Gmbh_Gazetteer
+	:term "Universal Inv",
+		"Universal Investment Gmbh";
+	a :Gazetteer.
+
+:fund_Universal_Investment_Gmbh
+	:identifiedBy :fund_Universal_Investment_Gmbh_Gazetteer;
+	a :Fund;
+	RDFS:label "Universal Investment Gmbh".
+
+:fund_Vanguard_Group_ireland__Limited_Gazetteer
+	:term "Vanguard",
+		"Vanguard Group(ireland) Limited",
+		"Vanguard Ireland";
+	a :Gazetteer.
+
+:fund_Vanguard_Group_ireland__Limited
+	:identifiedBy :fund_Vanguard_Group_ireland__Limited_Gazetteer;
+	a :Fund;
+	RDFS:label "Vanguard Group(ireland) Limited".
+
+:fund_Vontobel_Asset_Management_Ag_Gazetteer
+	:term "Vontobel",
+		"Vontobel Asset",
+		"Vontobel Asset Management Ag";
+	a :Gazetteer.
+
+:fund_Vontobel_Asset_Management_Ag
+	:identifiedBy :fund_Vontobel_Asset_Management_Ag_Gazetteer;
+	a :Fund;
+	RDFS:label "Vontobel Asset Management Ag".

@@ -1,0 +1,60 @@
+/* line 3, ../sass/navigation.scss */
+ul.menu {
+  padding: 0;
+  margin: 0;
+}
+/* line 5, ../sass/navigation.scss */
+ul.menu li {
+  display: inline;
+}
+/* line 7, ../sass/navigation.scss */
+ul.menu li a {
+  display: block;
+  padding: 0.5em 1em 2px;
+}
+/* line 10, ../sass/navigation.scss */
+ul.menu li + li a {
+  border-top: 1px solid #d6ab72;
+}
+
+/* line 14, ../sass/navigation.scss */
+#navigation {
+  background: #904028;
+  color: #fbf6a8;
+}
+/* line 17, ../sass/navigation.scss */
+#navigation a {
+  color: #fbf6a8;
+}
+
+@media all and (min-width:960px) {
+  /* line 24, ../sass/navigation.scss */
+  #navigation {
+    margin-top: -44px;
+    position: relative;
+  }
+  /* line 29, ../sass/navigation.scss */
+  #navigation ul.menu {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+    margin-left: 210px;
+    z-index: 99;
+    position: relative;
+  }
+  /* line 40, ../sass/navigation.scss */
+  #navigation ul.menu li a {
+    line-height: 1em;
+    opacity: 0.7;
+    display: inline-block;
+    border-radius: 10px 10px 0 0;
+    height: 18px;
+    border-top: none;
+  }
+  /* line 49, ../sass/navigation.scss */
+  #navigation ul.menu li a.active, #navigation ul.menu li a:hover {
+    opacity: 1;
+    background: #904028;
+    box-shadow: 5px 0 15px #5f0d2c;
+  }
+}

@@ -1,0 +1,95 @@
+@prefix : <http://project-first.eu/ontology#>.
+@prefix OWL: <http://www.w3.org/2002/07/owl#>.
+@prefix RDF: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix RDFS: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix XSD: <http://www.w3.org/2001/XMLSchema#>.
+
+:insur_Amlin_PLC_Gazetteer
+	:term "Amlin PLC";
+	a :Gazetteer.
+
+:insur_Amlin_PLC
+	:identifiedBy :insur_Amlin_PLC_Gazetteer;
+	a :Insurance;
+	RDFS:label "Amlin PLC".
+
+:insur_Baloise_Holding_AG_Gazetteer
+	:term "Baloise Holding AG";
+	a :Gazetteer.
+
+:insur_Baloise_Holding_AG
+	:identifiedBy :insur_Baloise_Holding_AG_Gazetteer;
+	a :Insurance;
+	RDFS:label "Baloise Holding AG".
+
+:insur_Delta_Lloyd_NV_Gazetteer
+	:term "Delta Lloyd NV";
+	a :Gazetteer.
+
+:insur_Delta_Lloyd_NV
+	:identifiedBy :insur_Delta_Lloyd_NV_Gazetteer;
+	a :Insurance;
+	RDFS:label "Delta Lloyd NV".
+
+:insur_Helvetia_Holding_AG_Gazetteer
+	:term "Helvetia Holding AG";
+	a :Gazetteer.
+
+:insur_Helvetia_Holding_AG
+	:identifiedBy :insur_Helvetia_Holding_AG_Gazetteer;
+	a :Insurance;
+	RDFS:label "Helvetia Holding AG".
+
+:insur_Milano_Assicurazioni_SPA_Gazetteer
+	:term "Milano Assicurazioni SPA";
+	a :Gazetteer.
+
+:insur_Milano_Assicurazioni_SPA
+	:identifiedBy :insur_Milano_Assicurazioni_SPA_Gazetteer;
+	a :Insurance;
+	RDFS:label "Milano Assicurazioni SPA".
+
+:insur_Phoenix_Group_Holdings_Gazetteer
+	:term "Phoenix Group Holdings";
+	a :Gazetteer.
+
+:insur_Phoenix_Group_Holdings
+	:identifiedBy :insur_Phoenix_Group_Holdings_Gazetteer;
+	a :Insurance;
+	RDFS:label "Phoenix Group Holdings".
+
+:insur_Premafin_Finanziaria_SpA_Gazetteer
+	:term "Premafin Finanziaria SpA";
+	a :Gazetteer.
+
+:insur_Premafin_Finanziaria_SpA
+	:identifiedBy :insur_Premafin_Finanziaria_SpA_Gazetteer;
+	a :Insurance;
+	RDFS:label "Premafin Finanziaria SpA".
+
+:insur_Swiss_Life_Holding_AG_Gazetteer
+	:term "Swiss Life Holding AG";
+	a :Gazetteer.
+
+:insur_Swiss_Life_Holding_AG
+	:identifiedBy :insur_Swiss_Life_Holding_AG_Gazetteer;
+	a :Insurance;
+	RDFS:label "Swiss Life Holding AG".
+
+:insur_Unipol_Gruppo_Finanziario_SpA_Gazetteer
+	:term "Unipol Gruppo Finanziario SpA";
+	a :Gazetteer.
+
+:insur_Unipol_Gruppo_Finanziario_SpA
+	:identifiedBy :insur_Unipol_Gruppo_Finanziario_SpA_Gazetteer;
+	a :Insurance;
+	RDFS:label "Unipol Gruppo Finanziario SpA".
+
+:insur_Wuerttembergische_Lebensversic_Gazetteer
+	:term "Wuerttembergische Lebensversic";
+	a :Gazetteer.
+
+:insur_Wuerttembergische_Lebensversic
+	:identifiedBy :insur_Wuerttembergische_Lebensversic_Gazetteer;
+	a :Insurance;
+	RDFS:label "Wuerttembergische Lebensversic".

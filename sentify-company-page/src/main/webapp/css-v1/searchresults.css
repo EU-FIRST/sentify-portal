@@ -1,0 +1,146 @@
+
+ul.searchresults, ul.links, .visualisations ul, ul.thumbs {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul.searchresults li {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(100%, #f3f3f3));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: -moz-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: -o-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #f3f3f3);
+  background-image: linear-gradient(top, #f9f9f9, #f3f3f3);
+  position: relative;
+  /* improvements of news list design*/
+  padding: 12px 15px 12px 12px;
+  margin: 3px 0px 3px 0px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 7px rgba(170, 170, 170, 0.25);
+  
+}
+
+ul.searchresults li:hover {
+  	background: white;
+}
+
+ul.searchresults div {
+	display: inline;
+	margin: 0px 3px 0px 3px;
+}
+
+ul.searchresults a {
+	color: #6c3f31;
+	font-weight: bold;	
+}
+
+ul.searchresults img {
+	vertical-align: middle;
+}
+
+ul.searchresults div.searchresult {
+	display: inline;
+}
+
+ul.searchresults div.result-name {
+	font-size: 120%;
+}
+
+
+ul.searchresults div.result-sparkline {
+	float:right;
+}
+
+ul.searchresults div.result-name {
+	
+}
+
+ul.searchresults div.company-tag {
+	background-color: rgb(152, 215, 228);
+	color: rgb(13, 59, 68);
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.capital-tag {
+	background-color: rgb(185, 154, 255);
+	color: white;
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.other-tag {
+	background-color: rgb(251, 233, 131);
+	color: rgb(89, 76, 5);
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.country-tag {
+	background-color: rgb(255, 117, 55);
+	color: white;
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.industry-tag {
+	background-color: rgb(22, 167, 101);
+	color: white;
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.continent-tag {
+	background-color: rgb(231, 231, 231);
+	color: rgb(70, 70, 70);
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.organization-tag {
+	background-color: rgb(73, 134, 231);
+	color: white;
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.bank-tag {
+	background-color: rgb(255, 200, 175);
+	color: rgb(122, 46, 11);
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.currency-tag {
+	background-color: rgb(242, 178, 168);
+	color: rgb(138, 28, 10);
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.geographicalregion-tag {
+	background-color: rgb(66, 214, 146);
+	color: rgb(9, 66, 40);
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+
+ul.searchresults div.insurance-tag {
+	background-color: rgb(227, 215, 255);
+	color: rgb(61, 24, 142);
+	padding: 0px 3px 0px 3px;
+	font-size: 80%;
+	vertical-align: top;
+}
+

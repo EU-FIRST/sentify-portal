@@ -1,0 +1,195 @@
+grant_title,id,organization,total_amount,sentiment,Grant start date,start_month,start_day,start_year
+Air Liquide S.A.,1,Air Liquide S.A.,5000000,positivet,02/04/2007,2,4,2007
+Allianz SE,2,Allianz SE,27727,negative,08/03/2009,8,3,2009
+ANHEUSER-BUSCH INBEV,3,ANHEUSER-BUSCH INBEV,36018,negative,11/12/2009,11,12,2009
+ArcelorMittal S.A.,4,ArcelorMittal S.A.,38420,negative,03/11/2010,3,11,2010
+Assicurazioni Generali S.p.A.,5,Assicurazioni Generali S.p.A.,50000,negative,10/12/2009,10,12,2009
+AXA S.A.,6,AXA S.A.,50000,negative,6/30/2009,6,30,2009
+Banco Santander S.A.,7,Banco Santander S.A.,50000,negative,9/24/2009,9,24,2009
+BASF SE,8,BASF SE,51500,negative,10/29/2009,10,29,2009
+Bayer AG,9,Bayer AG,55752,negative,11/16/2009,11,16,2009
+Bayerische Motoren Werke AG,10,Bayerische Motoren Werke AG,56245,negative,10/28/2009,10,28,2009
+Banco Bilbao Vizcaya Argentaria S.A.,11,Banco Bilbao Vizcaya Argentaria S.A.,60000,negative,11/02/2009,11,2,2009
+BNP Paribas S.A.,12,BNP Paribas S.A.,60000,negative,11/02/2009,11,2,2009
+Carrefour S.A.,13,Carrefour S.A.,60000,negative,11/02/2009,11,2,2009
+CRH PLC,14,CRH PLC,60000,negative,11/02/2009,11,2,2009
+Daimler AG,15,Daimler AG,68500,negative,10/28/2009,10,28,2009
+Danone S.A.,16,Danone S.A.,70116,negative,11/10/2009,11,10,2009
+Deutsche Bank AG,17,Deutsche Bank AG,74219,negative,11/13/2009,11,13,2009
+Deutsche Borse AG,18,Deutsche Borse AG,74800,negative,11/01/2009,11,1,2009
+Deutsche Telekom AG,19,Deutsche Telekom AG,74900,negative,3/24/2010,3,24,2010
+E.ON AG,20,E.ON AG,74963,negative,10/29/2009,10,29,2009
+Enel S.p.A.,21,Enel S.p.A.,75000,negative,11/04/2009,11,4,2009
+ENI S.p.A.,22,ENI S.p.A.,75000,negative,10/01/2008,10,1,2008
+France Telecom S.A.,23,France Telecom S.A.,75300,negative,10/30/2009,10,30,2009
+GDF Suez S.A.,24,GDF Suez S.A.,75970,negative,1/28/2010,1,28,2010
+Iberdrola S.A.,25,Iberdrola S.A.,82500,negative,11/17/2009,11,17,2009
+Industria de Diseno Textil S.A. (inditex),26,Industria de Diseno Textil S.A. (inditex),91300,negative,5/13/2009,5,13,2009
+ING Groep N.V.,27,ING Groep N.V.,91350,negative,03/01/2008,3,1,2008
+Intesa Sanpaolo S.p.A.,28,Intesa Sanpaolo S.p.A.,93000,negative,10/01/2009,10,1,2009
+L'Oreal S.A.,29,L'Oreal S.A.,100000,neutral,4/30/2010,4,30,2010
+LVMH Mo\u00EBt Hennessy Louis Vuitton S.A.,30,LVMH Mo\u00EBt Hennessy Louis Vuitton S.A.,100000,neutral,3/18/2010,3,18,2010
+M\u00FCnchener R\u00FCckversicherungs-Gesellschaft AG,31,M\u00FCnchener R\u00FCckversicherungs-Gesellschaft AG,100000,neutral,11/04/2009,11,4,2009
+Nokia Corp.,32,Nokia Corp.,100000,neutral,6/19/2009,6,19,2009
+Koninklijke Philips Electronics N.V.,33,Koninklijke Philips Electronics N.V.,100000,neutral,7/22/2009,7,22,2009
+Repsol YPF S.A.,34,Repsol YPF S.A.,110610,neutral,2/26/2010,2,26,2010
+RWE AG,35,RWE AG,140000,neutral,7/28/2009,7,28,2009
+Compagnie de Saint-Gobain S.A.,36,Compagnie de Saint-Gobain S.A.,143973,neutral,11/09/2009,11,9,2009
+Sanofi S.A.,37,Sanofi S.A.,146025,neutral,11/20/2009,11,20,2009
+SAP AG,38,SAP AG,149733,neutral,11/06/2009,11,6,2009
+Schneider Electric SA,39,Schneider Electric SA,150000,neutral,03/01/2008,3,1,2008
+Siemens AG,40,Siemens AG,150000,neutral,10/09/2009,10,9,2009
+Societe Generale S.A.,41,Societe Generale S.A.,170023,neutral,10/27/2009,10,27,2009
+Telecom Italia S.p.A.,42,Telecom Italia S.p.A.,200000,neutral,07/01/2008,7,1,2008
+Telefonica S.A.,43,Telefonica S.A.,200000,neutral,8/29/2009,8,29,2009
+Total S.A.,44,Total S.A.,215000,neutral,03/02/2009,3,2,2009
+Unibail-Rodamco SE,45,Unibail-Rodamco SE,220654,neutral,9/29/2009,9,29,2009
+UniCredit S.p.A.,46,UniCredit S.p.A.,221755,neutral,01/01/2009,1,1,2009
+Unilever N.V.,47,Unilever N.V.,224030,neutral,2/25/2010,2,25,2010
+VINCI S.A.,48,VINCI S.A.,225000,neutral,10/01/2008,10,1,2008
+VIVENDI S.A.,49,VIVENDI S.A.,231382,neutral,12/01/2008,12,1,2008
+Volkswagen AG,50,Volkswagen AG,246070,neutral,09/10/2009,9,10,2009
+ABB Ltd.,51,ABB Ltd.,250000,neutral,3/26/2009,3,26,2009
+Anglo American Plc,52,Anglo American Plc,250000,neutral,5/18/2009,5,18,2009
+AstraZeneca PLC,53,AstraZeneca PLC,250000,neutral,6/23/2009,6,23,2009
+Barclays PLC,54,Barclays PLC,260760,neutral,11/21/2009,11,21,2009
+BG Group PLC,55,BG Group PLC,269998,neutral,10/01/2008,10,1,2008
+BHP Billiton PLC,56,BHP Billiton PLC,299985,neutral,11/10/2009,11,10,2009
+BP PLC,57,BP PLC,300000,neutral,11/06/2009,11,6,2009
+British American Tobacco PLC,58,British American Tobacco PLC,300000,neutral,06/01/2008,6,1,2008
+Credit Suisse Group AG,59,Credit Suisse Group AG,300000,neutral,11/10/2009,11,10,2009
+Diageo plc,60,Diageo plc,300000,neutral,10/01/2008,10,1,2008
+ERICSSON (LM),61,ERICSSON (LM),300000,neutral,11/19/2009,11,19,2009
+GlaxoSmithKline PLC,62,GlaxoSmithKline PLC,300000,neutral,11/19/2009,11,19,2009
+H & M Hennes & Mauritz AB,63,H & M Hennes & Mauritz AB,300000,neutral,11/19/2009,11,19,2009
+HSBC Holdings PLC,64,HSBC Holdings PLC,300000,neutral,11/19/2009,11,19,2009
+Imperial Tobacco Group PLC,65,Imperial Tobacco Group PLC,300000,neutral,11/19/2009,11,19,2009
+National Grid PLC,66,National Grid PLC,300000,neutral,01/08/2009,1,8,2009
+Nestle S.A.,67,Nestle S.A.,300250,neutral,2/19/2010,2,19,2010
+Novartis AG,68,Novartis AG,302425,neutral,05/01/2008,5,1,2008
+Rio Tinto PLC,69,Rio Tinto PLC,309554,neutral,9/17/2008,9,17,2008
+Roche Holding AG,70,Roche Holding AG,322103,neutral,11/10/2009,11,10,2009
+Royal Dutch Shell PLC,71,Royal Dutch Shell PLC,325000,neutral,12/01/2008,12,1,2008
+Standard Chartered PLC,72,Standard Chartered PLC,331678,neutral,11/11/2009,11,11,2009
+Tesco PLC,73,Tesco PLC,331890,neutral,12/17/2009,12,17,2009
+UBS AG,74,UBS AG,351704,neutral,06/01/2008,6,1,2008
+Unilever PLC,75,Unilever PLC,353977,neutral,11/13/2009,11,13,2009
+Vodafone Group Plc,76,Vodafone Group Plc,358915,neutral,10/22/2009,10,22,2009
+Zurich Insurance Group AG,77,Zurich Insurance Group AG,370005,neutral,03/01/2008,3,1,2008
+Antofagasta PLC,78,Antofagasta PLC,375000,neutral,03/01/2008,3,1,2008
+ARM Holdings PLC,79,ARM Holdings PLC,375030,neutral,10/26/2009,10,26,2009
+Associated British Foods PLC,80,Associated British Foods PLC,383465,neutral,10/30/2009,10,30,2009
+Aviva PLC,81,Aviva PLC,398534,neutral,6/15/2009,6,15,2009
+BAE Systems PLC,82,BAE Systems PLC,399953,neutral,3/18/2010,3,18,2010
+BRITISH LAND CO. PLC,83,BRITISH LAND CO. PLC,400000,neutral,8/28/2009,8,28,2009
+British Sky Broadcasting Group plc,84,British Sky Broadcasting Group plc,400017,neutral,9/21/2009,9,21,2009
+BT Group PLC,85,BT Group PLC,400366,neutral,11/01/2009,11,1,2009
+Burberry Group plc,86,Burberry Group plc,402493,neutral,9/29/2009,9,29,2009
+The Capita Group Plc,87,The Capita Group Plc,406610,neutral,10/15/2009,10,15,2009
+Carnival PLC,88,Carnival PLC,417517,neutral,11/04/2009,11,4,2009
+Centrica plc,89,Centrica plc,421603,neutral,11/01/2008,11,1,2008
+Compass Group PLC,90,Compass Group PLC,425000,neutral,8/28/2009,8,28,2009
+Croda International PLC,91,Croda International PLC,430000,neutral,10/26/2009,10,26,2009
+Eurasian Natural Resources Corporation plc,92,Eurasian Natural Resources Corporation plc,432898,neutral,03/06/2009,3,6,2009
+Evraz PLC,93,Evraz PLC,437807,neutral,10/22/2008,10,22,2008
+Experian PLC,94,Experian PLC,450675,neutral,10/26/2009,10,26,2009
+Fresnillo PLC,95,Fresnillo PLC,451125,neutral,11/08/2009,11,8,2009
+GKN PLC,96,GKN PLC,455394,neutral,11/13/2009,11,13,2009
+Glencore International PLC,97,Glencore International PLC,468500,neutral,11/05/2009,11,5,2009
+ICAP plc,98,ICAP plc,470507,neutral,7/16/2009,7,16,2009
+IMI PLC,99,IMI PLC,475000,neutral,05/01/2008,5,1,2008
+International Consolidated Airlines Group S.A.,100,International Consolidated Airlines Group S.A.,475077,neutral,3/18/2010,3,18,2010
+International Power PLC,101,International Power PLC,490021,neutral,07/01/2008,7,1,2008
+ITV PLC,102,ITV PLC,494933,neutral,10/13/2009,10,13,2009
+Johnson, Matthey PLC,103,Johnson, Matthey PLC,496776,neutral,09/01/2008,9,1,2008
+Kazakhmys PLC,104,Kazakhmys PLC,498724,neutral,12/01/2008,12,1,2008
+Kingfisher PLC,105,Kingfisher PLC,499225,neutral,05/01/2008,5,1,2008
+Lloyds Banking Group PLC,106,Lloyds Banking Group PLC,499398,neutral,09/01/2008,9,1,2008
+Man Group PLC,107,Man Group PLC,500000,neutral,11/01/2008,11,1,2008
+Marks & Spencer Group PLC,108,Marks & Spencer Group PLC,500000,neutral,11/05/2009,11,5,2009
+Morrison Supermarkets PLC,109,Morrison Supermarkets PLC,500000,neutral,10/30/2009,10,30,2009
+NEXT PLC,110,NEXT PLC,500000,neutral,01/01/2009,1,1,2009
+Pearson PLC,111,Pearson PLC,500000,neutral,09/01/2008,9,1,2008
+Petrofac Ltd.,112,Petrofac Ltd.,500422,neutral,10/01/2009,10,1,2009
+Polymetal International PLC,113,Polymetal International PLC,513219,neutral,05/01/2008,5,1,2008
+Prudential PLC,114,Prudential PLC,520446,neutral,8/31/2009,8,31,2009
+Randgold Resources Ltd.,115,Randgold Resources Ltd.,544700,neutral,07/01/2008,7,1,2008
+Reckitt Benckiser Group PLC,116,Reckitt Benckiser Group PLC,546865,neutral,05/01/2008,5,1,2008
+Rexam PLC,117,Rexam PLC,550000,neutral,08/01/2008,8,1,2008
+Rolls Royce Holdings PLC,118,Rolls Royce Holdings PLC,551336,neutral,11/04/2009,11,4,2009
+The Royal Bank of Scotland Group PLC,119,The Royal Bank of Scotland Group PLC,576191,neutral,05/11/2009,5,11,2009
+RSA Insurance Group PLC,120,RSA Insurance Group PLC,588559,neutral,07/01/2008,7,1,2008
+SABMiller PLC,121,SABMiller PLC,597077,neutral,05/05/2009,5,5,2009
+The Sage Group PLC,122,The Sage Group PLC,599016,neutral,11/16/2009,11,16,2009
+J Sainsbury PLC,123,J Sainsbury PLC,599725,neutral,05/01/2008,5,1,2008
+Serco Group PLC,124,Serco Group PLC,600000,neutral,09/01/2008,9,1,2008
+Severn Trent Plc,125,Severn Trent Plc,600000,neutral,03/01/2008,3,1,2008
+Shire plc,126,Shire plc,643881,neutral,03/11/2009,3,11,2009
+Smith & Nephew PLC,127,Smith & Nephew PLC,650108,neutral,11/07/2009,11,7,2009
+Smiths Group PLC,128,Smiths Group PLC,653077,neutral,11/11/2009,11,11,2009
+Scottish and Southern Energy plc,129,Scottish and Southern Energy plc,721687,neutral,05/05/2009,5,5,2009
+Standard Life plc,130,Standard Life plc,725000,neutral,07/01/2008,7,1,2008
+Tate & Lyle plc,131,Tate & Lyle plc,742223,neutral,05/01/2008,5,1,2008
+Tullow Oil plc,132,Tullow Oil plc,750000,neutral,11/10/2009,11,10,2009
+United Utilities Group PLC,133,United Utilities Group PLC,750000,neutral,07/01/2008,7,1,2008
+Vedanta Resources plc,134,Vedanta Resources plc,755603,neutral,4/25/2009,4,25,2009
+Xstrata PLC,135,Xstrata PLC,792216,neutral,11/01/2008,11,1,2008
+adidas AG,136,adidas AG,800000,neutral,10/26/2009,10,26,2009
+Beiersdorf AG,137,Beiersdorf AG,850000,neutral,03/01/2008,3,1,2008
+Commerzbank AG,138,Commerzbank AG,878493,neutral,11/13/2009,11,13,2009
+Deutsche Lufthansa AG,139,Deutsche Lufthansa AG,910000,neutral,07/01/2008,7,1,2008
+Deutsche Post AG,140,Deutsche Post AG,930223,neutral,11/10/2009,11,10,2009
+Fresenius Medical Care AG & Co. KGaA,141,Fresenius Medical Care AG & Co. KGaA,937088,neutral,11/03/2009,11,3,2009
+Fresenius SE & Co. KGaA,142,Fresenius SE & Co. KGaA,950000,neutral,8/27/2009,8,27,2009
+HeidelbergCement AG,143,HeidelbergCement AG,959116,neutral,10/10/2009,10,10,2009
+Henkel AG & Co. KGaA,144,Henkel AG & Co. KGaA,959373,neutral,04/08/2010,4,8,2010
+Infineon Technologies AG,145,Infineon Technologies AG,993219,neutral,11/03/2009,11,3,2009
+K+S AG,146,K+S AG,996185,neutral,11/18/2009,11,18,2009
+Linde AG,147,Linde AG,998221,neutral,10/09/2009,10,9,2009
+MAN SE,148,MAN SE,1000000,neutral,01/01/2009,1,1,2009
+Merck KGaA,149,Merck KGaA,1000000,neutral,11/12/2009,11,12,2009
+METRO AG,150,METRO AG,1000000,neutral,11/01/2008,11,1,2008
+ThyssenKrupp AG,151,ThyssenKrupp AG,1000000,neutral,1/21/2010,1,21,2010
+ACCOR S.A.,152,ACCOR S.A.,1000000,neutral,7/18/2009,7,18,2009
+Alcatel-Lucent,153,Alcatel-Lucent,1000000,neutral,03/01/2008,3,1,2008
+Alstom S.A.,154,Alstom S.A.,1000000,neutral,6/26/2009,6,26,2009
+Bouygues S.A.,155,Bouygues S.A.,1000330,positive,1/15/2009,1,15,2009
+Cap Gemini S.A.,156,Cap Gemini S.A.,1001363,positive,07/10/2009,7,10,2009
+Credit Agricole S.A.,157,Credit Agricole S.A.,1004719,positive,10/22/2009,10,22,2009
+European Aeronautic Defence and Space Company EADS N.V.,158,European Aeronautic Defence and Space Company EADS N.V.,1047928,positive,09/08/2009,9,8,2009
+Electricite de France (E.D.F.),159,Electricite de France (E.D.F.),1053150,positive,11/01/2008,11,1,2008
+Essilor International SA,160,Essilor International SA,1100000,positive,11/05/2009,11,5,2009
+Lafarge S.A.,161,Lafarge S.A.,1175000,positive,01/01/2008,1,1,2008
+Legrand S.A.,162,Legrand S.A.,1181375,positive,03/01/2008,3,1,2008
+Michelin S.A.,163,Michelin S.A.,1198248,positive,07/01/2008,7,1,2008
+Pernod-Ricard S.A.,164,Pernod-Ricard S.A.,1200552,positive,12/01/2008,12,1,2008
+Peugeot S.A.,165,Peugeot S.A.,1221800,positive,11/01/2008,11,1,2008
+PPR S.A.,166,PPR S.A.,1224953,positive,11/18/2009,11,18,2009
+Publicis Groupe S.A.,167,Publicis Groupe S.A.,1229730,positive,05/01/2008,5,1,2008
+Renault S.A.,168,Renault S.A.,1235787,positive,11/18/2009,11,18,2009
+SAFRAN,169,SAFRAN,1279229,positive,09/01/2008,9,1,2008
+STMicroelectronics N.V.,170,STMicroelectronics N.V.,1291738,positive,10/12/2009,10,12,2009
+Technip S.A.,171,Technip S.A.,1300000,positive,05/01/2008,5,1,2008
+Vallourec,172,Vallourec,1332279,positive,01/04/2010,1,4,2010
+Veolia Environnement S.A.,173,Veolia Environnement S.A.,1362773,positive,11/19/2009,11,19,2009
+A2A S.p.A.,174,A2A S.p.A.,1383137,positive,5/22/2009,5,22,2009
+Ansaldo STS S.p.A.,175,Ansaldo STS S.p.A.,1431534,positive,09/03/2009,9,3,2009
+Atlantia S.p.A.,176,Atlantia S.p.A.,1445269,positive,9/14/2009,9,14,2009
+Autogrill S.p.A.,177,Autogrill S.p.A.,1493522,positive,11/01/2009,11,1,2009
+Azimut Holding S.p.A.,178,Azimut Holding S.p.A.,1500000,positive,02/04/2010,2,4,2010
+Banca Monte dei Paschi di Siena S.p.A.,179,Banca Monte dei Paschi di Siena S.p.A.,1500000,positive,10/29/2009,10,29,2009
+Banca Popolare dell'Emilia Romagna S.C.a.R.L.,180,Banca Popolare dell'Emilia Romagna S.C.a.R.L.,1500000,positive,10/19/2009,10,19,2009
+Banca Popolare di Milano S.C.a.R.L,181,Banca Popolare di Milano S.C.a.R.L,1521971,positive,11/14/2009,11,14,2009
+Banco Popolare S.p.A.,182,Banco Popolare S.p.A.,1600000,positive,09/01/2008,9,1,2008
+Buzzi Unicem S.p.A.,183,Buzzi Unicem S.p.A.,1635665,positive,09/01/2009,9,1,2009
+Davide Campari-Milano S.p.A.,184,Davide Campari-Milano S.p.A.,1800000,positive,5/15/2008,5,15,2008
+DiaSorin S.p.A.,185,DiaSorin S.p.A.,1840548,positive,10/05/2009,10,5,2009
+Enel Green Power S.P.A.,186,Enel Green Power S.P.A.,1891265,positive,05/01/2008,5,1,2008
+EXOR S.p.A.,187,EXOR S.p.A.,1894228,positive,03/01/2008,3,1,2008
+Fiat Industrial S.p.A.,188,Fiat Industrial S.p.A.,1915298,positive,10/19/2009,10,19,2009
+FIAT S.p.A.,189,FIAT S.p.A.,1987015,positive,03/01/2008,3,1,2008
+Finmeccanica S.p.A.,190,Finmeccanica S.p.A.,1988654,positive,11/03/2009,11,3,2009
+IMPREGILO S.p.A.,191,IMPREGILO S.p.A.,1997280,positive,05/01/2009,5,1,2009
+Lottomatica S.p.A.,192,Lottomatica S.p.A.,2000000,positive,11/03/2009,11,3,2009
+Luxottica Group S.p.A.,193,Luxottica Group S.p.A.,2000000,positive,11/01/2008,11,1,2008
+Mediaset S.p.A.,194,Mediaset S.p.A.,2025892,positive,09/01/2008,9,1,2008

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>sentify-company-page</groupId>
+	<artifactId>sentify-company-page</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Sentify Main Web Application (sentify-company-page)</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<vaadin.version>7.1.7</vaadin.version>
+		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
+		<axis2.version>1.5.4</axis2.version>
+	</properties>
+	<repositories>
+		<repository>
+			<id>vaadin-addons</id>
+			<url>http://maven.vaadin.com/vaadin-addons</url>
+		</repository>
+		<repository>
+			<id>vaadin-snapshots</id>
+			<url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>ardverk-release</id>
+      		<url>http://mvn.ardverk.org/repository/release</url>
+   		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>vaadin-snapshots</id>
+			<url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+	<dependencies>
+<!-- 		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-server</artifactId>
+			<version>${vaadin.version}</version>
+		</dependency> -->
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-client-compiled</artifactId>
+			<version>${vaadin.version}</version>
+		</dependency>
+		
+   		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-client-compiler</artifactId>
+			<version>${vaadin.version}</version>
+			<scope>provided</scope>
+
+		</dependency>
+		  
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-client</artifactId>
+			<version>${vaadin.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-themes</artifactId>
+			<version>${vaadin.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>javax.servlet-api</artifactId>
+		    <version>3.0.1</version>
+
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jcifs</groupId>
+			<artifactId>jcifs</artifactId>
+			<version>1.3.17</version>
+		</dependency>
+            
+		
+<!-- 		<dependency>
+   <groupId>javax.el</groupId>
+   <artifactId>el-api</artifactId>
+   <version>2.2</version>
+   <scope>compile</scope>
+</dependency>
+<dependency>
+   <groupId>org.glassfish.web</groupId>
+   <artifactId>el-impl</artifactId>
+   <scope>runtime</scope>
+   <version>2.2</version>
+</dependency> -->
+		
+		<!-- for reduced widgetset compilation -->
+<!--     <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-dev</artifactId>
+      <version>2.5.0</version>
+      <scope>provided</scope>
+    </dependency> -->
+    		
+ 		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2</artifactId>
+			<version>${axis2.version}</version>
+		</dependency> 
+		
+ 		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-transport-http</artifactId>
+			<version>${axis2.version}</version>
+		</dependency> 
+	
+ 		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-transport-local</artifactId>
+			<version>${axis2.version}</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>eu.first</groupId>
+			<artifactId>first-discoveryws-client-production</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		    <scope>provided</scope>
+		</dependency>	
+	
+	<!-- 	 <dependency>
+	    	<groupId>org.dussan.vaadin</groupId>
+			<artifactId>dcharts</artifactId>
+			<version>0.1.0</version>
+	    </dependency> -->
+	
+		 <!-- <dependency>	
+		    <groupId>vaadin-test</groupId>
+			<artifactId>vaadin-test</artifactId>
+			<version>0.0.1-SNAPSHOT</version>	
+		 </dependency>
+		 
+		 <dependency>	
+		    <groupId>vaadin-test2</groupId>
+			<artifactId>vaadin-test2</artifactId>
+			<version>0.0.1-SNAPSHOT</version>	
+		 </dependency>	 -->
+		<dependency>
+			<groupId>sentify-company-newslist</groupId>
+			<artifactId>sentify-company-newslist</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>	
+		<dependency>
+			<groupId>sentify-company-newslistFuzzy</groupId>
+			<artifactId>sentify-company-newslistFuzzy</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>	
+		<dependency>
+			<groupId>sentify-widgets-documentsanalyzed</groupId>
+			<artifactId>sentify-widgets-documentsanalyzed</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>sentify-widgets-drilldown</groupId>
+			<artifactId>sentify-widgets-drilldown</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-arq</artifactId>
+			<version>2.9.0-incubating</version>
+		</dependency>
+		<dependency>
+			<groupId>org.ardverk</groupId>
+			<artifactId>patricia-trie</artifactId>
+			<version>0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>sentify-search-helpers</groupId>
+			<artifactId>sentify-search-helpers</artifactId>
+			<version>0.0.1-SNAPSHOT</version>	
+		</dependency>
+		 
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>sentify-configuration</groupId>
+			<artifactId>sentify-configuration</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>		
+			<groupId>sentify-aggregations</groupId>
+			<artifactId>sentify-aggregations</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>20040616</version>
+		</dependency>
+            
+	</dependencies>
+
+
+	<build>
+	 
+		<plugins>
+
+<!--  			<plugin>
+			  <groupId>org.mortbay.jetty</groupId>
+			   <artifactId>jetty-jspc-maven-plugin</artifactId>
+				<version>8.1.5.v20120716</version>
+			   <executions>
+			     <execution>
+			       <id>jspc</id>
+			       <goals>
+			         <goal>jspc</goal>
+			       </goals>
+			       <configuration>
+			       </configuration>
+			     </execution>
+			   </executions>
+			 </plugin>
+ -->		  
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<!-- As we are doing "inplace" GWT compilation, ensure the widgetset -->
+			<!-- directory is cleaned properly -->
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>2.4.1</version>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>src/main/webapp/VAADIN/widgetsets</directory>
+							<directory>src/main/webapp/VAADIN/gwt-unitCache</directory>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>com.vaadin</groupId>
+				<artifactId>vaadin-maven-plugin</artifactId>
+				<version>${vaadin.plugin.version}</version>
+				<configuration>
+					<extraJvmArgs>-Xmx512M -Xss1024k</extraJvmArgs>
+					<!-- <runTarget>mobilemail</runTarget> -->
+					<!-- We are doing "inplace" but into subdir VAADIN/widgetsets. This 
+						way compatible with Vaadin eclipse plugin. -->
+					<webappDirectory>${basedir}/src/main/webapp/VAADIN/widgetsets
+					</webappDirectory>
+					<hostedWebapp>${basedir}/src/main/webapp/VAADIN/widgetsets
+					</hostedWebapp>
+					<noServer>true</noServer>
+					<!-- Remove draftCompile when project is ready -->
+					<draftCompile>false</draftCompile>
+					<compileReport>true</compileReport>
+					<style>OBF</style>
+					<strict>true</strict>
+					<runTarget>http://localhost:8080/</runTarget>
+				</configuration>
+				<executions>
+					<execution>
+						<configuration>
+							<!-- if you don't specify any modules, the plugin will find them -->
+							<!-- <modules> <module>com.vaadin.demo.mobilemail.gwt.ColorPickerWidgetSet</module> 
+								</modules> -->
+						</configuration>
+						<goals>
+							<goal>resources</goal>
+							<goal>update-widgetset</goal>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+        		<artifactId>maven-war-plugin</artifactId>
+        		<version>2.3</version>
+        		<configuration>
+					<!--
+					  Exclude JCL and LOG4J since all logging should go through SLF4J.
+					  Note that we're excluding log4j-<version>.jar but keeping
+					  log4j-over-slf4j-<version>.jar
+					-->
+					<packagingExcludes>
+					  WEB-INF/lib/vaadin-client-compiler-*.jar,
+					  VAADIN/gwt-unitCache/*
+					</packagingExcludes>
+     			 </configuration>
+      		</plugin>
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>com.vaadin</groupId>
+										<artifactId>
+											vaadin-maven-plugin
+										</artifactId>
+										<versionRange>
+											[7.0.0.beta7,)
+										</versionRange>
+										<goals>
+											<goal>resources</goal>
+											<goal>update-widgetset</goal>
+											<goal>compile</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.mortbay.jetty
+										</groupId>
+										<artifactId>
+											jetty-jspc-maven-plugin
+										</artifactId>
+										<versionRange>
+											[8.1.5.v20120716,)
+										</versionRange>
+										<goals>
+											<goal>jspc</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>

@@ -1,0 +1,64 @@
+/* line 4, ../sass/backgrounds.scss */
+body {
+  background: #e6e6e6 url(../images/gradient_texture.png);
+}
+
+/* line 10, ../sass/backgrounds.scss */
+#header {
+  background: #7e1e1d;
+  box-shadow: 0 5px 5px silver;
+}
+
+/* line 14, ../sass/backgrounds.scss */
+.main-inner {
+  background: #f3f3f3;
+}
+
+@media all and (min-width:960px) {
+  /* line 19, ../sass/backgrounds.scss */
+  #header {
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #7e1e1d), color-stop(100%, #904028));
+    background-image: -webkit-linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: -moz-linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: -o-linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: -ms-linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #7e1e1d), color-stop(100%, #904028));
+    background-image: -webkit-linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: -moz-linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: -o-linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: -ms-linear-gradient(bottom, #7e1e1d, #904028);
+    background-image: linear-gradient(bottom, #7e1e1d, #904028);
+    z-index: 99;
+    position: relative;
+  }
+
+  /* line 31, ../sass/backgrounds.scss */
+  .main-inner {
+    background: #f3f3f3;
+    border: 1px solid white;
+    border-top-color: silver;
+    box-shadow: 0 0 15px silver;
+  }
+
+  /* line 40, ../sass/backgrounds.scss */
+  #navigation:after, #header:after {
+    content: "";
+    width: 100%;
+    height: 15px;
+    background: #904028;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* line 51, ../sass/backgrounds.scss */
+  #header:after {
+    height: 16px;
+  }
+
+  /* line 53, ../sass/backgrounds.scss */
+  #navigation:after {
+    z-index: 99;
+  }
+}
